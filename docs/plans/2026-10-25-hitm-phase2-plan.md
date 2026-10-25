@@ -51,6 +51,12 @@ Needs an Xcode visionOS app target (none exists in `HITMCockpit/`), a decision o
 - `EventLog.correct` can correct a correction or the same event twice; fine unless step 3 relies on one correction per event.
 - The floor/universalFloor equivalence test matches the reason prefix "Universal"; reword the reason and the test must change with it.
 
+## Notes from step 3a reviews (2026-10-25)
+- `GateResponse.confidence` is validated but deliberately NOT used by `combine` yet; the gate's own `needsHuman`/`route` and the floor decide. Revisit once real gate output is measured.
+- Duplicate keys in a gate response: first value wins (JSONDecoder); extra keys are ignored. A later, more cautious value would be ignored. Not exploitable (combine only adds humans) but should be tightened if the model ever repeats keys.
+- `GateRequest`/`GateResponse` have only internal memberwise inits; step 3b must live in HITMCore (or add public inits).
+- Sensitive profiles send metadata only: no paths, no override text, no summary, and a generic profile name.
+
 ## Open items
 - Steps 5 and 6 await design notes and your decisions.
 - Live gate behavior, cost and latency are unmeasured until step 3 runs.

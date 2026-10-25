@@ -51,3 +51,25 @@ Commands: `cd HITMCockpit && swift test`, `swift build` (whole package incl. Coc
 - 2.3 implemented (exhaustive switch, no default, public universalFloor). Final `swift test`: Executed 20 tests, with 0 failures (0 unexpected)
 - `swift build` (whole package): Build complete! No CockpitPrototype changes needed.
 - Review follow-up: added testUniversalFloorMatchesEvaluateForEveryClass (universalFloor membership == evaluate(.light) is humanRequired with "Universal" reason, over allCases). Passes on correct code; temporary mutation (externalSend removed from universalFloor) made it fail ("false" is not equal to "true" - externalSend); mutation reverted. Final `swift test`: Executed 21 tests, with 0 failures (0 unexpected)
+
+## Phase 2 Step 3a (typed gate pieces, no network), 2026-10-25
+
+Commands: `cd HITMCockpit && swift test` (run twice).
+- Red: GateTypesTests.swift written first; `swift test` -> compile errors "cannot find type 'GateRequest' / 'GateResponse' in scope" (no tests ran).
+- Implemented Sources/HITMCore/GateTypes.swift (GateRoute, GateError, GateRequest, GateResponse.decodeStrict, GateDecision.combine).
+- Green: `Executed 34 tests, with 0 failures (0 unexpected)` (21 existing + 13 new).
+
+## Phase 2 Step 3a review fixes (items 1, 2, 3, 6), 2026-10-25
+
+Commands: `cd HITMCockpit && swift test` (three runs).
+- Red 1: new GateTypesHardeningTests -> compile error "type 'GateError' has no member 'unavailable'".
+- Red 2 (after adding only `case unavailable`): `Executed 42 tests, with 11 failures` (sensitive request still carried path/history/profile name/identifying strings; reason sanitizing not done).
+- Implemented: sensitive make() sends metadata only (profileName "sensitive", empty paths/history, nil summary); decodeStrict sanitizes and stores reason (Cc/Cf removed, whitespace collapsed, trimmed, 300 chars + "…"); GateError.unavailable.
+- Green: `Executed 42 tests, with 0 failures (0 unexpected)` (21 original + 13 + 8 new).
+
+## Phase 2 Step 3a: reason cap by Unicode scalars, 2026-10-25
+
+- Red: new GateReasonCapTests -> `Executed 45 tests, with 1 failure`: "a" + 100,000 U+0301 stored 100001 scalars (cap used grapheme count).
+- Fix: raw reason pre-bounded to first 2000 scalars; cap is 300 scalars + "…".
+- Green: see final `swift test` Executed line below.
+- Final: `Executed 45 tests, with 0 failures (0 unexpected)`
