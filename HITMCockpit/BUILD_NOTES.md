@@ -117,3 +117,18 @@ Measured: 18/18 HTTP 200, 0 failures; every call reported `used=anthropic/claude
 - Reported cost per run 0.000692, 0.000819, 0.000711 USD (6 calls each).
 - Final needsHuman per run: 5, 5, 4 of 6. Stability: sample #1 (routine typo) proceeded 3/3; sample #2 (routine, agent confidence 0.62) asked a human 2/3 and proceeded 1/3; samples #3-#6 asked a human 3/3 (floor already required it for #3-#5; #6 sensitive).
 - Sample summaries still carry the word "INVENTED"; not re-run with neutral wording.
+
+## Phase 2 Step 4 (Planner), offline part, 2026-10-25
+Commands: `cd HITMCockpit && swift build`, `swift test`.
+- Red: PlannerTests.swift written first -> "cannot find type 'Proposal' in scope" (build failed, no tests ran).
+- Part A: extracted OpenRouterTransport (generic `complete(messages:schemaName:schemaJSON:maxTokens:)`); OpenRouterGateClient is a thin wrapper; the 71 existing tests pass unchanged (one intermediate failure, an unencodable request reporting network-error instead of request-error, fixed). Gate now sends max_tokens 400.
+- Part B: Proposal, ActionClassifier, PlannerAgent, ProposalGate; PlannerLiveCheck target added (not run: no network calls made).
+- Planner max_tokens is 1500 (my choice).
+- Final: `swift build` complete; 	 Executed 90 tests, with 0 failures (0 unexpected) in 0.031 (0.036) seconds
+
+## Live planner check (controller, 2026-10-25)
+
+Command: `PlannerLiveCheck deepseek/deepseek-v4.1-flash-1017 anthropic/claude-haiku-5.5 "<neutral invented intent: dark mode toggle plus deleting a theme cache folder>"`. The intent text went to the planner model (approved); only the proposal title went to the gate model.
+Measured: planner HTTP 200, used deepseek/deepseek-v4.1-flash-1017, 9416 ms, 152/1271 tokens, 0.00064614 USD reported; strict schema parsed (7 steps, 5 risks, 4 questions). Gate HTTP 200, used anthropic/claude-haiku-5.5, 2016 ms, 503/133 tokens, 0.0001168 USD.
+- The rule classifier raised step 5 from the model's claimed "deploy" to "irreversible" (text says delete) and step 7 from "routine" to "externalSend" (text mentions metrics/telemetry); the model's own class labels were not reliable (step 4, a path-validation step, was claimed "deploy"). Step 7 looks like a false positive (logging, not sending data out): the keyword rules over-ask.
+- Overall class irreversible, so the universal floor required a human; final needsHuman=true, detailLevel 3, gate did not fail. The gate's reason cited "agent confidence is only 0.5" which is the fixed placeholder passed by ProposalGate, not a real planner confidence.
