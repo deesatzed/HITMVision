@@ -1,6 +1,13 @@
 import Foundation
 
-public struct PlannerAgent: Sendable {
+/// Any role, any model: proposes, never executes.
+public protocol AgentAdapter: Sendable {
+    var role: String { get }
+    func propose(intent: String, profile: RiskProfile) async -> (Result<Proposal, PlannerError>, CallRecord?)
+}
+
+public struct PlannerAgent: Sendable, AgentAdapter {
+    public var role: String { "Planner" }
     private let transport: OpenRouterTransport
     static let schemaName = "proposal"
     static let maxTokens = 1500
@@ -58,10 +65,9 @@ public struct PlannerAgent: Sendable {
             schemaJSON: schemaJSON(), maxTokens: maxTokens, model: model, apiKey: apiKey, endpoint: endpoint)
     }
 
-    /// Intent text is sent only when `profileSensitive` is false; otherwise the transport is never touched.
-    public func propose(intent: String, profile: RiskProfile,
-                        profileSensitive: Bool) async -> (Result<Proposal, PlannerError>, CallRecord?) {
-        if profileSensitive { return (.failure(.blockedBySensitiveProfile), nil) }
+    /// Intent text is sent only when the profile is not sensitive (sensitive or unsure); otherwise the transport is never touched.
+    public func propose(intent: String, profile: RiskProfile) async -> (Result<Proposal, PlannerError>, CallRecord?) {
+        if profile.isSensitive { return (.failure(.blockedBySensitiveProfile), nil) }
         let (content, record) = await transport.complete(messages: Self.messages(intent: intent),
             schemaName: Self.schemaName, schemaJSON: Self.schemaJSON(), maxTokens: Self.maxTokens)
         guard let content else { return (.failure(.unavailable), record) }
@@ -76,12 +82,12 @@ public struct PlannerAgent: Sendable {
 }
 
 public enum ProposalGate {
-    /// `agentConfidence` defaults to 0.5: a placeholder, because the planner reports no calibrated confidence.
-    public static func gateRequest(for proposal: Proposal, profile: RiskProfile, profileSensitive: Bool,
-                                   agentConfidence: Double = 0.5) -> GateRequest {
+    /// `agentConfidence` is nil (not reported) unless a real, calibrated value is supplied.
+    public static func gateRequest(for proposal: Proposal, profile: RiskProfile,
+                                   agentConfidence: Double? = nil) -> GateRequest {
         GateRequest.make(actionClass: proposal.overallClass, profileName: profile.name, filePaths: [],
                          changeSize: proposal.steps.count, agentConfidence: agentConfidence,
-                         overrideHistory: "", summary: proposal.title, profileSensitive: profileSensitive)
+                         overrideHistory: "", summary: proposal.title, profileSensitive: profile.isSensitive)
     }
 
     public static func decide(proposal: Proposal, profile: RiskProfile,

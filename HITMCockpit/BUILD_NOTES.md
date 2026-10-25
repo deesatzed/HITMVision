@@ -132,3 +132,9 @@ Command: `PlannerLiveCheck deepseek/deepseek-v4.1-flash-1017 anthropic/claude-ha
 Measured: planner HTTP 200, used deepseek/deepseek-v4.1-flash-1017, 9416 ms, 152/1271 tokens, 0.00064614 USD reported; strict schema parsed (7 steps, 5 risks, 4 questions). Gate HTTP 200, used anthropic/claude-haiku-5.5, 2016 ms, 503/133 tokens, 0.0001168 USD.
 - The rule classifier raised step 5 from the model's claimed "deploy" to "irreversible" (text says delete) and step 7 from "routine" to "externalSend" (text mentions metrics/telemetry); the model's own class labels were not reliable (step 4, a path-validation step, was claimed "deploy"). Step 7 looks like a false positive (logging, not sending data out): the keyword rules over-ask.
 - Overall class irreversible, so the universal floor required a human; final needsHuman=true, detailLevel 3, gate did not fail. The gate's reason cited "agent confidence is only 0.5" which is the fixed placeholder passed by ProposalGate, not a real planner confidence.
+
+## Step 4 review fixes, 2026-10-25
+- Red: tests first -> compile error "value of type 'RiskProfile' has no member 'sensitive'".
+- Done: whole-proposal classification (title, risks, questions); ActionClassifier rewritten (NFKC, word starts, squeezed split-letter check, documented ACCEPTED LIMITS); GateRequest.agentConfidence optional + gate prompt "not reported" sentence; RiskProfile.sensitive/isSensitive (missing key = true) and PlannerAgent/ProposalGate use it; AgentAdapter protocol.
+- Old-behavior assertions changed: classifier table (plain send/email/post/upload/telemetry/auth/limit/drop/release no longer match without context), "send the report" step text, confidence 0.5 -> nil.
+- `swift build` complete; `Executed 107 tests, with 0 failures (0 unexpected)`.

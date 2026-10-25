@@ -51,11 +51,19 @@ public struct Proposal: Codable, Equatable, Sendable {
     }
 
     public var overallClass: ActionClass {
-        effectiveSteps.map(\.effectiveClass).max { ActionClassifier.severity($0) < ActionClassifier.severity($1) } ?? .routine
+        // The whole proposal is classified: steps, title, risks and questions.
+        let texts = [title] + risks + questions
+        let all = effectiveSteps.map(\.effectiveClass) + texts.map { ActionClassifier.minimumClass(forStepText: $0) }
+        return all.max { ActionClassifier.severity($0) < ActionClassifier.severity($1) } ?? .routine
     }
 }
 
-/// Pure, conservative, keyword-based lower bound on a step's class (case-insensitive substring match).
+/// Pure, conservative, keyword-based LOWER BOUND on an action's class. Text is normalized (NFKC,
+/// lowercase, collapsed whitespace) and matched on WORD STARTS, never raw substrings.
+///
+/// ACCEPTED LIMITS: other natural languages, homoglyph letters (e.g. Cyrillic look-alikes) and novel
+/// synonyms ("eliminate", "get rid of") are NOT caught. This is a floor that works alongside the
+/// gate model and the human, not a complete detector.
 public enum ActionClassifier {
     public static func severity(_ c: ActionClass) -> Int {
         switch c {
@@ -68,23 +76,92 @@ public enum ActionClassifier {
         }
     }
 
-    // Rules are checked from most to least severe; the first rule with a matching keyword wins.
-    private static let rules: [(ActionClass, [String])] = [
-        // irreversible: data or history that cannot be recovered
-        (.irreversible, ["delete", "drop", "remove permanently", "destroy", "wipe", "truncate", "force push", "overwrite"]),
-        // deploy: changes what runs in a live environment
-        (.deploy, ["deploy", "release", "publish", "ship to", "push to prod"]),
-        // externalSend: data leaves the machine
-        (.externalSend, ["upload", "send", "email", "post to", "webhook", "external service", "third-party", "telemetry"]),
-        // editSafetyCheck: weakens or changes a protective check
-        (.editSafetyCheck, ["safety", "assertion", "validation", "guard", "limit", "tolerance", "permission", "auth"]),
-        // editDomainLogic: changes what the software computes or decides
-        (.editDomainLogic, ["business rule", "core logic", "calculation", "pricing", "algorithm"]),
-    ]
+    // irreversible: destroys data or history. Plain "remove" and plain "drop" are not enough;
+    // "undelete" does not match because the stem must start a word.
+    static let irreversibleTerms = ["delet", "deletion", "eras", "purg", "destroy", "wipe", "truncat", "nuke",
+        "obliterat", "overwrit", "rm -rf", "force push", "git push --force", "reset --hard", "drop table",
+        "drop database", "drop schema", "drop column", "drop collection", "remove permanently", "permanently remov"]
+    // deploy: changes what runs live. "release notes" / "released lock" do not match: only "release to".
+    static let deployTerms = ["deploy", "go live", "roll out", "rollout", "push to prod", "push to main",
+        "ship to", "release to", "publish to", "publish the"]
+    // externalSend: a sending verb plus an external target in the same text, or a clear external term.
+    static let sendVerbs = ["upload", "send", "transmit", "post", "email", "mail", "sync", "share", "export",
+        "forward", "exfiltrate", "curl"]
+    static let sendTargets = ["external", "third-party", "third party", "vendor", "cloud", "remote", "partner",
+        "webhook", "external service", "http:", "https:", "endpoint", "api"]
+    static let sendStandalone = ["webhook", "exfiltrat", "third-party service", "third party service"]
+    // editSafetyCheck: protective-check vocabulary, or a weakening verb near a check-like word.
+    static let safetyTerms = ["assertion", "tolerance", "permission", "credential", "password", "authenticat",
+        "authoriz", "safety check", "bounds check", "rate limit", "limit check", "threshold"]
+    static let safetyWholeWords: Set<String> = ["guard", "guards"]
+    static let weakeners = ["disable", "skip", "bypass", "relax", "loosen", "remove", "widen", "ignore"]
+    static let checkWordStarts = ["check", "test", "assert", "validation", "threshold", "tolerance"]
+    static let checkWholeWords: Set<String> = ["guard", "guards", "limit", "limits"]
+    // editDomainLogic: changes what the software computes or decides.
+    static let domainTerms = ["business rule", "core logic", "calculation", "pricing", "algorithm"]
+
+    static func normalize(_ text: String) -> String {
+        text.precomposedStringWithCompatibilityMapping.lowercased()
+            .split(whereSeparator: { $0.isWhitespace }).joined(separator: " ")
+    }
+
+    static func tokens(_ norm: String) -> [String] {
+        norm.split(whereSeparator: { !($0.isLetter || $0.isNumber) }).map(String.init)
+    }
+
+    /// `needle` occurs in `hay` at the start of a word.
+    static func hasWordStart(_ hay: String, _ needle: String) -> Bool {
+        var from = hay.startIndex
+        while let r = hay.range(of: needle, range: from..<hay.endIndex) {
+            if r.lowerBound == hay.startIndex { return true }
+            let prev = hay[hay.index(before: r.lowerBound)]
+            if !(prev.isLetter || prev.isNumber) { return true }
+            from = hay.index(after: r.lowerBound)
+        }
+        return false
+    }
+
+    /// Catches split-up spellings ("del ete", "d e l e t e", "force-push"): joins up to 8 consecutive
+    /// tokens starting at a token start. Stems match as a prefix of the join; phrases must equal it.
+    static func squeezedHit(_ toks: [String], _ terms: [String]) -> Bool {
+        for term in terms {
+            let isPhrase = term.contains(" ")
+            let sq = term.filter { $0.isLetter || $0.isNumber }
+            for i in toks.indices {
+                var joined = ""
+                for j in i..<min(toks.count, i + 8) {
+                    joined += toks[j]
+                    if isPhrase ? joined == sq : joined.hasPrefix(sq) { return true }
+                    if joined.count >= sq.count { break }
+                }
+            }
+        }
+        return false
+    }
+
+    static func hasAny(_ norm: String, _ terms: [String]) -> Bool { terms.contains { hasWordStart(norm, $0) } }
 
     public static func minimumClass(forStepText text: String) -> ActionClass {
-        let t = text.lowercased()
-        for (cls, words) in rules where words.contains(where: { t.contains($0) }) { return cls }
+        let norm = normalize(text)
+        let toks = tokens(norm)
+        if hasAny(norm, irreversibleTerms) || squeezedHit(toks, irreversibleTerms) { return .irreversible }
+        if hasAny(norm, deployTerms) || squeezedHit(toks, deployTerms) { return .deploy }
+        if hasAny(norm, sendStandalone) { return .externalSend }
+        if hasAny(norm, sendVerbs) && hasAny(norm, sendTargets) { return .externalSend }
+        if hasAny(norm, safetyTerms) || toks.contains(where: { safetyWholeWords.contains($0) }) { return .editSafetyCheck }
+        if weakeningNearCheck(toks) { return .editSafetyCheck }
+        if hasAny(norm, domainTerms) { return .editDomainLogic }
         return .routine
+    }
+
+    /// A weakening verb within 4 tokens of a check-like word.
+    static func weakeningNearCheck(_ toks: [String]) -> Bool {
+        for (i, t) in toks.enumerated() where weakeners.contains(where: { t.hasPrefix($0) }) {
+            for j in max(0, i - 4)...min(toks.count - 1, i + 4) where j != i {
+                let w = toks[j]
+                if checkWholeWords.contains(w) || checkWordStarts.contains(where: { w.hasPrefix($0) }) { return true }
+            }
+        }
+        return false
     }
 }

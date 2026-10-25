@@ -25,7 +25,7 @@ func show(_ label: String, _ r: CallRecord) {
 }
 
 let profile = RiskProfile.light
-let (result, plannerRecord) = await PlannerAgent(transport: transport).propose(intent: intent, profile: profile, profileSensitive: false)
+let (result, plannerRecord) = await PlannerAgent(transport: transport).propose(intent: intent, profile: profile)
 if let plannerRecord { show("PLANNER", plannerRecord) }
 guard case .success(let proposal) = result else {
     print("PLANNER FAILED: \(result)")
@@ -40,7 +40,7 @@ print("  risks: \(proposal.risks.isEmpty ? "none" : proposal.risks.joined(separa
 print("  questions: \(proposal.questions.isEmpty ? "none" : proposal.questions.joined(separator: " | "))")
 print("  overall class: \(proposal.overallClass.rawValue)")
 
-let gateRequest = ProposalGate.gateRequest(for: proposal, profile: profile, profileSensitive: false)
+let gateRequest = ProposalGate.gateRequest(for: proposal, profile: profile)
 let (gateResult, gateRecord) = await gateClient.assess(gateRequest)
 let decision = ProposalGate.decide(proposal: proposal, profile: profile, gate: gateResult)
 print("FINAL DECISION: needsHuman=\(decision.needsHuman) detailLevel=\(decision.detailLevel) gateFailed=\(decision.gateFailed)")

@@ -222,7 +222,8 @@ public struct OpenRouterGateClient: Sendable, CustomStringConvertible, CustomDeb
     static let systemPrompt = """
         You are a risk gate for a software-engineering agent. You are given JSON request metadata \
         describing an action the agent wants to take. Answer ONLY with JSON matching the supplied schema. \
-        Ask for a human whenever you are unsure. Never lower safety.
+        Ask for a human whenever you are unsure. Never lower safety. \
+        If agentConfidence is absent it means the confidence was not reported; do not treat that as low confidence.
         """
 
     static let schemaName = "gate_response"

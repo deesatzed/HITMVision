@@ -13,13 +13,14 @@ public struct GateRequest: Codable, Equatable, Sendable {
     public let profileName: String
     public let filePaths: [String]
     public let changeSize: Int
-    public let agentConfidence: Double
+    /// nil = not reported; the key is omitted from the encoded JSON.
+    public let agentConfidence: Double?
     public let overrideHistory: String
     /// nil for sensitive projects: metadata only. Omitted from the encoded JSON when nil.
     public let summary: String?
 
     public static func make(actionClass: ActionClass, profileName: String, filePaths: [String],
-                            changeSize: Int, agentConfidence: Double, overrideHistory: String,
+                            changeSize: Int, agentConfidence: Double?, overrideHistory: String,
                             summary: String?, profileSensitive: Bool) -> GateRequest {
         if profileSensitive {
             return GateRequest(actionClass: actionClass, profileName: "sensitive", filePaths: [],

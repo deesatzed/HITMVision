@@ -42,4 +42,17 @@ final class RiskProfileTests: XCTestCase {
         XCTAssertFalse(decoded.unsure)
         XCTAssertEqual(RiskProfile.decodeOrStrict(try JSONEncoder().encode(RiskProfile.light)), .light)
     }
+
+    func testSensitiveFlagFailsClosedAndIsSensitiveCombines() throws {
+        let missing = try JSONDecoder().decode(RiskProfile.self, from: Data(#"{"name":"x","extraHumanRequired":[],"unsure":false}"#.utf8))
+        XCTAssertTrue(missing.sensitive)
+        let explicit = try JSONDecoder().decode(RiskProfile.self, from: Data(#"{"name":"x","extraHumanRequired":[],"unsure":false,"sensitive":false}"#.utf8))
+        XCTAssertFalse(explicit.isSensitive)
+        XCTAssertFalse(RiskProfile.light.isSensitive)
+        XCTAssertFalse(RiskProfile.strict.isSensitive)
+        XCTAssertTrue(RiskProfile.decodeOrStrict(Data("garbage".utf8)).sensitive)
+        XCTAssertTrue(RiskProfile(name: "u", extraHumanRequired: [], unsure: true).isSensitive)
+        let rt = try JSONDecoder().decode(RiskProfile.self, from: JSONEncoder().encode(RiskProfile.strict))
+        XCTAssertEqual(rt, RiskProfile.strict)
+    }
 }

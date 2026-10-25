@@ -60,34 +60,89 @@ final class PlannerTests: XCTestCase {
     }
 
     // MARK: ActionClassifier
-    func testClassifierTable() {
-        let table: [(String, ActionClass)] = [
-            ("Delete the old table", .irreversible), ("DROP the index", .irreversible),
-            ("remove permanently the logs", .irreversible), ("destroy the cache", .irreversible),
-            ("wipe the disk", .irreversible), ("truncate the table", .irreversible),
-            ("force push the branch", .irreversible), ("overwrite the config", .irreversible),
-            ("deploy to staging", .deploy), ("Release version 2", .deploy), ("publish the package", .deploy),
-            ("ship to customers", .deploy), ("push to prod", .deploy),
-            ("upload the file", .externalSend), ("send a summary", .externalSend), ("email the team", .externalSend),
-            ("post to the channel", .externalSend), ("call a webhook", .externalSend),
-            ("use an external service", .externalSend), ("a third-party API", .externalSend), ("add telemetry", .externalSend),
-            ("relax a safety margin", .editSafetyCheck), ("change an assertion", .editSafetyCheck),
-            ("loosen validation", .editSafetyCheck), ("remove a guard", .editSafetyCheck),
-            ("raise the limit", .editSafetyCheck), ("widen tolerance", .editSafetyCheck),
-            ("edit permission checks", .editSafetyCheck), ("change auth flow", .editSafetyCheck),
-            ("update the business rule", .editDomainLogic), ("rewrite core logic", .editDomainLogic),
-            ("fix the calculation", .editDomainLogic), ("adjust pricing", .editDomainLogic),
-            ("tune the algorithm", .editDomainLogic),
-            ("read the README", .routine), ("rename a local variable", .routine),
-        ]
-        for (text, cls) in table {
-            XCTAssertEqual(ActionClassifier.minimumClass(forStepText: text), cls, text)
-        }
+    func classes(_ cases: [String], _ cls: ActionClass, file: StaticString = #filePath, line: UInt = #line) {
+        for t in cases { XCTAssertEqual(ActionClassifier.minimumClass(forStepText: t), cls, t, file: file, line: line) }
+    }
+
+    func testIrreversibleMatches() {
+        classes(["Delete the old table", "deletion of rows", "erase the disk", "purge the cache", "destroy the cache",
+                 "wipe the disk", "truncate the table", "nuke it", "obliterate history", "overwrite the config",
+                 "run rm -rf build", "force push the branch", "git push --force origin x", "git reset --hard HEAD",
+                 "drop table users", "DROP DATABASE prod", "drop schema x", "drop column a", "drop collection c",
+                 "remove permanently the logs", "permanently remove the logs"], .irreversible)
+    }
+
+    func testIrreversibleBypassProbes() {
+        classes(["del ete the rows", "d e l e t e the rows", "ｄｅｌｅｔｅ the rows", "force-push it", "dr op table users"], .irreversible)
+    }
+
+    func testIrreversibleNonMatches() {
+        classes(["remove the folder", "add a dropdown menu", "fix the backdrop", "undelete the file", "drop the index"], .routine)
+    }
+
+    func testDeployMatches() {
+        classes(["deploy to staging", "go live on Monday", "roll out the change", "start the rollout", "push to prod",
+                 "push to main", "ship to customers", "release to users", "publish to npm", "publish the package",
+                 "d e p l o y it"], .deploy)
+    }
+
+    func testDeployNonMatches() {
+        classes(["write release notes", "check the released lock", "release version 2"], .routine)
+    }
+
+    func testExternalSendMatches() {
+        classes(["upload the file to a third-party host", "send data to a vendor", "transmit to the cloud",
+                 "post results to the remote server", "email the report to a partner", "sync with the cloud",
+                 "share it with an external team", "export to https://x.example", "forward to http://x",
+                 "curl the endpoint", "send a request to the api", "mail it to an external address",
+                 "call a webhook", "exfiltrate the data", "use a third-party service", "use a third party service"], .externalSend)
+    }
+
+    func testExternalSendNonMatches() {
+        classes(["telemetry logging locally", "send the user to login", "fix the sender field",
+                 "email validation", "upload progress bar", "use an external service"], .routine)
+    }
+
+    func testSafetyMatches() {
+        classes(["change an assertion", "widen tolerance", "edit permission checks", "store the credential",
+                 "rotate the password", "fix authentication", "fix authorization", "update the safety check",
+                 "adjust the bounds check", "tune the rate limit", "edit the limit check", "move the threshold",
+                 "edit the guard", "disable the check", "skip the test", "bypass validation", "relax the tolerance",
+                 "loosen the limit", "widen the threshold", "ignore the assertion", "remove the guard"], .editSafetyCheck)
+    }
+
+    func testSafetyNonMatches() {
+        classes(["credit the author", "the authority page", "limited scope", "unlimited plan", "change the delimiter",
+                 "guardian name field", "improve validation", "remove the folder"], .routine)
+    }
+
+    func testDomainLogicMatches() {
+        classes(["update the business rule", "rewrite core logic", "fix the calculation", "adjust pricing",
+                 "tune the algorithm"], .editDomainLogic)
+    }
+
+    func testRoutineAndCaseInsensitivity() {
+        classes(["read the README", "rename a local variable"], .routine)
+        XCTAssertEqual(ActionClassifier.minimumClass(forStepText: "DEPLOY NOW"), .deploy)
+        XCTAssertEqual(ActionClassifier.minimumClass(forStepText: "Fix The CALCULATION"), .editDomainLogic)
+    }
+
+    func testKnownUncaughtSynonymsAreDocumented() {
+        // ACCEPTED LIMITS: these currently classify routine. A future change must be deliberate.
+        classes(["eliminate the records", "get rid of the table", "make it vanish", "dеlete the rows" /* Cyrillic e */], .routine)
     }
 
     func testClassifierPicksHighestMatchingRule() {
         XCTAssertEqual(ActionClassifier.minimumClass(forStepText: "email the pricing and delete it"), .irreversible)
-        XCTAssertEqual(ActionClassifier.minimumClass(forStepText: "send the pricing table"), .externalSend)
+        XCTAssertEqual(ActionClassifier.minimumClass(forStepText: "email the pricing to a vendor"), .externalSend)
+    }
+
+    func testWholeProposalIsClassified() {
+        let routineStep = [ProposalStep(text: "read the notes", claimedClass: .routine)]
+        XCTAssertEqual(Proposal(title: "Delete production DB", steps: routineStep, risks: [], questions: []).overallClass, .irreversible)
+        XCTAssertEqual(Proposal(title: "t", steps: routineStep, risks: ["could deploy broken code"], questions: []).overallClass, .deploy)
+        XCTAssertEqual(Proposal(title: "t", steps: routineStep, risks: [], questions: ["Can we skip the test?"]).overallClass, .editSafetyCheck)
+        XCTAssertEqual(Proposal(title: "t", steps: routineStep, risks: [], questions: []).overallClass, .routine)
     }
 
     func testSeverityOrder() {
@@ -100,7 +155,7 @@ final class PlannerTests: XCTestCase {
         let p = Proposal(title: "t", steps: [
             ProposalStep(text: "delete the old table", claimedClass: .routine),
             ProposalStep(text: "read the notes", claimedClass: .deploy),
-            ProposalStep(text: "send the report", claimedClass: .editDomainLogic),
+            ProposalStep(text: "upload the report to a vendor", claimedClass: .editDomainLogic),
         ], risks: [], questions: [])
         XCTAssertEqual(p.effectiveSteps.map(\.effectiveClass), [.irreversible, .deploy, .externalSend])
         XCTAssertEqual(p.overallClass, .irreversible)
@@ -118,11 +173,12 @@ final class PlannerTests: XCTestCase {
     func testSensitiveProfileMakesNoTransportCall() async {
         // Non-https endpoint: any attempted call would give outcome "request-error" with a record.
         let t = OpenRouterTransport(apiKey: "k", model: "m", endpoint: URL(string: "http://example.invalid/x")!)
-        let (result, record) = await PlannerAgent(transport: t).propose(intent: "secret", profile: .light, profileSensitive: true)
+        let sens = RiskProfile(name: "s", extraHumanRequired: [], sensitive: true)
+        let (result, record) = await PlannerAgent(transport: t).propose(intent: "secret", profile: sens)
         XCTAssertEqual(result, .failure(.blockedBySensitiveProfile))
         XCTAssertNil(record)
         // Control: the same transport, non-sensitive, does attempt a call and reports it.
-        let (r2, rec2) = await PlannerAgent(transport: t).propose(intent: "x", profile: .light, profileSensitive: false)
+        let (r2, rec2) = await PlannerAgent(transport: t).propose(intent: "x", profile: .light)
         XCTAssertEqual(r2, .failure(.unavailable))
         XCTAssertEqual(rec2?.outcome, "request-error")
     }
@@ -150,14 +206,14 @@ final class PlannerTests: XCTestCase {
     // MARK: ProposalGate
     func testGateRequestOmitsSummaryWhenSensitive() throws {
         let p = Proposal(title: "SECRET TITLE", steps: [ProposalStep(text: "a", claimedClass: .routine)], risks: [], questions: [])
-        let s = ProposalGate.gateRequest(for: p, profile: .light, profileSensitive: true)
+        let s = ProposalGate.gateRequest(for: p, profile: RiskProfile(name: "s", extraHumanRequired: [], sensitive: true))
         XCTAssertNil(s.summary)
         XCTAssertFalse(String(decoding: try JSONEncoder().encode(s), as: UTF8.self).contains("SECRET TITLE"))
-        let n = ProposalGate.gateRequest(for: p, profile: .light, profileSensitive: false)
+        let n = ProposalGate.gateRequest(for: p, profile: .light)
         XCTAssertEqual(n.summary, "SECRET TITLE")
         XCTAssertEqual(n.changeSize, 1)
         XCTAssertEqual(n.actionClass, .routine)
-        XCTAssertEqual(n.agentConfidence, 0.5)
+        XCTAssertNil(n.agentConfidence)
     }
 
     func testDecideNeverDropsRequiredHuman() {
@@ -175,5 +231,37 @@ final class PlannerTests: XCTestCase {
                 }
             }
         }
+    }
+
+    // MARK: sensitivity from profile, adapter seam, confidence
+    func testSensitiveAndUnsureProfilesBlockWithoutTransportCall() async {
+        let t = OpenRouterTransport(apiKey: "k", model: "m", endpoint: URL(string: "http://example.invalid/x")!)
+        for profile in [RiskProfile(name: "s", extraHumanRequired: [], sensitive: true),
+                        RiskProfile(name: "u", extraHumanRequired: [], unsure: true)] {
+            let (r, rec) = await PlannerAgent(transport: t).propose(intent: "x", profile: profile)
+            XCTAssertEqual(r, .failure(.blockedBySensitiveProfile))
+            XCTAssertNil(rec)
+        }
+    }
+
+    func testGateRequestUsesProfileSensitivity() {
+        let p = Proposal(title: "SECRET", steps: [ProposalStep(text: "a", claimedClass: .routine)], risks: [], questions: [])
+        XCTAssertNil(ProposalGate.gateRequest(for: p, profile: RiskProfile(name: "s", extraHumanRequired: [], sensitive: true)).summary)
+        XCTAssertNil(ProposalGate.gateRequest(for: p, profile: RiskProfile(name: "u", extraHumanRequired: [], unsure: true)).summary)
+    }
+
+    func testPlannerConformsToAgentAdapter() {
+        let t = OpenRouterTransport(apiKey: "k", model: "m")
+        let adapter: any AgentAdapter = PlannerAgent(transport: t)
+        XCTAssertEqual(adapter.role, "Planner")
+    }
+
+    func testNilConfidenceOmitsKeyAndPromptSaysNotReported() throws {
+        let p = Proposal(title: "t", steps: [ProposalStep(text: "a", claimedClass: .routine)], risks: [], questions: [])
+        let json = String(decoding: try JSONEncoder().encode(ProposalGate.gateRequest(for: p, profile: .light)), as: UTF8.self)
+        XCTAssertFalse(json.contains("agentConfidence"))
+        let supplied = String(decoding: try JSONEncoder().encode(ProposalGate.gateRequest(for: p, profile: .light, agentConfidence: 0.7)), as: UTF8.self)
+        XCTAssertTrue(supplied.contains("agentConfidence"))
+        XCTAssertTrue(OpenRouterGateClient.systemPrompt.contains("not reported"))
     }
 }
