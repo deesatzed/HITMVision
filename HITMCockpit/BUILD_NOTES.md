@@ -73,3 +73,38 @@ Commands: `cd HITMCockpit && swift test` (three runs).
 - Fix: raw reason pre-bounded to first 2000 scalars; cap is 300 scalars + "…".
 - Green: see final `swift test` Executed line below.
 - Final: `Executed 45 tests, with 0 failures (0 unexpected)`
+
+## Phase 2 Step 3b: OpenRouterGateClient + GateLiveCheck, 2026-10-25
+
+Commands: `cd HITMCockpit && swift test`, `swift build` (all targets).
+- Red: OpenRouterGateClientTests.swift written first; `swift test` -> "cannot find type 'CallRecord' in scope" (no tests ran).
+- Implemented Sources/HITMCore/OpenRouterGateClient.swift (CallRecord, buildURLRequest, parseEnvelope, fromEnvironment(model:environment:), assess) and Sources/GateLiveCheck/main.swift (target added to Package.swift, Swift 5 mode).
+- Green: `Executed 62 tests, with 0 failures (0 unexpected)` (45 existing + 17 new). `swift build`: Build complete.
+- Not run: GateLiveCheck (no network calls made by the implementer). The live response shape is UNVERIFIED until it is run.
+- parseEnvelope outcome choice: gate content that fails strict decoding (malformed or out of range) gets outcome "invalid-response".
+
+## Live gate check (controller, 2026-10-25) — INVENTED SAMPLE DATA only
+
+Command: `cd HITMCockpit && (set -a; . ../.env; set +a; swift run GateLiveCheck typesafe/jev-router)`
+Measured (6 sequential calls, all HTTP 200, 0 failures, response shape parsed by the real decodeStrict incl. usage.cost):
+- Underlying model actually used per call (router's choice): deepseek/deepseek-v4.1-flash-1017 x2, openai/gpt-6.1-sol x2, google/gemini-4-argon x1, z-ai/glm-5.3-flash x1.
+- Latency per call: 1219, 1330, 2897, 5285, 5359, 7191 ms; total 23281 ms.
+- Tokens (prompt/completion) and cost per call as reported by OpenRouter; total cost reported: 0.0057028 USD for the 6 calls.
+- Gate said needsHuman=true for all 6 (final needsHuman 6 of 6), including sample #1 (routine README typo, floor none).
+- Caveat: the sample summaries contained the word "INVENTED"; two replies cite that label, so the over-asking may be partly an artifact of the test text. Not yet re-run with neutral wording.
+- Sample #6 (sensitive profile): no marker text appears in the gate's reason; this does not prove absence of leakage (request body is not logged). The unit tests assert the encoded request carries no summary/paths/override text.
+
+## Phase 2 Step 3b hardening (review items 1, 3, 5, 6, 7, 8, 9), 2026-10-25
+
+Commands: `cd HITMCockpit && swift test`, `swift build`.
+- Red: OpenRouterGateClientHardeningTests.swift first -> compile errors ("type 'OpenRouterGateClient' has no member 'outcome'", makeSession, parseCount, parseCost, NoRedirectDelegate); no tests ran.
+- Implemented: dedicated ephemeral session (30 s request and resource, no cache, no-redirect delegate); key hidden from description/debugDescription/dump; usedModel sanitized (cap 100, empty -> nil); tokens/cost strict parsing (Bool, negatives, fractions, strings, NaN/inf -> nil); non-https or unencodable request -> outcome "request-error" with no network call; cancellation -> "cancelled".
+- Green: `swift build` complete; `Executed 71 tests, with 0 failures (0 unexpected)` (62 + 9 new).
+- Still not run: GateLiveCheck / any network call.
+
+## Live regression after hardening (controller, 2026-10-25) — INVENTED SAMPLE DATA only
+
+Same command and same six invented requests. `swift test`: 71 tests, 0 failures.
+Measured: 6/6 HTTP 200, 0 failures; total latency 15620 ms (1203 to 5537 ms per call); total reported cost 0.0082203 USD.
+- Underlying models this run: openai/gpt-6.1-sol, google/gemini-3.8-flash, z-ai/glm-5.3-flash (x2), anthropic/claude-opus-5.5 (the costliest call, 0.005021 USD), deepseek/deepseek-v4.1-flash-1017. Different mix from run 1.
+- Gate answers changed between runs for the same input: sample #1 (routine README typo) was route=escalate_model/needsHuman=true in run 1 and route=proceed/needsHuman=false in run 2 (final needsHuman 5 of 6 in run 2, 6 of 6 in run 1). Gate output is not stable run to run.

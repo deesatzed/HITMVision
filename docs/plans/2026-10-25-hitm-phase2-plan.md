@@ -57,7 +57,17 @@ Needs an Xcode visionOS app target (none exists in `HITMCockpit/`), a decision o
 - `GateRequest`/`GateResponse` have only internal memberwise inits; step 3b must live in HITMCore (or add public inits).
 - Sensitive profiles send metadata only: no paths, no override text, no summary, and a generic profile name.
 
+## Step 3b live results (2026-10-25, invented sample data; see BUILD_NOTES.md)
+- Works end to end: 6/6 calls HTTP 200, real response parsed; total latency 23.3 s sequential (1.2 to 7.2 s per call); total reported cost 0.0057 USD for 6 calls.
+- **Router picks different providers per call** (deepseek, openai, google, z-ai). Your approved destination was `typesafe/jev-router`; the underlying providers vary and you did not choose them. Decision needed from you before any real project text is sent.
+- **Gate asked a human for 6 of 6**, including a trivial typo fix. Possibly caused by the word "INVENTED" in the test summaries. As measured, this does not yet support the "quiet by default" goal; needs a re-run with neutral wording and, ideally, a gate prompt tuned to the profile.
+
+## Step 3b regression run (2026-10-25, invented sample data)
+- After hardening: 71 tests pass; live 6/6 HTTP 200; total 15.6 s, 0.0082 USD reported.
+- Same input gave different gate answers across runs (README typo: asked a human in run 1, proceeded in run 2) and a different mix of underlying providers, including one call to anthropic/claude-opus-5.5 at 0.005 USD. Variability in decisions, providers and cost is a measured property of the router.
+
 ## Open items
+- Step 4 (Planner) and any real project text to the gate are paused pending your routing decision.
 - Steps 5 and 6 await design notes and your decisions.
 - Live gate behavior, cost and latency are unmeasured until step 3 runs.
 - D8 (fixture data in tests) is still open; steps 2 and most of 3 need none.
