@@ -142,3 +142,26 @@ Measured: planner HTTP 200, used deepseek/deepseek-v4.1-flash-1017, 9416 ms, 152
 ## Classifier data-egress rule, 2026-10-25
 - Added: send-verb (incl. "copy ... off") plus data object => externalSend even without external target; "server" added to targets. Over-asks on ordinary internal sends (documented).
 - Red (rule removed temporarily): failures on the new positive phrases. Green: `Executed 107 tests, with 0 failures (0 unexpected)`.
+
+## Phase 2 Step 5 (shared mind, nested JSON files), 2026-10-25
+Commands: `cd HITMCockpit && swift build`, `swift test`.
+- Red: MindStoreTests.swift written first -> "cannot find type 'MindRecord' in scope" / "cannot find type 'MindStore' in scope" (build failed, no tests ran).
+- Added: MindTypes.swift (MindKind, MindStatus, MindError, MindEntry, MindRecord, AuditFinding, MindDestination, MindSlice, MindPolicy), MindStore.swift (struct MindStore), Tests/HITMCoreTests/MindStoreTests.swift (22 tests, real temp-dir file I/O, dirs removed in teardown).
+- Mutation check: removing the hosted-model sensitive-chain filter made tests fail (red); restored.
+- Final: `swift build` complete; `Executed 129 tests, with 0 failures (0 unexpected)` (107 existing + 22 new).
+- NOT implemented: conflict detection, retention/expiry policy (expire is manual only), file locking (single writer assumed), index rebuild from the log, any wiring into the prototype or a gate/model call (MindPolicy is pure and unused by callers).
+
+## Step 5 review fixes, 2026-10-25
+- Red: tests first (MindStoreIntegrityTests.swift + edits to MindStoreTests.swift) -> compile errors: "type 'MindPolicy' has no member 'approve'", "type 'AuditFinding' has no member 'noLogEvent'", and "cannot use mutating member on immutable value" (store was still a struct).
+- Done: MindStore is now a final class (@unchecked Sendable, one NSLock); fail-closed chain walk over parent and supersedes (missing, cycle, unverifiable => sensitive); open validates links, UUID ids unique ignoring case; child file must match index (kind, sensitive, parentID, supersedes, role, tags); supersede inherits sensitivity; `sensitive` required in propose; lastRevision = max(log, index); missing/empty log with non-empty index fails open; torn final log line removed on open; audit replays the log (statusMismatch, noLogEvent) and ignores dot-files; Approval + MindPolicy.approve + accept(id:approval:); correct allowed on superseded.
+- Assertions/tests changed: accept(id:by:) calls now go through a test helper `acc` using MindPolicy.approve; inout MindStore -> class reference; the unknown-id accept check builds its approval directly; log payload for reject/correction is "<id> <reason>" (was "<id>: <reason>").
+- Final: `swift build` complete; `Executed 150 tests, with 0 failures (0 unexpected)` (107 original + 22 + 21 new); MindStore tests run 3 more times, same result.
+- Still NOT implemented: conflict detection, retention/expiry policy, multi-process locking, index rebuild from the log, fsync. A transition whose log append fails after the index write shows in audit as statusMismatch (by design).
+
+## Step 5 re-review fixes, 2026-10-25
+- Red (tests first): the 40-entry chain (parentID and supersedes both set) did not finish within a 120 s shell timeout on the old recursive `tainted()` (exponential); 300-entry run: log reads per slices/audit call were 300, not 1 (whole test 2.3 s incl. creating 300 entries); 1000-entry smoke: slices + audit took 17.5 s (limit 10 s). Approval-binding test passed only after the entryID change (it did not compile before).
+- Done: `tainted` is an iterative depth-first walk with an on-stack set (cycle => tainted) and a per-call cache, so each child file is verified at most once per call; the log is parsed once per `slices`/`audit` call; `Approval` carries `entryID` and `accept(id:approval:)` rejects a different entry (ids compared case-insensitively); `MindPolicy.approve` now takes `entryID`.
+- After: 40-chain test 0.16 s total (propose, accept, hosted slices); 300-entry test 0.65 s including creating the 300 entries; 1000-entry smoke 4.6 s including creation (slices + audit asserted under 10 s). Exact slices/audit-only times were not printed separately.
+- Changed in existing tests: `MindPolicy.approve(...)` calls gained `entryID:`; `Approval(...)` forged in the test gained `entryID:`; testApprovalRules reordered so entries exist before approvals are made.
+- Final: `Executed 154 tests, with 0 failures (0 unexpected)` (150 + 4 new).
+- Still NOT implemented / known gaps: conflict detection; retention/expiry policy; multi-process locking; index rebuild from the log; fsync; recovery for a torn or lost accept/propose log event (the entry stays statusMismatch / noLogEvent and only expire/correct can clear it; commented in MindStore.swift).
