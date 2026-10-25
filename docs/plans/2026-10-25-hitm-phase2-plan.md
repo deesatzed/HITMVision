@@ -36,7 +36,11 @@ New core pieces, tested without the network where possible, plus one live check:
 - Intent bar submits to the Planner; its reply is a typed `Proposal` card that passes the gate before it reaches the human. The agent never executes anything; it proposes.
 - Same logging and fail-closed rules as step 3. Intent text counts as project content: it is sent only if the profile allows it and you have approved that destination.
 
-## Step 5 — Shared mind (design first)
+## Step 5 — Shared mind (design APPROVED 2026-10-25; building)
+
+Approved design: `.hitm/` folder per project; `mind.json` is the parent index (id, kind, status, author, sensitivity, revision, supersedes, parent, sha256 of the child file); `entries/<id>.json` are child files with metadata plus body; contexts can nest via `parentID`; append-only (changes create a new child that supersedes the old; deletion is a recorded correction); every proposal starts `quarantined` and becomes `accepted` only via the gate/human; prompt changes always gated (strict, unsure or sensitive profiles always go to the human; policy entries always go to the human); sensitive entries never enter any context built for a hosted model; a child whose fingerprint does not match the index is untrusted and excluded; agents read selective slices (role, kind, tag, character budget), never the whole history. Not decided / deferred: retention and expiry, conflict detection, file locking for concurrent writers, rebuilding the index from the log.
+
+(Original note kept below.)
 
 Needs a short design note and your decisions before code: storage format (local files vs a small database), what a memory/prompt/context entry looks like, the quarantine queue for proposals, and the rule that every prompt change passes a gate. Then tasks: store, quarantine, gated prompt changes, correction events, conflict flags, sensitive-data exclusion. Not planned in code here to avoid inventing those decisions.
 
