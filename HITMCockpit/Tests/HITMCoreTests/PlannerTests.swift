@@ -95,12 +95,17 @@ final class PlannerTests: XCTestCase {
                  "post results to the remote server", "email the report to a partner", "sync with the cloud",
                  "share it with an external team", "export to https://x.example", "forward to http://x",
                  "curl the endpoint", "send a request to the api", "mail it to an external address",
-                 "call a webhook", "exfiltrate the data", "use a third-party service", "use a third party service"], .externalSend)
+                 "call a webhook", "exfiltrate the data", "use a third-party service", "use a third party service",
+                 "send the user data to our server", "email the report to the client", "send the report",
+                 "upload the data", "export the customer database", "share the logs with support",
+                 "upload the logs to an external service", "send the customer database to the vendor",
+                 "copy the backup off the machine", "forward the secrets", "sync the patient records"], .externalSend)
     }
 
     func testExternalSendNonMatches() {
         classes(["telemetry logging locally", "send the user to login", "fix the sender field",
-                 "email validation", "upload progress bar", "use an external service"], .routine)
+                 "email validation", "upload progress bar", "use an external service", "send the user to the login page",
+                 "add telemetry logging locally", "post a comment in the code review", "export button styling"], .routine)
     }
 
     func testSafetyMatches() {

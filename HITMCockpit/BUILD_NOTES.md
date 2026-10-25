@@ -138,3 +138,7 @@ Measured: planner HTTP 200, used deepseek/deepseek-v4.1-flash-1017, 9416 ms, 152
 - Done: whole-proposal classification (title, risks, questions); ActionClassifier rewritten (NFKC, word starts, squeezed split-letter check, documented ACCEPTED LIMITS); GateRequest.agentConfidence optional + gate prompt "not reported" sentence; RiskProfile.sensitive/isSensitive (missing key = true) and PlannerAgent/ProposalGate use it; AgentAdapter protocol.
 - Old-behavior assertions changed: classifier table (plain send/email/post/upload/telemetry/auth/limit/drop/release no longer match without context), "send the report" step text, confidence 0.5 -> nil.
 - `swift build` complete; `Executed 107 tests, with 0 failures (0 unexpected)`.
+
+## Classifier data-egress rule, 2026-10-25
+- Added: send-verb (incl. "copy ... off") plus data object => externalSend even without external target; "server" added to targets. Over-asks on ordinary internal sends (documented).
+- Red (rule removed temporarily): failures on the new positive phrases. Green: `Executed 107 tests, with 0 failures (0 unexpected)`.

@@ -62,7 +62,8 @@ public struct Proposal: Codable, Equatable, Sendable {
 /// lowercase, collapsed whitespace) and matched on WORD STARTS, never raw substrings.
 ///
 /// ACCEPTED LIMITS: other natural languages, homoglyph letters (e.g. Cyrillic look-alikes) and novel
-/// synonyms ("eliminate", "get rid of") are NOT caught. This is a floor that works alongside the
+/// synonyms ("eliminate", "get rid of") are NOT caught. The send-verb plus data-object rule over-asks on
+/// ordinary internal sends. This is a floor that works alongside the
 /// gate model and the human, not a complete detector.
 public enum ActionClassifier {
     public static func severity(_ c: ActionClass) -> Int {
@@ -88,7 +89,11 @@ public enum ActionClassifier {
     static let sendVerbs = ["upload", "send", "transmit", "post", "email", "mail", "sync", "share", "export",
         "forward", "exfiltrate", "curl"]
     static let sendTargets = ["external", "third-party", "third party", "vendor", "cloud", "remote", "partner",
-        "webhook", "external service", "http:", "https:", "endpoint", "api"]
+        "webhook", "external service", "http:", "https:", "endpoint", "api", "server"]
+    // A sending verb plus a data object is externalSend even with no external target: data leaving the
+    // machine always asks. This over-asks on ordinary internal sends ("send the report" to a teammate).
+    static let dataObjects = ["data", "database", "dataset", "records", "logs", "log files", "files", "backup",
+        "dump", "report", "credentials", "secrets", "customer", "user data", "patient", "personal", "pii"]
     static let sendStandalone = ["webhook", "exfiltrat", "third-party service", "third party service"]
     // editSafetyCheck: protective-check vocabulary, or a weakening verb near a check-like word.
     static let safetyTerms = ["assertion", "tolerance", "permission", "credential", "password", "authenticat",
@@ -147,7 +152,8 @@ public enum ActionClassifier {
         if hasAny(norm, irreversibleTerms) || squeezedHit(toks, irreversibleTerms) { return .irreversible }
         if hasAny(norm, deployTerms) || squeezedHit(toks, deployTerms) { return .deploy }
         if hasAny(norm, sendStandalone) { return .externalSend }
-        if hasAny(norm, sendVerbs) && hasAny(norm, sendTargets) { return .externalSend }
+        let hasVerb = hasAny(norm, sendVerbs) || (hasAny(norm, ["copy"]) && toks.contains("off"))
+        if hasVerb && (hasAny(norm, sendTargets) || hasAny(norm, dataObjects)) { return .externalSend }
         if hasAny(norm, safetyTerms) || toks.contains(where: { safetyWholeWords.contains($0) }) { return .editSafetyCheck }
         if weakeningNearCheck(toks) { return .editSafetyCheck }
         if hasAny(norm, domainTerms) { return .editDomainLogic }
