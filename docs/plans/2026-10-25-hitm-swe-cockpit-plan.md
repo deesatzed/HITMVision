@@ -269,6 +269,8 @@ These depend on Phase 0 answers and will get their own plan once decided: shared
   - `FloorGate.universal` is internal; expose a read-only accessor or route everything through `evaluate` so later code does not re-implement the floor.
   - `evaluate` returns `.noFloor` for unlisted action classes (fail-open for future cases); consider an exhaustive `switch`.
   - The floor only protects if the action is classified correctly: classification must be rule-based or human-confirmed, and the smart gate may only raise a class, never lower it.
+- **UX prototype uses PROTOTYPE SAMPLE DATA (approved by you 2026-10-25):** `HITMCockpit/Sources/CockpitPrototype/` has 11 invented tasks, invented agent-confidence values, invented "Now" agent activity lines, invented plain-English impact/reversibility notes, a sample 0.70 confidence threshold standing in for the smart gate, and a sample "stop asking about unsure routine work" offer (relaxes the sample threshold to 0.60 only; never offered for floor rules). The intent bar logs to the real EventLog and updates the Planner line; no agent runs and no undo exists (the "Reversible" badge describes the action only). It is labeled on screen. It must be removed or replaced once real agents and the real gate exist. Decisions in it do go through the real `FloorGate` and `EventLog`.
+- The prototype is a flat macOS window, not a Vision Pro/spatial UI; spatial layout is untested.
 - D8 (fixture data in tests) is still open; Phase 1 needs none.
 - Specific escalation models for later cost-level task samples are not chosen.
 - Gate behavior and cost of `typesafe/jev-router` are unmeasured; the sensitive-project "metadata only" rule is not built.
