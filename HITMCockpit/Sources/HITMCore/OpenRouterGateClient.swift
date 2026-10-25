@@ -33,22 +33,31 @@ final class NoRedirectDelegate: NSObject, URLSessionTaskDelegate, Sendable {
 }
 
 struct InsecureEndpointError: Error {}
+struct InvalidSchemaError: Error {}
 
-public struct OpenRouterGateClient: Sendable, CustomStringConvertible, CustomDebugStringConvertible, CustomReflectable {
+public struct ChatMessage: Equatable, Sendable {
+    public let role: String
+    public let content: String
+    public init(role: String, content: String) { self.role = role; self.content = content }
+}
+
+/// Generic, hardened OpenRouter chat-completions transport (structured JSON output).
+/// Ephemeral session, 30 s deadline, https only, no redirects; records never hold the key or any body.
+public struct OpenRouterTransport: Sendable, CustomStringConvertible, CustomDebugStringConvertible, CustomReflectable {
     public static let defaultEndpoint = URL(string: "https://openrouter.ai/api/v1/chat/completions")!
 
     private let apiKey: String
-    private let model: String
+    public let model: String
     private let endpoint: URL
     private let session: URLSession
 
-    public init(apiKey: String, model: String, endpoint: URL = OpenRouterGateClient.defaultEndpoint) {
+    public init(apiKey: String, model: String, endpoint: URL = OpenRouterTransport.defaultEndpoint) {
         self.apiKey = apiKey; self.model = model; self.endpoint = endpoint
         self.session = Self.makeSession()
     }
 
     // The key must never appear in print, interpolation or dump.
-    public var description: String { "OpenRouterGateClient(model: \(model))" }
+    public var description: String { "OpenRouterTransport(model: \(model))" }
     public var debugDescription: String { description }
     public var customMirror: Mirror { Mirror(self, children: ["model": model], displayStyle: .struct) }
 
@@ -93,6 +102,105 @@ public struct OpenRouterGateClient: Sendable, CustomStringConvertible, CustomDeb
         return s.isEmpty ? nil : s
     }
 
+    /// `schemaJSON` is a pre-encoded JSON Schema object.
+    static func buildURLRequest(messages: [ChatMessage], schemaName: String, schemaJSON: Data, maxTokens: Int?,
+                                model: String, apiKey: String, endpoint: URL) throws -> URLRequest {
+        guard endpoint.scheme?.lowercased() == "https" else { throw InsecureEndpointError() }
+        guard let schema = try? JSONSerialization.jsonObject(with: schemaJSON), schema is [String: Any]
+        else { throw InvalidSchemaError() }
+        var body: [String: Any] = [
+            "model": model,
+            "messages": messages.map { ["role": $0.role, "content": $0.content] },
+            "response_format": [
+                "type": "json_schema",
+                "json_schema": ["name": schemaName, "strict": true, "schema": schema] as [String: Any],
+            ] as [String: Any],
+        ]
+        if let maxTokens { body["max_tokens"] = maxTokens }
+        var req = URLRequest(url: endpoint)
+        req.httpMethod = "POST"
+        req.timeoutInterval = 30
+        req.setValue("Bearer \(apiKey)", forHTTPHeaderField: "Authorization")
+        req.setValue("application/json", forHTTPHeaderField: "Content-Type")
+        req.httpBody = try JSONSerialization.data(withJSONObject: body, options: [.sortedKeys])
+        return req
+    }
+
+    /// Outcomes: "ok" (content present), "http-error", "invalid-response" (unparseable envelope),
+    /// "empty-choices". Content is nil for every outcome except "ok".
+    static func parseEnvelope(data: Data, statusCode: Int, latencyMs: Int,
+                              requestedModel: String) -> (content: String?, record: CallRecord) {
+        func record(_ outcome: String, used: String? = nil, usage: [String: Any]? = nil) -> CallRecord {
+            CallRecord(requestedModel: requestedModel, usedModel: used, httpStatus: statusCode,
+                       latencyMs: latencyMs,
+                       promptTokens: parseCount(usage?["prompt_tokens"]),
+                       completionTokens: parseCount(usage?["completion_tokens"]),
+                       costUSD: parseCost(usage?["cost"]),
+                       outcome: outcome)
+        }
+        guard statusCode == 200 else { return (nil, record("http-error")) }
+        guard let obj = (try? JSONSerialization.jsonObject(with: data)) as? [String: Any] else {
+            return (nil, record("invalid-response"))
+        }
+        let used = sanitizeModel(obj["model"] as? String)
+        let usage = obj["usage"] as? [String: Any]
+        guard let choices = obj["choices"] as? [[String: Any]], let first = choices.first,
+              let message = first["message"] as? [String: Any],
+              let content = message["content"] as? String, !content.isEmpty else {
+            return (nil, record("empty-choices", used: used, usage: usage))
+        }
+        return (content, record("ok", used: used, usage: usage))
+    }
+
+    public func complete(messages: [ChatMessage], schemaName: String, schemaJSON: Data,
+                         maxTokens: Int?) async -> (content: String?, record: CallRecord) {
+        let start = ContinuousClock.now
+        func ms() -> Int {
+            let d = ContinuousClock.now - start
+            return Int(d.components.seconds * 1000 + d.components.attoseconds / 1_000_000_000_000_000)
+        }
+        func fail(_ outcome: String) -> (content: String?, record: CallRecord) {
+            (nil, CallRecord(requestedModel: model, usedModel: nil, httpStatus: nil,
+                latencyMs: ms(), promptTokens: nil, completionTokens: nil, costUSD: nil, outcome: outcome))
+        }
+        let urlRequest: URLRequest
+        do {
+            urlRequest = try Self.buildURLRequest(messages: messages, schemaName: schemaName, schemaJSON: schemaJSON,
+                                                  maxTokens: maxTokens, model: model, apiKey: apiKey, endpoint: endpoint)
+        } catch { return fail("request-error") }
+        do {
+            let (data, response) = try await session.data(for: urlRequest)
+            let status = (response as? HTTPURLResponse)?.statusCode ?? -1
+            return Self.parseEnvelope(data: data, statusCode: status, latencyMs: ms(), requestedModel: model)
+        } catch {
+            return fail(Self.outcome(for: Task.isCancelled ? CancellationError() : error))  // error text deliberately dropped: it could echo the URL/headers
+        }
+    }
+}
+
+public struct OpenRouterGateClient: Sendable, CustomStringConvertible, CustomDebugStringConvertible, CustomReflectable {
+    public static let defaultEndpoint = OpenRouterTransport.defaultEndpoint
+    /// Small bound: the gate answer is a short JSON object.
+    static let maxTokens = 400
+
+    private let transport: OpenRouterTransport
+    private let model: String
+
+    public init(apiKey: String, model: String, endpoint: URL = OpenRouterGateClient.defaultEndpoint) {
+        self.model = model
+        self.transport = OpenRouterTransport(apiKey: apiKey, model: model, endpoint: endpoint)
+    }
+
+    public var description: String { "OpenRouterGateClient(model: \(model))" }
+    public var debugDescription: String { description }
+    public var customMirror: Mirror { Mirror(self, children: ["model": model], displayStyle: .struct) }
+
+    static func makeSession() -> URLSession { OpenRouterTransport.makeSession() }
+    static func outcome(for error: Error) -> String { OpenRouterTransport.outcome(for: error) }
+    static func parseCount(_ v: Any?) -> Int? { OpenRouterTransport.parseCount(v) }
+    static func parseCost(_ v: Any?) -> Double? { OpenRouterTransport.parseCost(v) }
+    static func sanitizeModel(_ raw: String?) -> String? { OpenRouterTransport.sanitizeModel(raw) }
+
     /// nil when OPENROUTER_API_KEY is missing or blank. The key is never printed.
     public static func fromEnvironment(model: String) -> OpenRouterGateClient? {
         fromEnvironment(model: model, environment: ProcessInfo.processInfo.environment)
@@ -104,17 +212,22 @@ public struct OpenRouterGateClient: Sendable, CustomStringConvertible, CustomDeb
         return OpenRouterGateClient(apiKey: key.trimmingCharacters(in: .whitespacesAndNewlines), model: model)
     }
 
+    /// Same environment key lookup, for building the generic transport (e.g. for the Planner).
+    public static func transportFromEnvironment(model: String) -> OpenRouterTransport? {
+        guard let key = ProcessInfo.processInfo.environment["OPENROUTER_API_KEY"],
+              !key.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty else { return nil }
+        return OpenRouterTransport(apiKey: key.trimmingCharacters(in: .whitespacesAndNewlines), model: model)
+    }
+
     static let systemPrompt = """
         You are a risk gate for a software-engineering agent. You are given JSON request metadata \
         describing an action the agent wants to take. Answer ONLY with JSON matching the supplied schema. \
         Ask for a human whenever you are unsure. Never lower safety.
         """
 
-    static func buildURLRequest(for request: GateRequest, model: String, apiKey: String,
-                                endpoint: URL) throws -> URLRequest {
-        guard endpoint.scheme?.lowercased() == "https" else { throw InsecureEndpointError() }
-        let requestJSON = try JSONEncoder().encode(request)
-        let userContent = String(decoding: requestJSON, as: UTF8.self)
+    static let schemaName = "gate_response"
+
+    static func schemaJSON() -> Data {
         let schema: [String: Any] = [
             "type": "object",
             "properties": [
@@ -127,75 +240,53 @@ public struct OpenRouterGateClient: Sendable, CustomStringConvertible, CustomDeb
             "required": ["route", "needsHuman", "detailLevel", "confidence", "reason"],
             "additionalProperties": false,
         ]
-        let body: [String: Any] = [
-            "model": model,
-            "messages": [
-                ["role": "system", "content": systemPrompt],
-                ["role": "user", "content": userContent],
-            ],
-            "response_format": [
-                "type": "json_schema",
-                "json_schema": ["name": "gate_response", "strict": true, "schema": schema] as [String: Any],
-            ] as [String: Any],
-        ]
-        var req = URLRequest(url: endpoint)
-        req.httpMethod = "POST"
-        req.timeoutInterval = 30
-        req.setValue("Bearer \(apiKey)", forHTTPHeaderField: "Authorization")
-        req.setValue("application/json", forHTTPHeaderField: "Content-Type")
-        req.httpBody = try JSONSerialization.data(withJSONObject: body, options: [.sortedKeys])
-        return req
+        return (try? JSONSerialization.data(withJSONObject: schema, options: [.sortedKeys])) ?? Data()
+    }
+
+    static func buildURLRequest(for request: GateRequest, model: String, apiKey: String,
+                                endpoint: URL) throws -> URLRequest {
+        let requestJSON = try JSONEncoder().encode(request)
+        let userContent = String(decoding: requestJSON, as: UTF8.self)
+        return try OpenRouterTransport.buildURLRequest(
+            messages: [ChatMessage(role: "system", content: systemPrompt),
+                       ChatMessage(role: "user", content: userContent)],
+            schemaName: schemaName, schemaJSON: schemaJSON(), maxTokens: maxTokens,
+            model: model, apiKey: apiKey, endpoint: endpoint)
     }
 
     /// Outcome "invalid-response" covers both an unparseable envelope and gate content that fails
     /// strict decoding (malformed or out of range); the failure kind distinguishes them.
     static func parseEnvelope(data: Data, statusCode: Int, latencyMs: Int,
                               requestedModel: String) -> (Result<GateResponse, GateError>, CallRecord) {
-        func record(_ outcome: String, used: String? = nil, usage: [String: Any]? = nil) -> CallRecord {
-            CallRecord(requestedModel: requestedModel, usedModel: used, httpStatus: statusCode,
-                       latencyMs: latencyMs,
-                       promptTokens: parseCount(usage?["prompt_tokens"]),
-                       completionTokens: parseCount(usage?["completion_tokens"]),
-                       costUSD: parseCost(usage?["cost"]),
-                       outcome: outcome)
-        }
-        guard statusCode == 200 else { return (.failure(.unavailable), record("http-error")) }
-        guard let obj = (try? JSONSerialization.jsonObject(with: data)) as? [String: Any] else {
-            return (.failure(.malformed), record("invalid-response"))
-        }
-        let used = sanitizeModel(obj["model"] as? String)
-        let usage = obj["usage"] as? [String: Any]
-        guard let choices = obj["choices"] as? [[String: Any]], let first = choices.first,
-              let message = first["message"] as? [String: Any],
-              let content = message["content"] as? String, !content.isEmpty else {
-            return (.failure(.unavailable), record("empty-choices", used: used, usage: usage))
+        let (content, rec) = OpenRouterTransport.parseEnvelope(data: data, statusCode: statusCode,
+                                                               latencyMs: latencyMs, requestedModel: requestedModel)
+        return interpret(content: content, record: rec)
+    }
+
+    static func interpret(content: String?, record rec: CallRecord) -> (Result<GateResponse, GateError>, CallRecord) {
+        guard let content else {
+            return (.failure(rec.outcome == "invalid-response" ? .malformed : .unavailable), rec)
         }
         let result = GateResponse.decodeStrict(Data(content.utf8))
         switch result {
-        case .success: return (result, record("ok", used: used, usage: usage))
-        case .failure: return (result, record("invalid-response", used: used, usage: usage))
+        case .success: return (result, rec)
+        case .failure:
+            return (result, CallRecord(requestedModel: rec.requestedModel, usedModel: rec.usedModel,
+                httpStatus: rec.httpStatus, latencyMs: rec.latencyMs, promptTokens: rec.promptTokens,
+                completionTokens: rec.completionTokens, costUSD: rec.costUSD, outcome: "invalid-response"))
         }
     }
 
     public func assess(_ request: GateRequest) async -> (Result<GateResponse, GateError>, CallRecord) {
-        let start = ContinuousClock.now
-        func ms() -> Int {
-            let d = ContinuousClock.now - start
-            return Int(d.components.seconds * 1000 + d.components.attoseconds / 1_000_000_000_000_000)
+        guard let encoded = try? JSONEncoder().encode(request) else {
+            return (.failure(.unavailable), CallRecord(requestedModel: model, usedModel: nil, httpStatus: nil,
+                latencyMs: 0, promptTokens: nil, completionTokens: nil, costUSD: nil, outcome: "request-error"))
         }
-        func fail(_ outcome: String) -> (Result<GateResponse, GateError>, CallRecord) {
-            (.failure(.unavailable), CallRecord(requestedModel: model, usedModel: nil, httpStatus: nil,
-                latencyMs: ms(), promptTokens: nil, completionTokens: nil, costUSD: nil, outcome: outcome))
-        }
-        let urlRequest: URLRequest
-        do { urlRequest = try Self.buildURLRequest(for: request, model: model, apiKey: apiKey, endpoint: endpoint) }
-        catch { return fail("request-error") }
-        do {
-            let (data, response) = try await session.data(for: urlRequest)
-            let status = (response as? HTTPURLResponse)?.statusCode ?? -1
-            return Self.parseEnvelope(data: data, statusCode: status, latencyMs: ms(), requestedModel: model)
-        } catch {
-            return fail(Self.outcome(for: Task.isCancelled ? CancellationError() : error))  // error text deliberately dropped: it could echo the URL/headers
-        }
+        let userContent = String(decoding: encoded, as: UTF8.self)
+        let (content, rec) = await transport.complete(
+            messages: [ChatMessage(role: "system", content: Self.systemPrompt),
+                       ChatMessage(role: "user", content: userContent)],
+            schemaName: Self.schemaName, schemaJSON: Self.schemaJSON(), maxTokens: Self.maxTokens)
+        return Self.interpret(content: content, record: rec)
     }
 }

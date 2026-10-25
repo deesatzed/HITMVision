@@ -118,3 +118,28 @@ final class OpenRouterGateClientHardeningTests: XCTestCase {
         XCTAssertNil(result)
     }
 }
+
+final class TransportMaxTokensTests: XCTestCase {
+    func testGateRequestCarriesMaxTokens() throws {
+        let r = GateRequest.make(actionClass: .routine, profileName: "light", filePaths: [], changeSize: 1,
+                                 agentConfidence: 0.5, overrideHistory: "", summary: "s", profileSensitive: false)
+        let req = try OpenRouterGateClient.buildURLRequest(for: r, model: "m", apiKey: "k", endpoint: URL(string: "https://example.invalid/x")!)
+        let obj = try JSONSerialization.jsonObject(with: req.httpBody!) as! [String: Any]
+        XCTAssertEqual(obj["max_tokens"] as? Int, 400)
+    }
+
+    func testTransportOmitsMaxTokensWhenNil() throws {
+        let req = try OpenRouterTransport.buildURLRequest(messages: [ChatMessage(role: "user", content: "hi")],
+            schemaName: "s", schemaJSON: Data("{\"type\":\"object\"}".utf8), maxTokens: nil, model: "m", apiKey: "k",
+            endpoint: URL(string: "https://example.invalid/x")!)
+        let obj = try JSONSerialization.jsonObject(with: req.httpBody!) as! [String: Any]
+        XCTAssertNil(obj["max_tokens"])
+    }
+
+    func testTransportRejectsBadSchemaAsRequestError() async {
+        let t = OpenRouterTransport(apiKey: "k", model: "m", endpoint: URL(string: "https://example.invalid/x")!)
+        let (c, rec) = await t.complete(messages: [], schemaName: "s", schemaJSON: Data("nope".utf8), maxTokens: nil)
+        XCTAssertNil(c)
+        XCTAssertEqual(rec.outcome, "request-error")
+    }
+}

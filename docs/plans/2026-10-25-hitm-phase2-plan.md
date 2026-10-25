@@ -42,6 +42,8 @@ Needs a short design note and your decisions before code: storage format (local 
 
 ## Step 6 — Vision Pro cockpit (design first)
 
+**Decided 2026-10-25: a bounded volume** (your choice; my recommendation had been windows first). Conditions carried from the design doc, not yet met: the flat cockpit stays fully functional and shares the same state; the spatial layout must be shown to help (compare against the flat version on the same tasks, with measured results, before any claim); no moving cards, no unreadable 3D text. Still needed first: an Xcode visionOS app project (none exists), the layout design (which information gets which stable place in the volume), and a Simulator validation plan.
+
 Needs an Xcode visionOS app target (none exists in `HITMCockpit/`), a decision on windows vs a bounded volume, and a flat/spatial parity test plan, per the design doc. Tasks after that: app target, move the card views, spatial landmarks only where they prove useful, Simulator validation with real captures and exact versions recorded in `BUILD_NOTES.md`.
 
 ## Cautions carried into step 3 (from step 2 reviews)
