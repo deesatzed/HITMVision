@@ -8,6 +8,8 @@ public struct Event: Codable, Equatable, Sendable {
     public let author: String
 }
 
+public enum EventLogError: Error, Equatable, Sendable { case foreignEvent }
+
 public struct EventLog: Sendable {
     public let sessionID: UUID
     public private(set) var events: [Event] = []
@@ -24,7 +26,10 @@ public struct EventLog: Sendable {
 
     /// Deletion is a recorded correction; the original event stays in the log.
     @discardableResult
-    public mutating func correct(_ target: Event, reason: String, author: String) -> Event {
-        append(kind: "correction", payload: "rev \(target.revision): \(reason)", author: author)
+    public mutating func correct(_ target: Event, reason: String, author: String) throws -> Event {
+        guard target.sessionID == sessionID,
+              target.revision >= 1, target.revision <= events.count,
+              events[target.revision - 1] == target else { throw EventLogError.foreignEvent }
+        return append(kind: "correction", payload: "rev \(target.revision): \(reason)", author: author)
     }
 }

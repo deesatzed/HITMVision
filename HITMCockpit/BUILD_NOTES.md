@@ -41,3 +41,13 @@ Task 2 review fixes (unsure profile must be a superset, stronger tests):
 
 Command: cd HITMCockpit && xcodebuild -scheme HITMCockpit -destination "generic/platform=visionOS Simulator" build
 Result: ** BUILD SUCCEEDED ** (library build only; tests were run on macOS via swift test: 13 tests, 0 failures; tests not run on the visionOS Simulator; no app or cockpit exists yet).
+
+## Phase 2 Step 2 (safety notes), 2026-10-25
+
+Commands: `cd HITMCockpit && swift test`, `swift build` (whole package incl. CockpitPrototype).
+- 2.1 red: `swift test` -> compile error "cannot find type 'EventLogError' in scope" (2 sites; no tests ran). Added EventLogError + throwing, validating `correct`; existing tests updated to `try`. Green: `Executed 15 tests, with 0 failures (0 unexpected)`.
+- 2.2 + 2.3 red (written together, one run): "type 'RiskProfile' has no member 'decodeOrStrict'" (2 sites) and "type 'FloorGate' has no member 'universalFloor'" (compile errors; no tests ran).
+- 2.2 implemented first: `Executed 7 ... 9 ... 4` per class (RiskProfile tests included) but FloorGateTests still failed to compile on `universalFloor` (red for 2.3).
+- 2.3 implemented (exhaustive switch, no default, public universalFloor). Final `swift test`: Executed 20 tests, with 0 failures (0 unexpected)
+- `swift build` (whole package): Build complete! No CockpitPrototype changes needed.
+- Review follow-up: added testUniversalFloorMatchesEvaluateForEveryClass (universalFloor membership == evaluate(.light) is humanRequired with "Universal" reason, over allCases). Passes on correct code; temporary mutation (externalSend removed from universalFloor) made it fail ("false" is not equal to "true" - externalSend); mutation reverted. Final `swift test`: Executed 21 tests, with 0 failures (0 unexpected)

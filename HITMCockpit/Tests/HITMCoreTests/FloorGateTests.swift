@@ -88,4 +88,18 @@ final class FloorGateTests: XCTestCase {
         }
         XCTAssertTrue(expected.isSubset(of: seen), "missing human-required: \(expected.subtracting(seen))")
     }
+
+    func testUniversalFloorIsTheThreeIrreversibleClasses() {
+        XCTAssertEqual(FloorGate.universalFloor, [.irreversible, .deploy, .externalSend])
+    }
+
+    func testUniversalFloorMatchesEvaluateForEveryClass() {
+        for action in ActionClass.allCases {
+            var evaluatedUniversal = false
+            if case .humanRequired(let reason) = FloorGate.evaluate(action, profile: .light) {
+                evaluatedUniversal = reason.hasPrefix("Universal")
+            }
+            XCTAssertEqual(FloorGate.universalFloor.contains(action), evaluatedUniversal, "\(action)")
+        }
+    }
 }
