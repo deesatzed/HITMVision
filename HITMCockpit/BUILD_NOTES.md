@@ -108,3 +108,12 @@ Same command and same six invented requests. `swift test`: 71 tests, 0 failures.
 Measured: 6/6 HTTP 200, 0 failures; total latency 15620 ms (1203 to 5537 ms per call); total reported cost 0.0082203 USD.
 - Underlying models this run: openai/gpt-6.1-sol, google/gemini-3.8-flash, z-ai/glm-5.3-flash (x2), anthropic/claude-opus-5.5 (the costliest call, 0.005021 USD), deepseek/deepseek-v4.1-flash-1017. Different mix from run 1.
 - Gate answers changed between runs for the same input: sample #1 (routine README typo) was route=escalate_model/needsHuman=true in run 1 and route=proceed/needsHuman=false in run 2 (final needsHuman 5 of 6 in run 2, 6 of 6 in run 1). Gate output is not stable run to run.
+
+## Live gate check on the chosen fixed model (controller, 2026-10-25) — INVENTED SAMPLE DATA only
+
+Model chosen by you: anthropic/claude-haiku-5.5. Command: `GateLiveCheck anthropic/claude-haiku-5.5`, run 3 times (18 calls), same six invented requests.
+Measured: 18/18 HTTP 200, 0 failures; every call reported `used=anthropic/claude-haiku-5.5` (the OpenRouter model name; the hosting provider behind it is not visible in the record and is unverified).
+- Latency per call 1371 to 3072 ms; run totals 11615, 12260, 11180 ms.
+- Reported cost per run 0.000692, 0.000819, 0.000711 USD (6 calls each).
+- Final needsHuman per run: 5, 5, 4 of 6. Stability: sample #1 (routine typo) proceeded 3/3; sample #2 (routine, agent confidence 0.62) asked a human 2/3 and proceeded 1/3; samples #3-#6 asked a human 3/3 (floor already required it for #3-#5; #6 sensitive).
+- Sample summaries still carry the word "INVENTED"; not re-run with neutral wording.
