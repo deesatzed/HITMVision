@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		559C08B9B12E2109A7FBC340 /* HITMCockpitVisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F26EBE29ACE239880AD529 /* HITMCockpitVisionApp.swift */; };
+		7DB69DABB48F73E9E594CA43 /* CockpitUI in Frameworks */ = {isa = PBXBuildFile; productRef = 4926A0E665A0D7A9457DE63B /* CockpitUI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07F26EBE29ACE239880AD529 /* HITMCockpitVisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HITMCockpitVisionApp.swift; sourceTree = "<group>"; };
+		A67A9972476AB951DB99EF90 /* HITMCockpitVision.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = HITMCockpitVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6EB92D9CCEE0B1549F56501 /* HITMCockpit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = HITMCockpit; path = ../HITMCockpit; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD0EFBA719B453106D42A8AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB69DABB48F73E9E594CA43 /* CockpitUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CB91EC7E002917993214F19 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				07F26EBE29ACE239880AD529 /* HITMCockpitVisionApp.swift */,
+			);
+			name = Sources;
+			path = HITMVision/Sources;
+			sourceTree = "<group>";
+		};
+		7D8BEAE7C0FD600EC02C1559 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A67A9972476AB951DB99EF90 /* HITMCockpitVision.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		915408C60DE1E753E6F074CC = {
+			isa = PBXGroup;
+			children = (
+				A1134DE27ECCB13E7F517903 /* Packages */,
+				1CB91EC7E002917993214F19 /* Sources */,
+				7D8BEAE7C0FD600EC02C1559 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1134DE27ECCB13E7F517903 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				A6EB92D9CCEE0B1549F56501 /* HITMCockpit */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A602084FE98DFEB1C71C9019 /* HITMCockpitVision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71D53685622530E4708A8760 /* Build configuration list for PBXNativeTarget "HITMCockpitVision" */;
+			buildPhases = (
+				D9C00AB5B0A0D87A5C3A7BAE /* Sources */,
+				BD0EFBA719B453106D42A8AC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HITMCockpitVision;
+			packageProductDependencies = (
+				4926A0E665A0D7A9457DE63B /* CockpitUI */,
+			);
+			productName = HITMCockpitVision;
+			productReference = A67A9972476AB951DB99EF90 /* HITMCockpitVision.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62B9991376FE0F3D24C88F37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 5A4638B1AF52186D6D6A3AB7 /* Build configuration list for PBXProject "HITMCockpitVision" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 915408C60DE1E753E6F074CC;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				BB75BC7AE8A1AA4D9B254A95 /* XCLocalSwiftPackageReference "../HITMCockpit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7D8BEAE7C0FD600EC02C1559 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A602084FE98DFEB1C71C9019 /* HITMCockpitVision */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9C00AB5B0A0D87A5C3A7BAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559C08B9B12E2109A7FBC340 /* HITMCockpitVisionApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B289C8C9FAFAAEDA0BE0B348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		C80613EF34A4524B4B38E400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		EBB29C9F61E9D125B3CCC27D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HITMVision/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "HITM Cockpit";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = local.hitm.cockpit;
+				SDKROOT = xros;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		FB51AEDD94C31A1F5C82B20A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HITMVision/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "HITM Cockpit";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = local.hitm.cockpit;
+				SDKROOT = xros;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A4638B1AF52186D6D6A3AB7 /* Build configuration list for PBXProject "HITMCockpitVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B289C8C9FAFAAEDA0BE0B348 /* Debug */,
+				C80613EF34A4524B4B38E400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		71D53685622530E4708A8760 /* Build configuration list for PBXNativeTarget "HITMCockpitVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB29C9F61E9D125B3CCC27D /* Debug */,
+				FB51AEDD94C31A1F5C82B20A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		BB75BC7AE8A1AA4D9B254A95 /* XCLocalSwiftPackageReference "../HITMCockpit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../HITMCockpit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4926A0E665A0D7A9457DE63B /* CockpitUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CockpitUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 62B9991376FE0F3D24C88F37 /* Project object */;
+}

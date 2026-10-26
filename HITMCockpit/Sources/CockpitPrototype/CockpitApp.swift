@@ -1,4 +1,5 @@
 import SwiftUI
+import CockpitUI
 #if os(macOS)
 import AppKit
 #endif
@@ -14,7 +15,7 @@ struct CockpitApp: App {
 
     var body: some Scene {
         WindowGroup("HITM Cockpit prototype") {
-            ContentView().frame(minWidth: 1100, minHeight: 700)
+            FlatCockpitView().frame(minWidth: 1100, minHeight: 700)
         }
     }
 }

@@ -4,26 +4,26 @@ import HITMCore
 // PROTOTYPE SAMPLE DATA: every task, confidence value, activity line and note below is invented for UX feedback.
 // The FloorGate and EventLog it flows through are the real HITMCore ones.
 
-struct SampleTask: Identifiable {
-    let id: String
-    let title: String
-    let summary: String
-    let role: String
-    let action: ActionClass
-    let confidence: Double
-    let plain: String          // plain-English "what changes for you"
-    let reversible: Bool       // describes the action, not a built undo feature
-    let evidence: [String]
-    let ruleNotes: [String]
-    let detail: String
+public struct SampleTask: Identifiable {
+    public let id: String
+    public let title: String
+    public let summary: String
+    public let role: String
+    public let action: ActionClass
+    public let confidence: Double
+    public let plain: String          // plain-English "what changes for you"
+    public let reversible: Bool       // describes the action, not a built undo feature
+    public let evidence: [String]
+    public let ruleNotes: [String]
+    public let detail: String
 }
 
 /// Sample threshold for the stand-in smart layer; not a tuned or measured value.
-let sampleConfidenceThreshold = 0.70
+public let sampleConfidenceThreshold = 0.70
 /// Sample threshold applied if the user accepts the "stop asking about unsure routine work" offer.
-let relaxedConfidenceThreshold = 0.60
+public let relaxedConfidenceThreshold = 0.60
 
-let sampleTasks: [SampleTask] = [
+public let sampleTasks: [SampleTask] = [
     SampleTask(id: "T1", title: "Fix typo in README", summary: "One-word spelling fix in the setup section.",
                role: "Implementer", action: .routine, confidence: 0.96,
                plain: "One word changes in the docs. Nothing else is touched.", reversible: true,

@@ -165,3 +165,11 @@ Commands: `cd HITMCockpit && swift build`, `swift test`.
 - Changed in existing tests: `MindPolicy.approve(...)` calls gained `entryID:`; `Approval(...)` forged in the test gained `entryID:`; testApprovalRules reordered so entries exist before approvals are made.
 - Final: `Executed 154 tests, with 0 failures (0 unexpected)` (150 + 4 new).
 - Still NOT implemented / known gaps: conflict detection; retention/expiry policy; multi-process locking; index rebuild from the log; fsync; recovery for a torn or lost accept/propose log event (the entry stays statusMismatch / noLogEvent and only expire/correct can clear it; commented in MindStore.swift).
+
+## Step 6: shared UI + visionOS app with a bounded volume, 2026-10-25
+- Red (tests first): `swift build --target CockpitUITests` -> "extra argument 'source' in call" and "cannot find 'IntentSource' in scope" (CockpitUI existed with the moved store, but no intent source seam).
+- Done: new library `CockpitUI` (Store, SampleData, Support, TopRail, AgentsPanel, Shelves [QuietShelf, DecidedPanel, LogTail], NeedsYouPanel [+ OfferPanel], Layouts [FlatCockpitView, VolumeCockpitView]); `CockpitPrototype` is now only the @main App; `IntentSource` + `submitIntent(_:source:)` logs "<source>: <text>"; tags carry SF Symbols (Gate.icon).
+- `swift build`: Build complete. `swift test`: HITMCoreTests `Executed 154 tests, with 0 failures (0 unexpected)`; CockpitUITests `Executed 8 tests, with 0 failures (0 unexpected)` (SwiftPM prints the two bundles separately; 162 total).
+- `cd HITMVision && xcodegen generate --spec project.yml` -> Created project HITMCockpitVision.xcodeproj.
+- `xcodebuild -project HITMCockpitVision.xcodeproj -scheme HITMCockpitVision -destination 'generic/platform=visionOS Simulator' build` -> `** BUILD SUCCEEDED **`.
+- NOT verified: launch, appearance, readability, volume sizing/z-offset look, openWindow behavior (no Simulator run). Bundle id local.hitm.cockpit is a placeholder.

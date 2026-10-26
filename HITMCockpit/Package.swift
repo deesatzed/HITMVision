@@ -5,11 +5,15 @@ import PackageDescription
 let package = Package(
     name: "HITMCockpit",
     platforms: [.macOS(.v13), .visionOS(.v2)],
-    products: [.library(name: "HITMCore", targets: ["HITMCore"])],
+    products: [.library(name: "HITMCore", targets: ["HITMCore"]),
+               .library(name: "CockpitUI", targets: ["CockpitUI"])],
     targets: [
         .target(name: "HITMCore"),
-        // UX prototype: PROTOTYPE SAMPLE DATA, flat desktop UI. Remove or replace once real agents exist.
-        .executableTarget(name: "CockpitPrototype", dependencies: ["HITMCore"],
+        // Shared cockpit store, sample data and panels (macOS + visionOS). PROTOTYPE SAMPLE DATA.
+        .target(name: "CockpitUI", dependencies: ["HITMCore"],
+                swiftSettings: [.swiftLanguageMode(.v5)]),
+        // Thin macOS executable: PROTOTYPE SAMPLE DATA. Remove or replace once real agents exist.
+        .executableTarget(name: "CockpitPrototype", dependencies: ["CockpitUI"],
                           swiftSettings: [.swiftLanguageMode(.v5)]),
         // Live check of the OpenRouter gate: sends INVENTED samples only. Run manually.
         .executableTarget(name: "GateLiveCheck", dependencies: ["HITMCore"],
@@ -17,6 +21,8 @@ let package = Package(
         // Live check of Planner + gate: the intent text is sent to the planner model. Run manually.
         .executableTarget(name: "PlannerLiveCheck", dependencies: ["HITMCore"],
                           swiftSettings: [.swiftLanguageMode(.v5)]),
-        .testTarget(name: "HITMCoreTests", dependencies: ["HITMCore"])
+        .testTarget(name: "HITMCoreTests", dependencies: ["HITMCore"]),
+        .testTarget(name: "CockpitUITests", dependencies: ["CockpitUI", "HITMCore"],
+                    swiftSettings: [.swiftLanguageMode(.v5)])
     ]
 )

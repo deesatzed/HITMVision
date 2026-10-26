@@ -2,17 +2,17 @@ import Foundation
 import HITMCore
 import SwiftUI
 
-enum ProfileChoice: String, CaseIterable, Identifiable {
+public enum ProfileChoice: String, CaseIterable, Identifiable {
     case light = "Light", strict = "Strict", unsure = "Unsure"
-    var id: String { rawValue }
-    var profile: RiskProfile {
+    public var id: String { rawValue }
+    public var profile: RiskProfile {
         switch self {
         case .light: return .light
         case .strict: return .strict
         case .unsure: return RiskProfile(name: "unsure", extraHumanRequired: [], unsure: true)
         }
     }
-    var blurb: String {
+    public var blurb: String {
         switch self {
         case .light: return "Toy or throwaway project: only the always-ask list interrupts you."
         case .strict: return "Safety-sensitive project: core-logic and safety-check edits also reach you."
@@ -22,36 +22,42 @@ enum ProfileChoice: String, CaseIterable, Identifiable {
 }
 
 /// What the gate says for one task under the current profile (floor from HITMCore, smart layer is a sample stand-in).
-struct Gate {
-    let needsHuman: Bool
-    let fromFloor: Bool
-    let detailLevel: Int      // 0 one line, 2 evidence open, 3 rules open too
-    let reason: String        // technical reason, shown in the Rules layer
-    let tag: String           // short plain label on the card
-    let plainReason: String   // plain-English why it reached you
+public struct Gate {
+    public let needsHuman: Bool
+    public let fromFloor: Bool
+    public let detailLevel: Int      // 0 one line, 2 evidence open, 3 rules open too
+    public let reason: String        // technical reason, shown in the Rules layer
+    public let tag: String           // short plain label on the card
+    public let plainReason: String   // plain-English why it reached you
+    public let icon: String          // SF Symbol so urgency never rests on color alone
 }
 
-enum Resolution { case passed, modified(String), rejected }
+/// Where an intent came from. Only `.typed` is produced today; `.voice` is the seam for a later voice input (no speech code exists).
+public enum IntentSource: String { case typed, voice }
 
-struct AgentLine: Identifiable {
-    let id: String            // role
-    let text: String
-    let state: State
-    enum State { case working, waiting, idle }
+public enum Resolution { case passed, modified(String), rejected }
+
+public struct AgentLine: Identifiable {
+    public let id: String            // role
+    public let text: String
+    public let state: State
+    public enum State { case working, waiting, idle }
 }
 
 @MainActor
-final class CockpitStore: ObservableObject {
-    @Published var choice: ProfileChoice = .light
-    @Published private(set) var resolutions: [String: Resolution] = [:]
-    @Published private(set) var log = EventLog()
-    @Published private(set) var threshold = sampleConfidenceThreshold
-    @Published private(set) var lastIntent: String?
-    @Published private(set) var requests: [String] = []
-    @Published private(set) var smartPasses = 0
-    @Published private(set) var offerHandled = false
+public final class CockpitStore: ObservableObject {
+    public init() {}
 
-    func gate(for task: SampleTask) -> Gate {
+    @Published public var choice: ProfileChoice = .light
+    @Published public private(set) var resolutions: [String: Resolution] = [:]
+    @Published public private(set) var log = EventLog()
+    @Published public private(set) var threshold = sampleConfidenceThreshold
+    @Published public private(set) var lastIntent: String?
+    @Published public private(set) var requests: [String] = []
+    @Published public private(set) var smartPasses = 0
+    @Published public private(set) var offerHandled = false
+
+    public func gate(for task: SampleTask) -> Gate {
         let floor = FloorGate.evaluate(task.action, profile: choice.profile)
         let smart = task.confidence < threshold
         let needs = FloorGate.needsHuman(floor: floor, smartNeedsHuman: smart)
@@ -67,32 +73,34 @@ final class CockpitStore: ObservableObject {
             case .routine: plain = "Your project settings ask you about this."
             }
             return Gate(needsHuman: true, fromFloor: true, detailLevel: 3, reason: reason,
-                        tag: universal ? "ALWAYS ASKS" : "PROJECT RULE", plainReason: plain)
+                        tag: universal ? "ALWAYS ASKS" : "PROJECT RULE", plainReason: plain,
+                        icon: universal ? "exclamationmark.octagon.fill" : "lock.shield.fill")
         }
         if smart {
             return Gate(needsHuman: needs, fromFloor: false, detailLevel: 2,
                         reason: String(format: "Gate: agent confidence %.2f is under %.2f (sample threshold)", task.confidence, threshold),
                         tag: "AGENT UNSURE",
-                        plainReason: String(format: "The agent is only %.0f%% sure, so it's asking.", task.confidence * 100))
+                        plainReason: String(format: "The agent is only %.0f%% sure, so it's asking.", task.confidence * 100),
+                        icon: "questionmark.circle.fill")
         }
         return Gate(needsHuman: false, fromFloor: false, detailLevel: 0, reason: "Within profile; proceeding quietly",
-                    tag: "QUIET", plainReason: "Within your project's rules.")
+                    tag: "QUIET", plainReason: "Within your project's rules.", icon: "checkmark.circle")
     }
 
     /// Everything waiting for the human, floor-rule items first, otherwise in task order.
-    var waiting: [SampleTask] {
+    public var waiting: [SampleTask] {
         let pending = sampleTasks.enumerated().filter { gate(for: $0.element).needsHuman && resolutions[$0.element.id] == nil }
         return pending.sorted { a, b in
             let fa = gate(for: a.element).fromFloor, fb = gate(for: b.element).fromFloor
             return fa != fb ? fa : a.offset < b.offset
         }.map { $0.element }
     }
-    var quiet: [SampleTask] { sampleTasks.filter { !gate(for: $0).needsHuman } }
-    var decided: [SampleTask] { sampleTasks.filter { resolutions[$0.id] != nil } }
-    var interruptionCount: Int { sampleTasks.filter { gate(for: $0).needsHuman }.count }
+    public var quiet: [SampleTask] { sampleTasks.filter { !gate(for: $0).needsHuman } }
+    public var decided: [SampleTask] { sampleTasks.filter { resolutions[$0.id] != nil } }
+    public var interruptionCount: Int { sampleTasks.filter { gate(for: $0).needsHuman }.count }
 
     /// One line per agent role. PROTOTYPE SAMPLE ACTIVITY derived from the sample tasks.
-    var agentLines: [AgentLine] {
+    public var agentLines: [AgentLine] {
         ["Planner", "Implementer", "Reviewer"].map { role in
             if role == "Planner", let i = lastIntent {
                 let blocked = waiting.filter { $0.role == role }.count
@@ -108,9 +116,9 @@ final class CockpitStore: ObservableObject {
         }
     }
 
-    var showOffer: Bool { smartPasses >= 2 && !offerHandled }
+    public var showOffer: Bool { smartPasses >= 2 && !offerHandled }
 
-    func resolve(_ task: SampleTask, _ r: Resolution) {
+    public func resolve(_ task: SampleTask, _ r: Resolution) {
         let g = gate(for: task)
         resolutions[task.id] = r
         switch r {
@@ -122,16 +130,16 @@ final class CockpitStore: ObservableObject {
         }
     }
 
-    func submitIntent(_ text: String) {
+    public func submitIntent(_ text: String, source: IntentSource = .typed) {
         let t = text.trimmingCharacters(in: .whitespacesAndNewlines)
         guard !t.isEmpty else { return }
         lastIntent = t
         requests.append(t)
-        log.append(kind: "intent", payload: t, author: "human")
+        log.append(kind: "intent", payload: "\(source.rawValue): \(t)", author: "human")
     }
 
     /// Floor rules are never offered for relaxing; only the agent-unsure threshold is.
-    func answerOffer(accept: Bool) {
+    public func answerOffer(accept: Bool) {
         offerHandled = true
         if accept {
             threshold = relaxedConfidenceThreshold
@@ -141,13 +149,13 @@ final class CockpitStore: ObservableObject {
         }
     }
 
-    func setProfile(_ c: ProfileChoice) {
+    public func setProfile(_ c: ProfileChoice) {
         guard c != choice else { return }
         choice = c
         log.append(kind: "profile", payload: "profile set to \(c.rawValue)", author: "human")
     }
 
-    func reset() {
+    public func reset() {
         resolutions = [:]
         log = EventLog()
         choice = .light
@@ -158,7 +166,7 @@ final class CockpitStore: ObservableObject {
         offerHandled = false
     }
 
-    func label(_ r: Resolution) -> String {
+    public func label(_ r: Resolution) -> String {
         switch r {
         case .passed: return "Passed"
         case .modified: return "Modified"

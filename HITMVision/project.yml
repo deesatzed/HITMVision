@@ -1,0 +1,36 @@
+name: HITMCockpitVision
+options:
+  bundleIdPrefix: local.hitm
+  deploymentTarget:
+    visionOS: "2.0"
+packages:
+  HITMCockpit:
+    path: ../HITMCockpit
+targets:
+  HITMCockpitVision:
+    type: application
+    platform: visionOS
+    deploymentTarget: "2.0"
+    sources:
+      - path: HITMVision/Sources
+    dependencies:
+      - package: HITMCockpit
+        product: CockpitUI
+    info:
+      path: HITMVision/Info.plist
+      properties:
+        CFBundleDisplayName: HITM Cockpit
+        UIApplicationSceneManifest:
+          UIApplicationPreferredDefaultSceneSessionRole: UIWindowSceneSessionRoleApplication
+          UIApplicationSupportsMultipleScenes: true
+    settings:
+      base:
+        # PLACEHOLDER bundle id: local only, not registered with any team.
+        PRODUCT_BUNDLE_IDENTIFIER: local.hitm.cockpit
+        SWIFT_VERSION: "5.0"
+        CODE_SIGNING_ALLOWED: "NO"
+        CODE_SIGNING_REQUIRED: "NO"
+        GENERATE_INFOPLIST_FILE: "YES"
+        INFOPLIST_KEY_CFBundleDisplayName: HITM Cockpit
+        TARGETED_DEVICE_FAMILY: "7"
+        SDKROOT: xros
