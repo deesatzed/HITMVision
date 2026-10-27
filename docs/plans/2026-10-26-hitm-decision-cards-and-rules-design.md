@@ -37,6 +37,19 @@ Intuitive and informative without visual overload. Every element has a purpose a
 - **R10. Rule onboarding per project** (once, short, re-openable): (1) what are you building, AI may propose a profile, human confirms, unsure means strict; (2) starter rules by tool family from a fixed table, with suggested scope, and locked floor items that cannot be switched off; (3) a preview of what will and will not interrupt, with examples from the project. In strict, unsure or sensitive projects an "All" rule is off until switched on for that project at onboarding. Onboarding reopens from the Standing rules card and automatically on suspected risk drift.
 - **R11. Skipping onboarding makes the project strict,** with only the locked floor items and no allow rules, plus a persistent "Set up rules to ask less" prompt.
 
+## Additions agreed 2026-10-27 (from an outside list of agent-workflow ideas; one practitioner's opinion, unmeasured here)
+
+- **E1. Evidence on every decision card.** An Evidence slot shows real proof (tests run, before/after output, an end-to-end result) or the words "no proof attached". Nothing may be shown as proof that the system did not produce. Project agent instructions carry the line "this is not evidence" for claims without output.
+- **E2. Planner states the goal and the done-test, not the method.** The proposal says what success looks like and how it will be checked; the agent chooses the method.
+- **E3. Choose-among-options card (later).** For "20 variations" or "4 theories": the human compares and picks instead of Pass or Reject. Needs real agents first.
+- **E4. Batching.** Related waiting items can be answered together ("5 of these"). The floor still applies per item.
+- **E5. Scheduled wake-ups (later).** "Check the logs at 9am", "tell me when it's live". The wake-up appears as a card; anything it does still goes through the floor.
+- **E6. Decisions and mind entries record the git commit hash (later),** so "why did we do this?" is answerable.
+- **E7. Per-agent isolated workspaces (later, orchestrator work),** so agents can build and test end to end without clashing.
+- **E8. Control/treatment experiments** for the model-cost trials and for checking whether agents actually use the project's instructions and skills.
+- **E9. Read-only access to project state (logs, tests, status) first.** Acting (deploy, send, flip flags, email customers) stays on the floor.
+- **Rejected for this app:** "stop worrying about slop" (a strict or clinical project keeps review of domain logic, units, thresholds and safety checks whatever the code looks like); "don't let agents write for humans" (cards are written for a human reader; it applies only to logs and debugging notes); autonomous deploy, email or flag changes.
+
 ## Known gaps and cautions
 
 - The classifier has no separate read-only class; `grep` classifies as routine today. The exact-command matcher is new work.
