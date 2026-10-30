@@ -113,3 +113,95 @@ final class CockpitStoreTests: XCTestCase {
         XCTAssertEqual(s.waiting.count, 6)
     }
 }
+
+// Focus state for the decision card and the sample proof field.
+@MainActor
+final class CockpitFocusTests: XCTestCase {
+    private func task(_ id: String) -> SampleTask { sampleTasks.first { $0.id == id }! }
+
+    func testDefaultFocusIsFirstWaiting() {
+        let s = CockpitStore()
+        XCTAssertEqual(s.focusedTask?.id, s.waiting.first?.id)
+        XCTAssertNil(s.focusedID)
+    }
+
+    func testFocusSticksWhenWaitingAndIgnoredOtherwise() {
+        let s = CockpitStore()
+        s.focus("T9")
+        XCTAssertEqual(s.focusedTask?.id, "T9")
+        s.focus("T1")                     // quiet, not waiting
+        XCTAssertEqual(s.focusedTask?.id, "T9")
+        s.focus("nope")
+        XCTAssertEqual(s.focusedTask?.id, "T9")
+    }
+
+    func testResolvingFocusedMovesToNextWaiting() {
+        let s = CockpitStore()
+        s.focus("T8")
+        s.resolve(task("T8"), .passed)
+        XCTAssertEqual(s.focusedTask?.id, "T9")
+        XCTAssertEqual(s.focusedID, "T9")
+    }
+
+    func testResolvingFocusedLastItemWrapsToFirstWaitingOrNil() {
+        let s = CockpitStore()
+        s.focus("T11")
+        s.resolve(task("T11"), .rejected)
+        XCTAssertEqual(s.focusedID, s.waiting.first?.id)
+        XCTAssertNotNil(s.focusedID)
+        for t in s.waiting { s.resolve(t, .passed) }
+        XCTAssertNil(s.focusedTask)
+        XCTAssertNil(s.focusedID)
+    }
+
+    func testResolvingNonFocusedKeepsFocus() {
+        let s = CockpitStore()
+        s.focus("T9")
+        s.resolve(task("T7"), .passed)
+        XCTAssertEqual(s.focusedTask?.id, "T9")
+    }
+
+    func testProfileChangeRemovingFocusedMovesFocus() {
+        let s = CockpitStore()
+        s.setProfile(.strict)
+        s.focus("T5")                     // profile-floor item
+        s.setProfile(.light)              // T5 leaves the queue
+        XCTAssertEqual(s.focusedID, s.waiting.first?.id)
+        XCTAssertNotEqual(s.focusedID, "T5")
+    }
+
+    func testFocusDoesNotJumpBackAfterProfileRoundTrip() {
+        let s = CockpitStore()
+        s.setProfile(.strict)
+        s.focus("T5")
+        s.setProfile(.light)
+        let after = s.focusedID
+        s.setProfile(.strict)             // T5 is waiting again, but focus must not return to it
+        XCTAssertEqual(s.focusedID, after)
+        XCTAssertNotEqual(s.focusedTask?.id, "T5")
+    }
+
+    func testChangingFocusDoesNotChangeWaitingOrder() {
+        let s = CockpitStore()
+        let before = s.waiting.map { $0.id }
+        s.focus("T11"); s.focus("T9"); s.focus("T4")
+        XCTAssertEqual(s.waiting.map { $0.id }, before)
+    }
+
+    func testResetClearsFocus() {
+        let s = CockpitStore()
+        s.focus("T9")
+        s.reset()
+        XCTAssertNil(s.focusedID)
+        XCTAssertEqual(s.focusedTask?.id, s.waiting.first?.id)
+    }
+
+    func testSampleProofHasBothStates() {
+        XCTAssertTrue(sampleTasks.contains { !$0.proof.isEmpty })
+        XCTAssertTrue(sampleTasks.contains { $0.proof.isEmpty })
+        // At least one waiting item in the default (Light) queue carries proof and one does not.
+        let s = CockpitStore()
+        XCTAssertTrue(s.waiting.contains { !$0.proof.isEmpty })
+        XCTAssertTrue(s.waiting.contains { $0.proof.isEmpty })
+    }
+}

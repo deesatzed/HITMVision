@@ -33,9 +33,11 @@ public struct FlatCockpitView: View {
                     }
                     .padding(16)
                 }
-                .frame(width: 360)
+                .frame(width: 280)
                 Divider()
                 NeedsYouPanel(store: store).frame(maxWidth: .infinity)
+                Divider()
+                DecisionDetailCard(store: store).frame(minWidth: 400, idealWidth: 440, maxWidth: 480)
             }
             Divider()
             LogTail(store: store).padding(12).frame(maxWidth: .infinity, alignment: .leading)
@@ -58,8 +60,12 @@ public struct VolumeCockpitView: View {
             HStack(alignment: .top, spacing: 16) {
                 AgentsPanel(store: store, axis: .vertical)
                     .frame(width: 300).padding(16).glassBackgroundIfAvailable()
-                NeedsYouPanel(store: store)
-                    .frame(maxWidth: .infinity).glassBackgroundIfAvailable()
+                HStack(alignment: .top, spacing: 16) {
+                    NeedsYouPanel(store: store)
+                        .frame(maxWidth: .infinity).glassBackgroundIfAvailable()
+                    DecisionDetailCard(store: store)
+                        .frame(width: 420).glassBackgroundIfAvailable()
+                }
                 DecidedPanel(store: store)
                     .frame(width: 300).padding(16).glassBackgroundIfAvailable()
             }

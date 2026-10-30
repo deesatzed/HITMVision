@@ -10,6 +10,7 @@ struct HITMCockpitVisionApp: App {
         WindowGroup("Flat") {
             FlatCockpitView(store: store)
         }
+        .defaultSize(width: 1500, height: 950)
 
         // Volume size is my choice: about 1.0 m wide x 0.7 m high x 0.4 m deep.
         WindowGroup("Volume", id: cockpitVolumeWindowID) {

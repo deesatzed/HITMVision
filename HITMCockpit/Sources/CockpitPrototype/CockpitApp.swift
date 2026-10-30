@@ -15,7 +15,7 @@ struct CockpitApp: App {
 
     var body: some Scene {
         WindowGroup("HITM Cockpit prototype") {
-            FlatCockpitView().frame(minWidth: 1100, minHeight: 700)
+            FlatCockpitView().frame(minWidth: 1400, minHeight: 800)
         }
     }
 }

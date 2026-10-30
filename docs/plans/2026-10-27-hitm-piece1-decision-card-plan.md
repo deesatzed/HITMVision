@@ -37,6 +37,7 @@ Tests: default focus is the first waiting item; focusing another item sticks; re
 ## Task 4: UI
 - Queue row: tag with icon, title, role, one-line plain reason, Pass / Modify… / Reject. No disclosure groups.
 - Tapping a row focuses it. `DecisionDetailCard` shows the five answers in fixed order and fixed places, with Evidence as a distinct block ("No proof attached" when empty). "Not available in sample mode" items use secondary text and an icon, never color alone.
+- Order change (review fix): Evidence sits directly under "What is it" so it is visible without scrolling; the other four headings follow in their original order.
 - Opening or closing the detail card does not reflow the queue.
 - Text sizes taken from the existing `small()` helper or larger; none smaller than today.
 

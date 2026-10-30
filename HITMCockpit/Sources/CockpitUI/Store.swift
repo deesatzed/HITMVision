@@ -25,7 +25,8 @@ public enum ProfileChoice: String, CaseIterable, Identifiable {
 public struct Gate {
     public let needsHuman: Bool
     public let fromFloor: Bool
-    public let detailLevel: Int      // 0 one line, 2 evidence open, 3 rules open too
+    public enum Kind: Equatable { case floorUniversal, floorProfile, agentConfidence, quiet }
+    public let kind: Kind            // set once in CockpitStore.gate(for:); nothing else infers it from text
     public let reason: String        // technical reason, shown in the Rules layer
     public let tag: String           // short plain label on the card
     public let plainReason: String   // plain-English why it reached you
@@ -56,6 +57,8 @@ public final class CockpitStore: ObservableObject {
     @Published public private(set) var requests: [String] = []
     @Published public private(set) var smartPasses = 0
     @Published public private(set) var offerHandled = false
+    /// The decision shown in the detail card. nil means "the first waiting item".
+    @Published public private(set) var focusedID: String?
 
     public func gate(for task: SampleTask) -> Gate {
         let floor = FloorGate.evaluate(task.action, profile: choice.profile)
@@ -72,18 +75,18 @@ public final class CockpitStore: ObservableObject {
             case .editSafetyCheck: plain = "Your project settings ask you before a safety check is weakened."
             case .routine: plain = "Your project settings ask you about this."
             }
-            return Gate(needsHuman: true, fromFloor: true, detailLevel: 3, reason: reason,
+            return Gate(needsHuman: true, fromFloor: true, kind: universal ? .floorUniversal : .floorProfile, reason: reason,
                         tag: universal ? "ALWAYS ASKS" : "PROJECT RULE", plainReason: plain,
                         icon: universal ? "exclamationmark.octagon.fill" : "lock.shield.fill")
         }
         if smart {
-            return Gate(needsHuman: needs, fromFloor: false, detailLevel: 2,
+            return Gate(needsHuman: needs, fromFloor: false, kind: .agentConfidence,
                         reason: String(format: "Gate: agent confidence %.2f is under %.2f (sample threshold)", task.confidence, threshold),
                         tag: "AGENT UNSURE",
                         plainReason: String(format: "The agent is only %.0f%% sure, so it's asking.", task.confidence * 100),
                         icon: "questionmark.circle.fill")
         }
-        return Gate(needsHuman: false, fromFloor: false, detailLevel: 0, reason: "Within profile; proceeding quietly",
+        return Gate(needsHuman: false, fromFloor: false, kind: .quiet, reason: "Within profile; proceeding quietly",
                     tag: "QUIET", plainReason: "Within your project's rules.", icon: "checkmark.circle")
     }
 
@@ -116,11 +119,26 @@ public final class CockpitStore: ObservableObject {
         }
     }
 
+    /// The focused task if it is still waiting, otherwise the first waiting task.
+    public var focusedTask: SampleTask? {
+        if let id = focusedID, let t = waiting.first(where: { $0.id == id }) { return t }
+        return waiting.first
+    }
+
+    /// Sticks only if the id is currently waiting.
+    public func focus(_ id: String) {
+        guard waiting.contains(where: { $0.id == id }) else { return }
+        focusedID = id
+    }
+
     public var showOffer: Bool { smartPasses >= 2 && !offerHandled }
 
     public func resolve(_ task: SampleTask, _ r: Resolution) {
         let g = gate(for: task)
+        let before = waiting.map { $0.id }
         resolutions[task.id] = r
+        if focusedID == task.id { advanceFocus(from: task.id, in: before) }
+        normaliseFocus()
         switch r {
         case .passed:
             log.append(kind: "pass", payload: "\(task.id) \(task.title)", author: "human")
@@ -151,7 +169,10 @@ public final class CockpitStore: ObservableObject {
 
     public func setProfile(_ c: ProfileChoice) {
         guard c != choice else { return }
+        let before = waiting.map { $0.id }
         choice = c
+        if let id = focusedID, !waiting.contains(where: { $0.id == id }) { advanceFocus(from: id, in: before) }
+        normaliseFocus()
         log.append(kind: "profile", payload: "profile set to \(c.rawValue)", author: "human")
     }
 
@@ -164,6 +185,18 @@ public final class CockpitStore: ObservableObject {
         requests = []
         smartPasses = 0
         offerHandled = false
+        focusedID = nil
+    }
+
+    /// After resolve / setProfile, focusedID equals the effective focused id (nil only when nothing is waiting),
+    /// so a stale id cannot come back later. Untouched default (nil) stays nil until one of those calls.
+    private func normaliseFocus() { focusedID = focusedTask?.id }
+
+    /// Focus moves to the next waiting item after `id` in the old queue order, else the first waiting item.
+    private func advanceFocus(from id: String, in before: [String]) {
+        let now = waiting.map { $0.id }
+        let after = before.drop(while: { $0 != id }).dropFirst()
+        focusedID = after.first(where: { now.contains($0) }) ?? now.first
     }
 
     public func label(_ r: Resolution) -> String {

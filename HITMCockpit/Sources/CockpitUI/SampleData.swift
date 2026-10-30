@@ -16,6 +16,11 @@ public struct SampleTask: Identifiable {
     public let evidence: [String]
     public let ruleNotes: [String]
     public let detail: String
+    // PROTOTYPE SAMPLE DATA: proof entries are invented for UX review, not produced by any real run.
+    // Empty means no proof attached, so both card states can be seen.
+    public var proof: [String] = []
+    /// True for everything in `sampleTasks`: proof, summary and detail text are invented, not produced by a real run.
+    public var isSample: Bool = true
 }
 
 /// Sample threshold for the stand-in smart layer; not a tuned or measured value.
@@ -33,12 +38,14 @@ public let sampleTasks: [SampleTask] = [
                role: "Implementer", action: .routine, confidence: 0.93,
                plain: "A function gets a clearer name in 4 places. Behavior is the same.", reversible: true,
                evidence: ["4 call sites found, all updated.", "Build and tests unchanged."],
-               ruleNotes: ["Routine edit: no floor applies."], detail: "utils/dates.swift and 3 callers."),
+               ruleNotes: ["Routine edit: no floor applies."], detail: "utils/dates.swift and 3 callers.",
+               proof: ["Before: parseDate(_:) at 4 call sites. After: parseISODate(_:) at 4 call sites."]),
     SampleTask(id: "T3", title: "Add a unit test for date parsing", summary: "New test covers leap-day input.",
                role: "Reviewer", action: .routine, confidence: 0.91,
                plain: "A new test is added. No product code changes.", reversible: true,
                evidence: ["Test fails on old code, passes on new.", "No production code changed."],
-               ruleNotes: ["Routine edit: no floor applies."], detail: "Tests/DateTests.swift: testLeapDay."),
+               ruleNotes: ["Routine edit: no floor applies."], detail: "Tests/DateTests.swift: testLeapDay.",
+               proof: ["Test result: testLeapDay failed on old code, passed on new code."]),
     SampleTask(id: "T4", title: "Split session handling into two files", summary: "Refactor touching 6 files; agent is unsure about shared state.",
                role: "Planner", action: .routine, confidence: 0.62,
                plain: "Session code moves into two files. It should behave the same, but the agent isn't sure.", reversible: true,
@@ -61,7 +68,8 @@ public let sampleTasks: [SampleTask] = [
                role: "Implementer", action: .deploy, confidence: 0.90,
                plain: "Build 118 goes to the staging site where testers can see it. Production is untouched.", reversible: true,
                evidence: ["All checks green.", "Staging only; production untouched."],
-               ruleNotes: ["Universal floor: deploys always need you."], detail: "Target: staging. Build 118."),
+               ruleNotes: ["Universal floor: deploys always need you."], detail: "Target: staging. Build 118.",
+               proof: ["Checks: 42 passed, 0 failed (build 118).", "Target environment: staging."]),
     SampleTask(id: "T8", title: "Upload crash logs to an external service", summary: "Send 12 log files to a hosted analysis tool.",
                role: "Implementer", action: .externalSend, confidence: 0.85,
                plain: "12 files leave this machine for a hosted tool. They can't be recalled.", reversible: false,
