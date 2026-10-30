@@ -1,0 +1,614 @@
+[
+  {
+    "caseID" : "S01",
+    "completionTokens" : 2,
+    "costUSD" : 1.0836e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 1218,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.04208842531610562,
+      "needs_human" : 0.002472647586597816
+    },
+    "promptTokens" : 258,
+    "provider" : "Azure",
+    "repeatIndex" : 0,
+    "usedModel" : "microsoft\/microsoft-decision-1-20261009"
+  },
+  {
+    "caseID" : "S02",
+    "completionTokens" : 2,
+    "costUSD" : 1.1298e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 218,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.06008765990653582,
+      "needs_human" : 0.0019267475014713743
+    },
+    "promptTokens" : 269,
+    "provider" : "Azure",
+    "repeatIndex" : 0,
+    "usedModel" : "microsoft\/microsoft-decision-1-20261009"
+  },
+  {
+    "caseID" : "S03",
+    "completionTokens" : 2,
+    "costUSD" : 1.1382e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 229,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.18242927136184153,
+      "needs_human" : 0.0024726373079908973
+    },
+    "promptTokens" : 271,
+    "provider" : "Azure",
+    "repeatIndex" : 0,
+    "usedModel" : "microsoft\/microsoft-decision-1-20261009"
+  },
+  {
+    "caseID" : "S04",
+    "completionTokens" : 2,
+    "costUSD" : 1.1088e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 216,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.02595778151317914,
+      "needs_human" : 0.00116951702078141
+    },
+    "promptTokens" : 264,
+    "provider" : "Azure",
+    "repeatIndex" : 0,
+    "usedModel" : "microsoft\/microsoft-decision-1-20261009"
+  },
+  {
+    "caseID" : "S05",
+    "completionTokens" : 2,
+    "costUSD" : 1.113e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 214,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.4378294126866828,
+      "needs_human" : 0.05340399507901456
+    },
+    "promptTokens" : 265,
+    "provider" : "Azure",
+    "repeatIndex" : 0,
+    "usedModel" : "microsoft\/microsoft-decision-1-20261009"
+  },
+  {
+    "caseID" : "S06",
+    "completionTokens" : 2,
+    "costUSD" : 1.0626e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 210,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.11920499811430152,
+      "needs_human" : 0.005911117125411007
+    },
+    "promptTokens" : 253,
+    "provider" : "Azure",
+    "repeatIndex" : 0,
+    "usedModel" : "microsoft\/microsoft-decision-1-20261009"
+  },
+  {
+    "caseID" : "S07",
+    "completionTokens" : 2,
+    "costUSD" : 1.1046e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 848,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.03308667287367248,
+      "needs_human" : 0.0013250306095763979
+    },
+    "promptTokens" : 263,
+    "provider" : "Azure",
+    "repeatIndex" : 0,
+    "usedModel" : "microsoft\/microsoft-decision-1-20261009"
+  },
+  {
+    "caseID" : "S08",
+    "completionTokens" : 2,
+    "costUSD" : 1.1382e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 318,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.11920492956248471,
+      "needs_human" : 0.0035936245143111368
+    },
+    "promptTokens" : 271,
+    "provider" : "Azure",
+    "repeatIndex" : 0,
+    "usedModel" : "microsoft\/microsoft-decision-1-20261009"
+  },
+  {
+    "caseID" : "S09",
+    "completionTokens" : 2,
+    "costUSD" : 1.1004e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 237,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.029312780002020655,
+      "needs_human" : 0.0013250309550145297
+    },
+    "promptTokens" : 262,
+    "provider" : "Azure",
+    "repeatIndex" : 0,
+    "usedModel" : "microsoft\/microsoft-decision-1-20261009"
+  },
+  {
+    "caseID" : "S10",
+    "completionTokens" : 2,
+    "costUSD" : 1.1088e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 909,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.06008786522371969,
+      "needs_human" : 0.002182733683447672
+    },
+    "promptTokens" : 264,
+    "provider" : "Azure",
+    "repeatIndex" : 0,
+    "usedModel" : "microsoft\/microsoft-decision-1-20261009"
+  },
+  {
+    "caseID" : "S11",
+    "completionTokens" : 2,
+    "costUSD" : 1.155e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 279,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.07585965545284334,
+      "needs_human" : 0.0059111088884491346
+    },
+    "promptTokens" : 275,
+    "provider" : "Azure",
+    "repeatIndex" : 0,
+    "usedModel" : "microsoft\/microsoft-decision-1-20261009"
+  },
+  {
+    "caseID" : "S12",
+    "completionTokens" : 2,
+    "costUSD" : 1.092e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 208,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.02931260962237013,
+      "needs_human" : 0.002800954713809522
+    },
+    "promptTokens" : 260,
+    "provider" : "Azure",
+    "repeatIndex" : 0,
+    "usedModel" : "microsoft\/microsoft-decision-1-20261009"
+  },
+  {
+    "caseID" : "S13",
+    "completionTokens" : 2,
+    "costUSD" : 1.1172e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 227,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.1329670793324262,
+      "needs_human" : 0.007577308410643016
+    },
+    "promptTokens" : 266,
+    "provider" : "Azure",
+    "repeatIndex" : 0,
+    "usedModel" : "microsoft\/microsoft-decision-1-20261009"
+  },
+  {
+    "caseID" : "S14",
+    "completionTokens" : 2,
+    "costUSD" : 1.1886e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 293,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.4378281148806412,
+      "needs_human" : 0.26894603899972364
+    },
+    "promptTokens" : 283,
+    "provider" : "Azure",
+    "repeatIndex" : 0,
+    "usedModel" : "microsoft\/microsoft-decision-1-20261009"
+  },
+  {
+    "caseID" : "R01",
+    "completionTokens" : 2,
+    "costUSD" : 1.1718e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 671,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.985936376014623,
+      "needs_human" : 0.9933071367309474
+    },
+    "promptTokens" : 279,
+    "provider" : "Azure",
+    "repeatIndex" : 0,
+    "usedModel" : "microsoft\/microsoft-decision-1-20261009"
+  },
+  {
+    "caseID" : "R02",
+    "completionTokens" : 2,
+    "costUSD" : 1.134e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 242,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.8519539107104976,
+      "needs_human" : 0.8670365070773368
+    },
+    "promptTokens" : 270,
+    "provider" : "Azure",
+    "repeatIndex" : 0,
+    "usedModel" : "microsoft\/microsoft-decision-1-20261009"
+  },
+  {
+    "caseID" : "R03",
+    "completionTokens" : 2,
+    "costUSD" : 1.1508e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 228,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.996406395159914,
+      "needs_human" : 0.9770226552856142
+    },
+    "promptTokens" : 274,
+    "provider" : "Azure",
+    "repeatIndex" : 0,
+    "usedModel" : "microsoft\/microsoft-decision-1-20261009"
+  },
+  {
+    "caseID" : "R04",
+    "completionTokens" : 2,
+    "costUSD" : 1.1508e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 293,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.952574229129793,
+      "needs_human" : 0.9859363860483987
+    },
+    "promptTokens" : 274,
+    "provider" : "Azure",
+    "repeatIndex" : 0,
+    "usedModel" : "microsoft\/microsoft-decision-1-20261009"
+  },
+  {
+    "caseID" : "R05",
+    "completionTokens" : 2,
+    "costUSD" : 1.1298e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 250,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.9820137841548419,
+      "needs_human" : 0.9991959131322719
+    },
+    "promptTokens" : 269,
+    "provider" : "Azure",
+    "repeatIndex" : 0,
+    "usedModel" : "microsoft\/microsoft-decision-1-20261009"
+  },
+  {
+    "caseID" : "R06",
+    "completionTokens" : 2,
+    "costUSD" : 1.134e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 220,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.9324534589165503,
+      "needs_human" : 0.9525742325598864
+    },
+    "promptTokens" : 270,
+    "provider" : "Azure",
+    "repeatIndex" : 0,
+    "usedModel" : "microsoft\/microsoft-decision-1-20261009"
+  },
+  {
+    "caseID" : "R07",
+    "completionTokens" : 2,
+    "costUSD" : 1.1466e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 240,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.9820137899016761,
+      "needs_human" : 0.9890130635999381
+    },
+    "promptTokens" : 273,
+    "provider" : "Azure",
+    "repeatIndex" : 0,
+    "usedModel" : "microsoft\/microsoft-decision-1-20261009"
+  },
+  {
+    "caseID" : "R08",
+    "completionTokens" : 2,
+    "costUSD" : 1.1508e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 273,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.9579123096835469,
+      "needs_human" : 0.9991959133701204
+    },
+    "promptTokens" : 274,
+    "provider" : "Azure",
+    "repeatIndex" : 0,
+    "usedModel" : "microsoft\/microsoft-decision-1-20261009"
+  },
+  {
+    "caseID" : "R09",
+    "completionTokens" : 2,
+    "costUSD" : 1.1676e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 211,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.9149012424423594,
+      "needs_human" : 0.7773019362075879
+    },
+    "promptTokens" : 278,
+    "provider" : "Azure",
+    "repeatIndex" : 0,
+    "usedModel" : "microsoft\/microsoft-decision-1-20261009"
+  },
+  {
+    "caseID" : "R10",
+    "completionTokens" : 2,
+    "costUSD" : 1.1466e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 214,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.992422755518256,
+      "needs_human" : 0.9994472210075039
+    },
+    "promptTokens" : 273,
+    "provider" : "Azure",
+    "repeatIndex" : 0,
+    "usedModel" : "microsoft\/microsoft-decision-1-20261009"
+  },
+  {
+    "caseID" : "R11",
+    "completionTokens" : 2,
+    "costUSD" : 1.1508e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 190,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.9968273160412261,
+      "needs_human" : 0.9971990706558572
+    },
+    "promptTokens" : 274,
+    "provider" : "Azure",
+    "repeatIndex" : 0,
+    "usedModel" : "microsoft\/microsoft-decision-1-20261009"
+  },
+  {
+    "caseID" : "R12",
+    "completionTokens" : 2,
+    "costUSD" : 1.155e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 208,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.9991959136764247,
+      "needs_human" : 0.9988304881031075
+    },
+    "promptTokens" : 275,
+    "provider" : "Azure",
+    "repeatIndex" : 0,
+    "usedModel" : "microsoft\/microsoft-decision-1-20261009"
+  },
+  {
+    "caseID" : "R13",
+    "completionTokens" : 2,
+    "costUSD" : 1.1298e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 237,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.9933071475704414,
+      "needs_human" : 0.9820137904872859
+    },
+    "promptTokens" : 269,
+    "provider" : "Azure",
+    "repeatIndex" : 0,
+    "usedModel" : "microsoft\/microsoft-decision-1-20261009"
+  },
+  {
+    "caseID" : "R14",
+    "completionTokens" : 2,
+    "costUSD" : 1.1676e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 208,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.5926720504976684,
+      "needs_human" : 0.9959298611688197
+    },
+    "promptTokens" : 278,
+    "provider" : "Azure",
+    "repeatIndex" : 0,
+    "usedModel" : "microsoft\/microsoft-decision-1-20261009"
+  },
+  {
+    "caseID" : "B01",
+    "completionTokens" : 2,
+    "costUSD" : 1.092e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 242,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.20181702758105746,
+      "needs_human" : 0.06754736466978767
+    },
+    "promptTokens" : 260,
+    "provider" : "Azure",
+    "repeatIndex" : 0,
+    "usedModel" : "microsoft\/microsoft-decision-1-20261009"
+  },
+  {
+    "caseID" : "B02",
+    "completionTokens" : 2,
+    "costUSD" : 1.1928e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 226,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.4073391862362612,
+      "needs_human" : 0.9046509625116562
+    },
+    "promptTokens" : 284,
+    "provider" : "Azure",
+    "repeatIndex" : 0,
+    "usedModel" : "microsoft\/microsoft-decision-1-20261009"
+  },
+  {
+    "caseID" : "B03",
+    "completionTokens" : 2,
+    "costUSD" : 1.1004e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 309,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.8670364763340284,
+      "needs_human" : 0.3208253663482755
+    },
+    "promptTokens" : 262,
+    "provider" : "Azure",
+    "repeatIndex" : 0,
+    "usedModel" : "microsoft\/microsoft-decision-1-20261009"
+  },
+  {
+    "caseID" : "B04",
+    "completionTokens" : 2,
+    "costUSD" : 1.1214e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 200,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.2942200097096252,
+      "needs_human" : 0.10669210223909817
+    },
+    "promptTokens" : 267,
+    "provider" : "Azure",
+    "repeatIndex" : 0,
+    "usedModel" : "microsoft\/microsoft-decision-1-20261009"
+  },
+  {
+    "caseID" : "B05",
+    "completionTokens" : 2,
+    "costUSD" : 1.1214e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 229,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.8670365354054718,
+      "needs_human" : 0.3775458853875618
+    },
+    "promptTokens" : 267,
+    "provider" : "Azure",
+    "repeatIndex" : 0,
+    "usedModel" : "microsoft\/microsoft-decision-1-20261009"
+  },
+  {
+    "caseID" : "B06",
+    "completionTokens" : 2,
+    "costUSD" : 1.1088e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 227,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.46879558732691745,
+      "needs_human" : 0.6513591402630586
+    },
+    "promptTokens" : 264,
+    "provider" : "Azure",
+    "repeatIndex" : 0,
+    "usedModel" : "microsoft\/microsoft-decision-1-20261009"
+  },
+  {
+    "caseID" : "B07",
+    "completionTokens" : 2,
+    "costUSD" : 1.1214e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 237,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.2689470808075776,
+      "needs_human" : 0.2450886389444529
+    },
+    "promptTokens" : 267,
+    "provider" : "Azure",
+    "repeatIndex" : 0,
+    "usedModel" : "microsoft\/microsoft-decision-1-20261009"
+  },
+  {
+    "caseID" : "B08",
+    "completionTokens" : 2,
+    "costUSD" : 1.113e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 187,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.22270448893742428,
+      "needs_human" : 0.08510038396517815
+    },
+    "promptTokens" : 265,
+    "provider" : "Azure",
+    "repeatIndex" : 0,
+    "usedModel" : "microsoft\/microsoft-decision-1-20261009"
+  }
+]

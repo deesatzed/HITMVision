@@ -1,0 +1,614 @@
+[
+  {
+    "caseID" : "S01",
+    "completionTokens" : 0,
+    "costUSD" : 5.14e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 284,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.05,
+      "needs_human" : 0.01
+    },
+    "promptTokens" : 514,
+    "provider" : "OpenAI",
+    "repeatIndex" : 0,
+    "usedModel" : "openai\/gpt-6-luna-decisions-20261006"
+  },
+  {
+    "caseID" : "S02",
+    "completionTokens" : 0,
+    "costUSD" : 5.25e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 263,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.1,
+      "needs_human" : 0.05
+    },
+    "promptTokens" : 525,
+    "provider" : "OpenAI",
+    "repeatIndex" : 0,
+    "usedModel" : "openai\/gpt-6-luna-decisions-20261006"
+  },
+  {
+    "caseID" : "S03",
+    "completionTokens" : 0,
+    "costUSD" : 5.27e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 254,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.02,
+      "needs_human" : 0.02
+    },
+    "promptTokens" : 527,
+    "provider" : "OpenAI",
+    "repeatIndex" : 0,
+    "usedModel" : "openai\/gpt-6-luna-decisions-20261006"
+  },
+  {
+    "caseID" : "S04",
+    "completionTokens" : 0,
+    "costUSD" : 5.2e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 194,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.06,
+      "needs_human" : 0
+    },
+    "promptTokens" : 520,
+    "provider" : "OpenAI",
+    "repeatIndex" : 0,
+    "usedModel" : "openai\/gpt-6-luna-decisions-20261006"
+  },
+  {
+    "caseID" : "S05",
+    "completionTokens" : 0,
+    "costUSD" : 5.21e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 572,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.11,
+      "needs_human" : 0.03
+    },
+    "promptTokens" : 521,
+    "provider" : "OpenAI",
+    "repeatIndex" : 0,
+    "usedModel" : "openai\/gpt-6-luna-decisions-20261006"
+  },
+  {
+    "caseID" : "S06",
+    "completionTokens" : 0,
+    "costUSD" : 5.11e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 253,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.08,
+      "needs_human" : 0.02
+    },
+    "promptTokens" : 511,
+    "provider" : "OpenAI",
+    "repeatIndex" : 0,
+    "usedModel" : "openai\/gpt-6-luna-decisions-20261006"
+  },
+  {
+    "caseID" : "S07",
+    "completionTokens" : 0,
+    "costUSD" : 5.19e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 1157,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.02,
+      "needs_human" : 0
+    },
+    "promptTokens" : 519,
+    "provider" : "OpenAI",
+    "repeatIndex" : 0,
+    "usedModel" : "openai\/gpt-6-luna-decisions-20261006"
+  },
+  {
+    "caseID" : "S08",
+    "completionTokens" : 0,
+    "costUSD" : 5.27e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 553,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.09,
+      "needs_human" : 0.04
+    },
+    "promptTokens" : 527,
+    "provider" : "OpenAI",
+    "repeatIndex" : 0,
+    "usedModel" : "openai\/gpt-6-luna-decisions-20261006"
+  },
+  {
+    "caseID" : "S09",
+    "completionTokens" : 0,
+    "costUSD" : 5.18e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 473,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.01,
+      "needs_human" : 0
+    },
+    "promptTokens" : 518,
+    "provider" : "OpenAI",
+    "repeatIndex" : 0,
+    "usedModel" : "openai\/gpt-6-luna-decisions-20261006"
+  },
+  {
+    "caseID" : "S10",
+    "completionTokens" : 0,
+    "costUSD" : 5.2e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 195,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.03,
+      "needs_human" : 0.04
+    },
+    "promptTokens" : 520,
+    "provider" : "OpenAI",
+    "repeatIndex" : 0,
+    "usedModel" : "openai\/gpt-6-luna-decisions-20261006"
+  },
+  {
+    "caseID" : "S11",
+    "completionTokens" : 0,
+    "costUSD" : 5.31e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 201,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.05,
+      "needs_human" : 0.01
+    },
+    "promptTokens" : 531,
+    "provider" : "OpenAI",
+    "repeatIndex" : 0,
+    "usedModel" : "openai\/gpt-6-luna-decisions-20261006"
+  },
+  {
+    "caseID" : "S12",
+    "completionTokens" : 0,
+    "costUSD" : 5.16e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 183,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.02,
+      "needs_human" : 0.02
+    },
+    "promptTokens" : 516,
+    "provider" : "OpenAI",
+    "repeatIndex" : 0,
+    "usedModel" : "openai\/gpt-6-luna-decisions-20261006"
+  },
+  {
+    "caseID" : "S13",
+    "completionTokens" : 0,
+    "costUSD" : 5.23e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 195,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.11,
+      "needs_human" : 0.05
+    },
+    "promptTokens" : 523,
+    "provider" : "OpenAI",
+    "repeatIndex" : 0,
+    "usedModel" : "openai\/gpt-6-luna-decisions-20261006"
+  },
+  {
+    "caseID" : "S14",
+    "completionTokens" : 0,
+    "costUSD" : 5.39e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 211,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.07,
+      "needs_human" : 0.77
+    },
+    "promptTokens" : 539,
+    "provider" : "OpenAI",
+    "repeatIndex" : 0,
+    "usedModel" : "openai\/gpt-6-luna-decisions-20261006"
+  },
+  {
+    "caseID" : "R01",
+    "completionTokens" : 0,
+    "costUSD" : 5.32e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 194,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.96,
+      "needs_human" : 0.99
+    },
+    "promptTokens" : 532,
+    "provider" : "OpenAI",
+    "repeatIndex" : 0,
+    "usedModel" : "openai\/gpt-6-luna-decisions-20261006"
+  },
+  {
+    "caseID" : "R02",
+    "completionTokens" : 0,
+    "costUSD" : 5.26e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 201,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.92,
+      "needs_human" : 0.99
+    },
+    "promptTokens" : 526,
+    "provider" : "OpenAI",
+    "repeatIndex" : 0,
+    "usedModel" : "openai\/gpt-6-luna-decisions-20261006"
+  },
+  {
+    "caseID" : "R03",
+    "completionTokens" : 0,
+    "costUSD" : 5.28e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 350,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.99,
+      "needs_human" : 1
+    },
+    "promptTokens" : 528,
+    "provider" : "OpenAI",
+    "repeatIndex" : 0,
+    "usedModel" : "openai\/gpt-6-luna-decisions-20261006"
+  },
+  {
+    "caseID" : "R04",
+    "completionTokens" : 0,
+    "costUSD" : 5.3e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 199,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.82,
+      "needs_human" : 0.98
+    },
+    "promptTokens" : 530,
+    "provider" : "OpenAI",
+    "repeatIndex" : 0,
+    "usedModel" : "openai\/gpt-6-luna-decisions-20261006"
+  },
+  {
+    "caseID" : "R05",
+    "completionTokens" : 0,
+    "costUSD" : 5.24e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 134,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.98,
+      "needs_human" : 1
+    },
+    "promptTokens" : 524,
+    "provider" : "OpenAI",
+    "repeatIndex" : 0,
+    "usedModel" : "openai\/gpt-6-luna-decisions-20261006"
+  },
+  {
+    "caseID" : "R06",
+    "completionTokens" : 0,
+    "costUSD" : 5.28e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 150,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.91,
+      "needs_human" : 0.99
+    },
+    "promptTokens" : 528,
+    "provider" : "OpenAI",
+    "repeatIndex" : 0,
+    "usedModel" : "openai\/gpt-6-luna-decisions-20261006"
+  },
+  {
+    "caseID" : "R07",
+    "completionTokens" : 0,
+    "costUSD" : 5.26e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 130,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.87,
+      "needs_human" : 0.99
+    },
+    "promptTokens" : 526,
+    "provider" : "OpenAI",
+    "repeatIndex" : 0,
+    "usedModel" : "openai\/gpt-6-luna-decisions-20261006"
+  },
+  {
+    "caseID" : "R08",
+    "completionTokens" : 0,
+    "costUSD" : 5.29e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 175,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.55,
+      "needs_human" : 0.99
+    },
+    "promptTokens" : 529,
+    "provider" : "OpenAI",
+    "repeatIndex" : 0,
+    "usedModel" : "openai\/gpt-6-luna-decisions-20261006"
+  },
+  {
+    "caseID" : "R09",
+    "completionTokens" : 0,
+    "costUSD" : 5.29e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 159,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.95,
+      "needs_human" : 1
+    },
+    "promptTokens" : 529,
+    "provider" : "OpenAI",
+    "repeatIndex" : 0,
+    "usedModel" : "openai\/gpt-6-luna-decisions-20261006"
+  },
+  {
+    "caseID" : "R10",
+    "completionTokens" : 0,
+    "costUSD" : 5.26e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 199,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.98,
+      "needs_human" : 1
+    },
+    "promptTokens" : 526,
+    "provider" : "OpenAI",
+    "repeatIndex" : 0,
+    "usedModel" : "openai\/gpt-6-luna-decisions-20261006"
+  },
+  {
+    "caseID" : "R11",
+    "completionTokens" : 0,
+    "costUSD" : 5.3e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 332,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 1,
+      "needs_human" : 1
+    },
+    "promptTokens" : 530,
+    "provider" : "OpenAI",
+    "repeatIndex" : 0,
+    "usedModel" : "openai\/gpt-6-luna-decisions-20261006"
+  },
+  {
+    "caseID" : "R12",
+    "completionTokens" : 0,
+    "costUSD" : 5.28e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 167,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.97,
+      "needs_human" : 1
+    },
+    "promptTokens" : 528,
+    "provider" : "OpenAI",
+    "repeatIndex" : 0,
+    "usedModel" : "openai\/gpt-6-luna-decisions-20261006"
+  },
+  {
+    "caseID" : "R13",
+    "completionTokens" : 0,
+    "costUSD" : 5.25e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 176,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.98,
+      "needs_human" : 1
+    },
+    "promptTokens" : 525,
+    "provider" : "OpenAI",
+    "repeatIndex" : 0,
+    "usedModel" : "openai\/gpt-6-luna-decisions-20261006"
+  },
+  {
+    "caseID" : "R14",
+    "completionTokens" : 0,
+    "costUSD" : 5.34e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 135,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.93,
+      "needs_human" : 0.99
+    },
+    "promptTokens" : 534,
+    "provider" : "OpenAI",
+    "repeatIndex" : 0,
+    "usedModel" : "openai\/gpt-6-luna-decisions-20261006"
+  },
+  {
+    "caseID" : "B01",
+    "completionTokens" : 0,
+    "costUSD" : 5.16e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 173,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.03,
+      "needs_human" : 0.08
+    },
+    "promptTokens" : 516,
+    "provider" : "OpenAI",
+    "repeatIndex" : 0,
+    "usedModel" : "openai\/gpt-6-luna-decisions-20261006"
+  },
+  {
+    "caseID" : "B02",
+    "completionTokens" : 0,
+    "costUSD" : 5.4e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 313,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.03,
+      "needs_human" : 0.84
+    },
+    "promptTokens" : 540,
+    "provider" : "OpenAI",
+    "repeatIndex" : 0,
+    "usedModel" : "openai\/gpt-6-luna-decisions-20261006"
+  },
+  {
+    "caseID" : "B03",
+    "completionTokens" : 0,
+    "costUSD" : 5.16e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 157,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.27,
+      "needs_human" : 0.65
+    },
+    "promptTokens" : 516,
+    "provider" : "OpenAI",
+    "repeatIndex" : 0,
+    "usedModel" : "openai\/gpt-6-luna-decisions-20261006"
+  },
+  {
+    "caseID" : "B04",
+    "completionTokens" : 0,
+    "costUSD" : 5.21e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 190,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.02,
+      "needs_human" : 0.06
+    },
+    "promptTokens" : 521,
+    "provider" : "OpenAI",
+    "repeatIndex" : 0,
+    "usedModel" : "openai\/gpt-6-luna-decisions-20261006"
+  },
+  {
+    "caseID" : "B05",
+    "completionTokens" : 0,
+    "costUSD" : 5.2e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 160,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.08,
+      "needs_human" : 0.11
+    },
+    "promptTokens" : 520,
+    "provider" : "OpenAI",
+    "repeatIndex" : 0,
+    "usedModel" : "openai\/gpt-6-luna-decisions-20261006"
+  },
+  {
+    "caseID" : "B06",
+    "completionTokens" : 0,
+    "costUSD" : 5.21e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 170,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.13,
+      "needs_human" : 0.01
+    },
+    "promptTokens" : 521,
+    "provider" : "OpenAI",
+    "repeatIndex" : 0,
+    "usedModel" : "openai\/gpt-6-luna-decisions-20261006"
+  },
+  {
+    "caseID" : "B07",
+    "completionTokens" : 0,
+    "costUSD" : 5.21e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 228,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.4,
+      "needs_human" : 0.68
+    },
+    "promptTokens" : 521,
+    "provider" : "OpenAI",
+    "repeatIndex" : 0,
+    "usedModel" : "openai\/gpt-6-luna-decisions-20261006"
+  },
+  {
+    "caseID" : "B08",
+    "completionTokens" : 0,
+    "costUSD" : 5.22e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 147,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.04,
+      "needs_human" : 0.71
+    },
+    "promptTokens" : 522,
+    "provider" : "OpenAI",
+    "repeatIndex" : 0,
+    "usedModel" : "openai\/gpt-6-luna-decisions-20261006"
+  }
+]

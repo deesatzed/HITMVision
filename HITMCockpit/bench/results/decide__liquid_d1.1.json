@@ -1,0 +1,614 @@
+[
+  {
+    "caseID" : "S01",
+    "completionTokens" : 0,
+    "costUSD" : 5.82e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 243,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.004677670024625621,
+      "needs_human" : 0.00519876129658989
+    },
+    "promptTokens" : 291,
+    "provider" : "Liquid",
+    "repeatIndex" : 0,
+    "usedModel" : "liquid\/d1.1-20261027"
+  },
+  {
+    "caseID" : "S02",
+    "completionTokens" : 0,
+    "costUSD" : 6.04e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 126,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.018335766060663186,
+      "needs_human" : 0.012069015085878496
+    },
+    "promptTokens" : 302,
+    "provider" : "Liquid",
+    "repeatIndex" : 0,
+    "usedModel" : "liquid\/d1.1-20261027"
+  },
+  {
+    "caseID" : "S03",
+    "completionTokens" : 0,
+    "costUSD" : 6.08e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 115,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.03976019325049116,
+      "needs_human" : 0.022574345156756742
+    },
+    "promptTokens" : 304,
+    "provider" : "Liquid",
+    "repeatIndex" : 0,
+    "usedModel" : "liquid\/d1.1-20261027"
+  },
+  {
+    "caseID" : "S04",
+    "completionTokens" : 0,
+    "costUSD" : 5.94e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 127,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.00162324158163174,
+      "needs_human" : 0.003991922927793585
+    },
+    "promptTokens" : 297,
+    "provider" : "Liquid",
+    "repeatIndex" : 0,
+    "usedModel" : "liquid\/d1.1-20261027"
+  },
+  {
+    "caseID" : "S05",
+    "completionTokens" : 0,
+    "costUSD" : 5.94e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 105,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.01086681653605613,
+      "needs_human" : 0.0277650215221077
+    },
+    "promptTokens" : 297,
+    "provider" : "Liquid",
+    "repeatIndex" : 0,
+    "usedModel" : "liquid\/d1.1-20261027"
+  },
+  {
+    "caseID" : "S06",
+    "completionTokens" : 0,
+    "costUSD" : 5.68e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 104,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.03976019554519646,
+      "needs_human" : 0.014122599799961628
+    },
+    "promptTokens" : 284,
+    "provider" : "Liquid",
+    "repeatIndex" : 0,
+    "usedModel" : "liquid\/d1.1-20261027"
+  },
+  {
+    "caseID" : "S07",
+    "completionTokens" : 0,
+    "costUSD" : 5.92e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 178,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.002351842179290746,
+      "needs_human" : 0.00493137082996226
+    },
+    "promptTokens" : 296,
+    "provider" : "Liquid",
+    "repeatIndex" : 0,
+    "usedModel" : "liquid\/d1.1-20261027"
+  },
+  {
+    "caseID" : "S08",
+    "completionTokens" : 0,
+    "costUSD" : 6.08e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 826,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.02377551952831088,
+      "needs_human" : 0.013402413523534912
+    },
+    "promptTokens" : 304,
+    "provider" : "Liquid",
+    "repeatIndex" : 0,
+    "usedModel" : "liquid\/d1.1-20261027"
+  },
+  {
+    "caseID" : "S09",
+    "completionTokens" : 0,
+    "costUSD" : 5.88e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 127,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.00443696307042036,
+      "needs_human" : 0.006767972541859732
+    },
+    "promptTokens" : 294,
+    "provider" : "Liquid",
+    "repeatIndex" : 0,
+    "usedModel" : "liquid\/d1.1-20261027"
+  },
+  {
+    "caseID" : "S10",
+    "completionTokens" : 0,
+    "costUSD" : 5.94e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 117,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.011452330933771808,
+      "needs_human" : 0.01567927551747493
+    },
+    "promptTokens" : 297,
+    "provider" : "Liquid",
+    "repeatIndex" : 0,
+    "usedModel" : "liquid\/d1.1-20261027"
+  },
+  {
+    "caseID" : "S11",
+    "completionTokens" : 0,
+    "costUSD" : 6.16e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 115,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.009282199168850567,
+      "needs_human" : 0.01086681509097868
+    },
+    "promptTokens" : 308,
+    "provider" : "Liquid",
+    "repeatIndex" : 0,
+    "usedModel" : "liquid\/d1.1-20261027"
+  },
+  {
+    "caseID" : "S12",
+    "completionTokens" : 0,
+    "costUSD" : 5.9e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 105,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.010866813832911411,
+      "needs_human" : 0.03778270987134759
+    },
+    "promptTokens" : 295,
+    "provider" : "Liquid",
+    "repeatIndex" : 0,
+    "usedModel" : "liquid\/d1.1-20261027"
+  },
+  {
+    "caseID" : "S13",
+    "completionTokens" : 0,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 112,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.0538659809884187,
+      "needs_human" : 0.017404517799472927
+    },
+    "promptTokens" : 300,
+    "provider" : "Liquid",
+    "repeatIndex" : 0,
+    "usedModel" : "liquid\/d1.1-20261027"
+  },
+  {
+    "caseID" : "S14",
+    "completionTokens" : 0,
+    "costUSD" : 6.34e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 101,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.11745712166156504,
+      "needs_human" : 0.33404746718318484
+    },
+    "promptTokens" : 317,
+    "provider" : "Liquid",
+    "repeatIndex" : 0,
+    "usedModel" : "liquid\/d1.1-20261027"
+  },
+  {
+    "caseID" : "R01",
+    "completionTokens" : 0,
+    "costUSD" : 6.2e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 126,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.8233318777946123,
+      "needs_human" : 0.9622172908186738
+    },
+    "promptTokens" : 310,
+    "provider" : "Liquid",
+    "repeatIndex" : 0,
+    "usedModel" : "liquid\/d1.1-20261027"
+  },
+  {
+    "caseID" : "R02",
+    "completionTokens" : 0,
+    "costUSD" : 6.1e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 110,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.34595593291422516,
+      "needs_human" : 0.44712647217550416
+    },
+    "promptTokens" : 305,
+    "provider" : "Liquid",
+    "repeatIndex" : 0,
+    "usedModel" : "liquid\/d1.1-20261027"
+  },
+  {
+    "caseID" : "R03",
+    "completionTokens" : 0,
+    "costUSD" : 6.12e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 1171,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.9896890819792065,
+      "needs_human" : 0.9816642380104497
+    },
+    "promptTokens" : 306,
+    "provider" : "Liquid",
+    "repeatIndex" : 0,
+    "usedModel" : "liquid\/d1.1-20261027"
+  },
+  {
+    "caseID" : "R04",
+    "completionTokens" : 0,
+    "costUSD" : 6.14e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 167,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.5789419918426529,
+      "needs_human" : 0.8650073945897905
+    },
+    "promptTokens" : 307,
+    "provider" : "Liquid",
+    "repeatIndex" : 0,
+    "usedModel" : "liquid\/d1.1-20261027"
+  },
+  {
+    "caseID" : "R05",
+    "completionTokens" : 0,
+    "costUSD" : 6.04e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 170,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.5789419918426528,
+      "needs_human" : 0.9736322621132992
+    },
+    "promptTokens" : 302,
+    "provider" : "Liquid",
+    "repeatIndex" : 0,
+    "usedModel" : "liquid\/d1.1-20261027"
+  },
+  {
+    "caseID" : "R06",
+    "completionTokens" : 0,
+    "costUSD" : 6.08e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 123,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.3954223773188123,
+      "needs_human" : 0.5528735278244957
+    },
+    "promptTokens" : 304,
+    "provider" : "Liquid",
+    "repeatIndex" : 0,
+    "usedModel" : "liquid\/d1.1-20261027"
+  },
+  {
+    "caseID" : "R07",
+    "completionTokens" : 0,
+    "costUSD" : 6.08e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 760,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.9512943742153132,
+      "needs_human" : 0.9692214874043132
+    },
+    "promptTokens" : 304,
+    "provider" : "Liquid",
+    "repeatIndex" : 0,
+    "usedModel" : "liquid\/d1.1-20261027"
+  },
+  {
+    "caseID" : "R08",
+    "completionTokens" : 0,
+    "costUSD" : 6.14e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 98,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.6540440613596226,
+      "needs_human" : 0.9916447523728804
+    },
+    "promptTokens" : 307,
+    "provider" : "Liquid",
+    "repeatIndex" : 0,
+    "usedModel" : "liquid\/d1.1-20261027"
+  },
+  {
+    "caseID" : "R09",
+    "completionTokens" : 0,
+    "costUSD" : 6.1e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 111,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.6891351571986039,
+      "needs_human" : 0.689135151777208
+    },
+    "promptTokens" : 305,
+    "provider" : "Liquid",
+    "repeatIndex" : 0,
+    "usedModel" : "liquid\/d1.1-20261027"
+  },
+  {
+    "caseID" : "R10",
+    "completionTokens" : 0,
+    "costUSD" : 6.1e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 881,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.9581633229815644,
+      "needs_human" : 0.9825954838775676
+    },
+    "promptTokens" : 305,
+    "provider" : "Liquid",
+    "repeatIndex" : 0,
+    "usedModel" : "liquid\/d1.1-20261027"
+  },
+  {
+    "caseID" : "R11",
+    "completionTokens" : 0,
+    "costUSD" : 6.22e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 170,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.9976481576704104,
+      "needs_human" : 0.9945194313083453
+    },
+    "promptTokens" : 311,
+    "provider" : "Liquid",
+    "repeatIndex" : 0,
+    "usedModel" : "liquid\/d1.1-20261027"
+  },
+  {
+    "caseID" : "R12",
+    "completionTokens" : 0,
+    "costUSD" : 6.12e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 98,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.9907177992239184,
+      "needs_human" : 0.9935796079747414
+    },
+    "promptTokens" : 306,
+    "provider" : "Liquid",
+    "repeatIndex" : 0,
+    "usedModel" : "liquid\/d1.1-20261027"
+  },
+  {
+    "caseID" : "R13",
+    "completionTokens" : 0,
+    "costUSD" : 6.06e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 104,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.8233318722730815,
+      "needs_human" : 0.9028255677686499
+    },
+    "promptTokens" : 303,
+    "provider" : "Liquid",
+    "repeatIndex" : 0,
+    "usedModel" : "liquid\/d1.1-20261027"
+  },
+  {
+    "caseID" : "R14",
+    "completionTokens" : 0,
+    "costUSD" : 6.18e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 110,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.5265110869328324,
+      "needs_human" : 0.9559833665352998
+    },
+    "promptTokens" : 309,
+    "provider" : "Liquid",
+    "repeatIndex" : 0,
+    "usedModel" : "liquid\/d1.1-20261027"
+  },
+  {
+    "caseID" : "B01",
+    "completionTokens" : 0,
+    "costUSD" : 5.84e-06,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 123,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.19264061879773645,
+      "needs_human" : 0.14787394713809487
+    },
+    "promptTokens" : 292,
+    "provider" : "Liquid",
+    "repeatIndex" : 0,
+    "usedModel" : "liquid\/d1.1-20261027"
+  },
+  {
+    "caseID" : "B02",
+    "completionTokens" : 0,
+    "costUSD" : 6.32e-06,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 105,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.16908044004624267,
+      "needs_human" : 0.9342323644844636
+    },
+    "promptTokens" : 316,
+    "provider" : "Liquid",
+    "repeatIndex" : 0,
+    "usedModel" : "liquid\/d1.1-20261027"
+  },
+  {
+    "caseID" : "B03",
+    "completionTokens" : 0,
+    "costUSD" : 5.86e-06,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 109,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.1766681332484493,
+      "needs_human" : 0.4210580081573471
+    },
+    "promptTokens" : 293,
+    "provider" : "Liquid",
+    "repeatIndex" : 0,
+    "usedModel" : "liquid\/d1.1-20261027"
+  },
+  {
+    "caseID" : "B04",
+    "completionTokens" : 0,
+    "costUSD" : 5.94e-06,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 190,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.23729218092758067,
+      "needs_human" : 0.28859385787916275
+    },
+    "promptTokens" : 297,
+    "provider" : "Liquid",
+    "repeatIndex" : 0,
+    "usedModel" : "liquid\/d1.1-20261027"
+  },
+  {
+    "caseID" : "B05",
+    "completionTokens" : 0,
+    "costUSD" : 6.02e-06,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 181,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.22782125545461393,
+      "needs_human" : 0.13499260836526006
+    },
+    "promptTokens" : 301,
+    "provider" : "Liquid",
+    "repeatIndex" : 0,
+    "usedModel" : "liquid\/d1.1-20261027"
+  },
+  {
+    "caseID" : "B06",
+    "completionTokens" : 0,
+    "costUSD" : 5.96e-06,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 176,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.14131070297206957,
+      "needs_human" : 0.23729219008781804
+    },
+    "promptTokens" : 298,
+    "provider" : "Liquid",
+    "repeatIndex" : 0,
+    "usedModel" : "liquid\/d1.1-20261027"
+  },
+  {
+    "caseID" : "B07",
+    "completionTokens" : 0,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 100,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.16908045782320186,
+      "needs_human" : 0.1766681258864082
+    },
+    "promptTokens" : 299,
+    "provider" : "Liquid",
+    "repeatIndex" : 0,
+    "usedModel" : "liquid\/d1.1-20261027"
+  },
+  {
+    "caseID" : "B08",
+    "completionTokens" : 0,
+    "costUSD" : 5.96e-06,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 98,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.11206635277125214,
+      "needs_human" : 0.5
+    },
+    "promptTokens" : 298,
+    "provider" : "Liquid",
+    "repeatIndex" : 0,
+    "usedModel" : "liquid\/d1.1-20261027"
+  }
+]

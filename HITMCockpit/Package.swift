@@ -18,6 +18,9 @@ let package = Package(
         // Live check of the OpenRouter gate: sends INVENTED samples only. Run manually.
         .executableTarget(name: "GateLiveCheck", dependencies: ["HITMCore"],
                           swiftSettings: [.swiftLanguageMode(.v5)]),
+        // Gate benchmark: sends INVENTED cases only, to text models and to decision models. Run manually.
+        .executableTarget(name: "GateBench", dependencies: ["HITMCore"],
+                          swiftSettings: [.swiftLanguageMode(.v5)]),
         // Live check of Planner + gate: the intent text is sent to the planner model. Run manually.
         .executableTarget(name: "PlannerLiveCheck", dependencies: ["HITMCore"],
                           swiftSettings: [.swiftLanguageMode(.v5)]),
