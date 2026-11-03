@@ -1,0 +1,3662 @@
+[
+ {
+  "caseID": "P1a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 1192,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.25683197379112244,
+   "needs_human": 0.23370636999607086
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P1a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 249,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.25683197379112244,
+   "needs_human": 0.23370636999607086
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P1a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 259,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.25683197379112244,
+   "needs_human": 0.23370636999607086
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P1b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 243,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.23370636999607086,
+   "needs_human": 0.3208213150501251
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P1b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 253,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.23370636999607086,
+   "needs_human": 0.3208213150501251
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P1b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 249,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.23370636999607086,
+   "needs_human": 0.3208213150501251
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P2a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 267,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3208213150501251,
+   "needs_human": 0.3775406777858734
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P2a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 249,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3208213150501251,
+   "needs_human": 0.3775406777858734
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P2a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 253,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3208213150501251,
+   "needs_human": 0.3775406777858734
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P2b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 247,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3486451804637909,
+   "needs_human": 0.4687906503677368
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P2b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 265,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3486451804637909,
+   "needs_human": 0.4687906503677368
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P2b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 266,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3486451804637909,
+   "needs_human": 0.4687906503677368
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P3a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 253,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.36296921968460083,
+   "needs_human": 0.3775406777858734
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P3a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 250,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.36296921968460083,
+   "needs_human": 0.3775406777858734
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P3a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 248,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.36296921968460083,
+   "needs_human": 0.3775406777858734
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P3b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 277,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.42250463366508484,
+   "needs_human": 0.4843800961971283
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P3b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 244,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.42250463366508484,
+   "needs_human": 0.4843800961971283
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P3b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 253,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.42250463366508484,
+   "needs_human": 0.4843800961971283
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P4a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 258,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.23370636999607086,
+   "needs_human": 0.23370636999607086
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P4a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 263,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.23370636999607086,
+   "needs_human": 0.23370636999607086
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P4a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 262,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.23370636999607086,
+   "needs_human": 0.23370636999607086
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P4b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 258,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2689414322376251,
+   "needs_human": 0.29421496391296387
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P4b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 243,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2689414322376251,
+   "needs_human": 0.29421496391296387
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P4b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 261,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2689414322376251,
+   "needs_human": 0.29421496391296387
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P5a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 264,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3345894515514374,
+   "needs_human": 0.3775406777858734
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P5a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 259,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3345894515514374,
+   "needs_human": 0.3775406777858734
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P5a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 246,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3345894515514374,
+   "needs_human": 0.3775406777858734
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P5b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 244,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3486451804637909,
+   "needs_human": 0.36296921968460083
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P5b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 257,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3486451804637909,
+   "needs_human": 0.36296921968460083
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P5b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 255,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3486451804637909,
+   "needs_human": 0.36296921968460083
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P6a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 249,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3345894515514374,
+   "needs_human": 0.36296921968460083
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P6a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 251,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3345894515514374,
+   "needs_human": 0.36296921968460083
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P6a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 259,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3345894515514374,
+   "needs_human": 0.36296921968460083
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P6b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 252,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.4378235340118408,
+   "needs_human": 0.4687906503677368
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P6b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 256,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.4378235340118408,
+   "needs_human": 0.4687906503677368
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P6b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 252,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.4378235340118408,
+   "needs_human": 0.4687906503677368
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P7a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 251,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.28140562772750854,
+   "needs_human": 0.25683197379112244
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P7a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 251,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.28140562772750854,
+   "needs_human": 0.25683197379112244
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P7a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 255,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.28140562772750854,
+   "needs_human": 0.25683197379112244
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P7b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 246,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3073580265045166,
+   "needs_human": 0.3486451804637909
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P7b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 249,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3073580265045166,
+   "needs_human": 0.3486451804637909
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P7b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 268,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3073580265045166,
+   "needs_human": 0.3486451804637909
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P8a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 272,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3923368752002716,
+   "needs_human": 0.2689414322376251
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P8a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 246,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3923368752002716,
+   "needs_human": 0.2689414322376251
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P8a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 257,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3923368752002716,
+   "needs_human": 0.2689414322376251
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P8b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 263,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.5467381477355957,
+   "needs_human": 0.4687906503677368
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P8b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 247,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.5467381477355957,
+   "needs_human": 0.4687906503677368
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "P8b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 239,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.5467381477355957,
+   "needs_human": 0.4687906503677368
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "F01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 261,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.25683197379112244,
+   "needs_human": 0.2689414322376251
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "F01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 250,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.25683197379112244,
+   "needs_human": 0.2689414322376251
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "F01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 259,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.25683197379112244,
+   "needs_human": 0.2689414322376251
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "F02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 261,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.24508503079414368,
+   "needs_human": 0.24508503079414368
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "F02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 247,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.24508503079414368,
+   "needs_human": 0.24508503079414368
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "F02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 256,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.24508503079414368,
+   "needs_human": 0.24508503079414368
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "F03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 249,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2689414322376251,
+   "needs_human": 0.6513549089431763
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "F03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 252,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2689414322376251,
+   "needs_human": 0.6513549089431763
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "F03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 249,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2689414322376251,
+   "needs_human": 0.6513549089431763
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "F04",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 255,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.1919327974319458,
+   "needs_human": 0.3073580265045166
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "F04",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 247,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.1919327974319458,
+   "needs_human": 0.3073580265045166
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "F04",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 251,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.1919327974319458,
+   "needs_human": 0.3073580265045166
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "F05",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 259,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.14804719388484955,
+   "needs_human": 0.18242552876472473
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "F05",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 251,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.14804719388484955,
+   "needs_human": 0.18242552876472473
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "F05",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 243,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.14804719388484955,
+   "needs_human": 0.18242552876472473
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "F06",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 263,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.18242552876472473,
+   "needs_human": 0.3345894515514374
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "F06",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 258,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.18242552876472473,
+   "needs_human": 0.3345894515514374
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "F06",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 255,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.18242552876472473,
+   "needs_human": 0.3345894515514374
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "F07",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 250,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2689414322376251,
+   "needs_human": 0.6370307803153992
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "F07",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 255,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2689414322376251,
+   "needs_human": 0.6370307803153992
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "F07",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 257,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2689414322376251,
+   "needs_human": 0.6370307803153992
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "F08",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 253,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.25683197379112244,
+   "needs_human": 0.29421496391296387
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "F08",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 242,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.25683197379112244,
+   "needs_human": 0.29421496391296387
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "F08",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 264,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.25683197379112244,
+   "needs_human": 0.29421496391296387
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "M01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 265,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.29421496391296387,
+   "needs_human": 0.5156199336051941
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "M01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 252,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.29421496391296387,
+   "needs_human": 0.5156199336051941
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "M01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 252,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.29421496391296387,
+   "needs_human": 0.5156199336051941
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "M02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 263,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3073580265045166,
+   "needs_human": 0.3775406777858734
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "M02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 251,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3073580265045166,
+   "needs_human": 0.3775406777858734
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "M02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 259,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3073580265045166,
+   "needs_human": 0.3775406777858734
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "M03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 252,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3923368752002716,
+   "needs_human": 0.22270014882087708
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "M03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 243,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3923368752002716,
+   "needs_human": 0.22270014882087708
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "M03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 259,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3923368752002716,
+   "needs_human": 0.22270014882087708
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "M04",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 254,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2689414322376251,
+   "needs_human": 0.3923368752002716
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "M04",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 262,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2689414322376251,
+   "needs_human": 0.3923368752002716
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "M04",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 262,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2689414322376251,
+   "needs_human": 0.3923368752002716
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "M05",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 242,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.22270014882087708,
+   "needs_human": 0.3208213150501251
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "M05",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 245,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.22270014882087708,
+   "needs_human": 0.3208213150501251
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "M05",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 264,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.22270014882087708,
+   "needs_human": 0.3208213150501251
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "M06",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 241,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3208213150501251,
+   "needs_human": 0.29421496391296387
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "M06",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 255,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3208213150501251,
+   "needs_human": 0.29421496391296387
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "M06",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 248,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3208213150501251,
+   "needs_human": 0.29421496391296387
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "M07",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 245,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.25683197379112244,
+   "needs_human": 0.24508503079414368
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "M07",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 246,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.25683197379112244,
+   "needs_human": 0.24508503079414368
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "M07",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 265,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.25683197379112244,
+   "needs_human": 0.24508503079414368
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "M08",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 242,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3073580265045166,
+   "needs_human": 0.3923368752002716
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "M08",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 254,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3073580265045166,
+   "needs_human": 0.3923368752002716
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "M08",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 252,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3073580265045166,
+   "needs_human": 0.3923368752002716
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "M09",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 269,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.28140562772750854,
+   "needs_human": 0.4532618522644043
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "M09",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 254,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.28140562772750854,
+   "needs_human": 0.4532618522644043
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "M09",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 255,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.28140562772750854,
+   "needs_human": 0.4532618522644043
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "M10",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 249,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.36296921968460083,
+   "needs_human": 0.3923368752002716
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "M10",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 261,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.36296921968460083,
+   "needs_human": 0.3923368752002716
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "M10",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 239,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.36296921968460083,
+   "needs_human": 0.3923368752002716
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "I01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 256,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2018132507801056,
+   "needs_human": 0.14033626019954681
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "I01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 262,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2018132507801056,
+   "needs_human": 0.14033626019954681
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "I01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 250,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2018132507801056,
+   "needs_human": 0.14033626019954681
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "I02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 251,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.4378235340118408,
+   "needs_human": 0.2018132507801056
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "I02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 265,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.4378235340118408,
+   "needs_human": 0.2018132507801056
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "I02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 251,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.4378235340118408,
+   "needs_human": 0.2018132507801056
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "I03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 264,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.24508503079414368,
+   "needs_human": 0.17328821122646332
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "I03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 267,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.24508503079414368,
+   "needs_human": 0.17328821122646332
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "I03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 254,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.24508503079414368,
+   "needs_human": 0.17328821122646332
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "T01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 267,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.28140562772750854,
+   "needs_human": 0.3345894515514374
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "T01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 259,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.28140562772750854,
+   "needs_human": 0.3345894515514374
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "T01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 267,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.28140562772750854,
+   "needs_human": 0.3345894515514374
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "T02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 266,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.28140562772750854,
+   "needs_human": 0.3073580265045166
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "T02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 249,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.28140562772750854,
+   "needs_human": 0.3073580265045166
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "T02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 272,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.28140562772750854,
+   "needs_human": 0.3073580265045166
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "T03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 262,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.18242552876472473,
+   "needs_human": 0.22270014882087708
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "T03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 256,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.18242552876472473,
+   "needs_human": 0.22270014882087708
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "T03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 265,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.18242552876472473,
+   "needs_human": 0.22270014882087708
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "O01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 260,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.22270014882087708,
+   "needs_human": 0.3775406777858734
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "O01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 264,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.22270014882087708,
+   "needs_human": 0.3775406777858734
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "O01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 255,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.22270014882087708,
+   "needs_human": 0.3775406777858734
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "O02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 260,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2018132507801056,
+   "needs_human": 0.25683197379112244
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "O02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 261,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2018132507801056,
+   "needs_human": 0.25683197379112244
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "O02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 254,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2018132507801056,
+   "needs_human": 0.25683197379112244
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "O03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 266,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.17328821122646332,
+   "needs_human": 0.28140562772750854
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "O03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 261,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.17328821122646332,
+   "needs_human": 0.28140562772750854
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "O03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 263,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.17328821122646332,
+   "needs_human": 0.28140562772750854
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "O04",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 265,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2120688110589981,
+   "needs_human": 0.25683197379112244
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "O04",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 291,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2120688110589981,
+   "needs_human": 0.25683197379112244
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "O04",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 264,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2120688110589981,
+   "needs_human": 0.25683197379112244
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "O05",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 271,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2018132507801056,
+   "needs_human": 0.3208213150501251
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "O05",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 264,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2018132507801056,
+   "needs_human": 0.3208213150501251
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "O05",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 273,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2018132507801056,
+   "needs_human": 0.3208213150501251
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "O06",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 268,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.28140562772750854,
+   "needs_human": 0.28140562772750854
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "O06",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 277,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.28140562772750854,
+   "needs_human": 0.28140562772750854
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "O06",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 272,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.28140562772750854,
+   "needs_human": 0.28140562772750854
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "O07",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 283,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2120688110589981,
+   "needs_human": 0.16451646387577057
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "O07",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 274,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2120688110589981,
+   "needs_human": 0.16451646387577057
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "O07",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 268,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2120688110589981,
+   "needs_human": 0.16451646387577057
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "O08",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 275,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.1919327974319458,
+   "needs_human": 0.18242552876472473
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "O08",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 274,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.1919327974319458,
+   "needs_human": 0.18242552876472473
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "O08",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 276,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.1919327974319458,
+   "needs_human": 0.18242552876472473
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "O09",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 274,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.18242552876472473,
+   "needs_human": 0.3073580265045166
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "O09",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 271,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.18242552876472473,
+   "needs_human": 0.3073580265045166
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "O09",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 275,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.18242552876472473,
+   "needs_human": 0.3073580265045166
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "O10",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 282,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.1919327974319458,
+   "needs_human": 0.22270014882087708
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "O10",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 285,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.1919327974319458,
+   "needs_human": 0.22270014882087708
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "O10",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 266,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.1919327974319458,
+   "needs_human": 0.22270014882087708
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "X01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 275,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.4378235340118408,
+   "needs_human": 0.4532618522644043
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "X01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 262,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.4378235340118408,
+   "needs_human": 0.4532618522644043
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "X01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 276,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.4378235340118408,
+   "needs_human": 0.4532618522644043
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "X02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 268,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3208213150501251,
+   "needs_human": 0.3486451804637909
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "X02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 275,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3208213150501251,
+   "needs_human": 0.3486451804637909
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "X02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 285,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3208213150501251,
+   "needs_human": 0.3486451804637909
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "X03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 264,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.29421496391296387,
+   "needs_human": 0.531209409236908
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "X03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 272,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.29421496391296387,
+   "needs_human": 0.531209409236908
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "X03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 274,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.29421496391296387,
+   "needs_human": 0.531209409236908
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "BB1",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 275,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.29421496391296387,
+   "needs_human": 0.3073580265045166
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "BB1",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 275,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.29421496391296387,
+   "needs_human": 0.3073580265045166
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "BB1",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 291,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.29421496391296387,
+   "needs_human": 0.3073580265045166
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "BB2",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 271,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.28140562772750854,
+   "needs_human": 0.3486451804637909
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "BB2",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 274,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.28140562772750854,
+   "needs_human": 0.3486451804637909
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "BB2",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 271,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.28140562772750854,
+   "needs_human": 0.3486451804637909
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "BB3",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 268,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2689414322376251,
+   "needs_human": 0.3208213150501251
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "BB3",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 278,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2689414322376251,
+   "needs_human": 0.3208213150501251
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "BB3",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 263,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2689414322376251,
+   "needs_human": 0.3208213150501251
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "BB4",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 282,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3073580265045166,
+   "needs_human": 0.3208213150501251
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "BB4",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 275,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3073580265045166,
+   "needs_human": 0.3208213150501251
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "BB4",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 269,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3073580265045166,
+   "needs_human": 0.3208213150501251
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "BB5",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 265,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.29421496391296387,
+   "needs_human": 0.36296921968460083
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "BB5",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 274,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.29421496391296387,
+   "needs_human": 0.36296921968460083
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "BB5",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 298,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.29421496391296387,
+   "needs_human": 0.36296921968460083
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "BB6",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 326,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.28140562772750854,
+   "needs_human": 0.3073580265045166
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "BB6",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 336,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.28140562772750854,
+   "needs_human": 0.3073580265045166
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "BB6",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 331,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.28140562772750854,
+   "needs_human": 0.3073580265045166
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "BB7",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 276,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.28140562772750854,
+   "needs_human": 0.29421496391296387
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "BB7",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 279,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.28140562772750854,
+   "needs_human": 0.29421496391296387
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "BB7",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 263,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.28140562772750854,
+   "needs_human": 0.29421496391296387
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "BB8",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 262,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2689414322376251,
+   "needs_human": 0.4073334336280823
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "BB8",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 263,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2689414322376251,
+   "needs_human": 0.4073334336280823
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ },
+ {
+  "caseID": "BB8",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 265,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2689414322376251,
+   "needs_human": 0.4073334336280823
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "Jev-Style-Qwen3.5-2B-Decision-MLX-bf16"
+ }
+]

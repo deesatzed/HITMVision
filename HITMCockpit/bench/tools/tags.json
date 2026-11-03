@@ -1,0 +1,246 @@
+{
+ "P1a": [
+  "general",
+  "logic-or-math"
+ ],
+ "P1b": [
+  "health-safety",
+  "logic-or-math"
+ ],
+ "P2a": [
+  "general",
+  "default-or-config"
+ ],
+ "P2b": [
+  "health-safety",
+  "default-or-config"
+ ],
+ "P3a": [
+  "general",
+  "logic-or-math"
+ ],
+ "P3b": [
+  "health-safety",
+  "logic-or-math"
+ ],
+ "P4a": [
+  "general",
+  "data-handling"
+ ],
+ "P4b": [
+  "health-safety",
+  "data-handling"
+ ],
+ "P5a": [
+  "general",
+  "error-handling"
+ ],
+ "P5b": [
+  "health-safety",
+  "error-handling"
+ ],
+ "P6a": [
+  "general",
+  "validation-or-auth"
+ ],
+ "P6b": [
+  "health-safety",
+  "validation-or-auth"
+ ],
+ "P7a": [
+  "general",
+  "logging"
+ ],
+ "P7b": [
+  "health-safety",
+  "logging"
+ ],
+ "P8a": [
+  "general",
+  "logic-or-math"
+ ],
+ "P8b": [
+  "health-safety",
+  "logic-or-math"
+ ],
+ "F01": [
+  "general",
+  "build-or-ci"
+ ],
+ "F02": [
+  "general",
+  "delete-code"
+ ],
+ "F03": [
+  "health-safety",
+  "test-only"
+ ],
+ "F04": [
+  "security-privacy",
+  "comment-or-docs"
+ ],
+ "F05": [
+  "security-privacy",
+  "rename-or-move"
+ ],
+ "F06": [
+  "general",
+  "build-or-ci"
+ ],
+ "F07": [
+  "health-safety",
+  "comment-or-docs"
+ ],
+ "F08": [
+  "general",
+  "test-only"
+ ],
+ "M01": [
+  "health-safety",
+  "logic-or-math"
+ ],
+ "M02": [
+  "general",
+  "logic-or-math"
+ ],
+ "M03": [
+  "security-privacy",
+  "validation-or-auth"
+ ],
+ "M04": [
+  "security-privacy",
+  "validation-or-auth"
+ ],
+ "M05": [
+  "general",
+  "default-or-config"
+ ],
+ "M06": [
+  "security-privacy",
+  "error-handling"
+ ],
+ "M07": [
+  "security-privacy",
+  "validation-or-auth"
+ ],
+ "M08": [
+  "security-privacy",
+  "logic-or-math"
+ ],
+ "M09": [
+  "finance",
+  "logic-or-math"
+ ],
+ "M10": [
+  "general",
+  "data-handling"
+ ],
+ "I01": [
+  "security-privacy",
+  "logging"
+ ],
+ "I02": [
+  "health-safety",
+  "validation-or-auth"
+ ],
+ "I03": [
+  "security-privacy",
+  "data-handling"
+ ],
+ "T01": [
+  "general",
+  "other"
+ ],
+ "T02": [
+  "general",
+  "other"
+ ],
+ "T03": [
+  "general",
+  "other"
+ ],
+ "O01": [
+  "general",
+  "comment-or-docs"
+ ],
+ "O02": [
+  "general",
+  "logging"
+ ],
+ "O03": [
+  "general",
+  "comment-or-docs"
+ ],
+ "O04": [
+  "general",
+  "other"
+ ],
+ "O05": [
+  "general",
+  "other"
+ ],
+ "O06": [
+  "general",
+  "test-only"
+ ],
+ "O07": [
+  "general",
+  "delete-code"
+ ],
+ "O08": [
+  "general",
+  "other"
+ ],
+ "O09": [
+  "general",
+  "other"
+ ],
+ "O10": [
+  "general",
+  "other"
+ ],
+ "X01": [
+  "security-privacy",
+  "default-or-config"
+ ],
+ "X02": [
+  "security-privacy",
+  "default-or-config"
+ ],
+ "X03": [
+  "finance",
+  "default-or-config"
+ ],
+ "BB1": [
+  "general",
+  "default-or-config"
+ ],
+ "BB2": [
+  "general",
+  "build-or-ci"
+ ],
+ "BB3": [
+  "general",
+  "default-or-config"
+ ],
+ "BB4": [
+  "general",
+  "default-or-config"
+ ],
+ "BB5": [
+  "general",
+  "other"
+ ],
+ "BB6": [
+  "general",
+  "delete-code"
+ ],
+ "BB7": [
+  "general",
+  "logic-or-math"
+ ],
+ "BB8": [
+  "general",
+  "logging"
+ ]
+}

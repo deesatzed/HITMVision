@@ -1,0 +1,3113 @@
+[
+  {
+    "caseID" : "P1a",
+    "completionTokens" : 40,
+    "costUSD" : 2.3436e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 170,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.22,
+      "needs_human" : 0.38
+    },
+    "promptTokens" : 558,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P1a",
+    "completionTokens" : 40,
+    "costUSD" : 2.3436e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 88,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.25,
+      "needs_human" : 0.4
+    },
+    "promptTokens" : 558,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P1a",
+    "completionTokens" : 40,
+    "costUSD" : 2.3436e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 172,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.2,
+      "needs_human" : 0.36
+    },
+    "promptTokens" : 558,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P1b",
+    "completionTokens" : 40,
+    "costUSD" : 2.3562e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 93,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.49,
+      "needs_human" : 0.75
+    },
+    "promptTokens" : 561,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P1b",
+    "completionTokens" : 40,
+    "costUSD" : 2.3562e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 113,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.48,
+      "needs_human" : 0.75
+    },
+    "promptTokens" : 561,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P1b",
+    "completionTokens" : 40,
+    "costUSD" : 2.3562e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 116,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.42,
+      "needs_human" : 0.76
+    },
+    "promptTokens" : 561,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P2a",
+    "completionTokens" : 40,
+    "costUSD" : 2.3436e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 128,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.19,
+      "needs_human" : 0.3
+    },
+    "promptTokens" : 558,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P2a",
+    "completionTokens" : 40,
+    "costUSD" : 2.3436e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 86,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.2,
+      "needs_human" : 0.32
+    },
+    "promptTokens" : 558,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P2a",
+    "completionTokens" : 40,
+    "costUSD" : 2.3436e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 88,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.21,
+      "needs_human" : 0.31
+    },
+    "promptTokens" : 558,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P2b",
+    "completionTokens" : 40,
+    "costUSD" : 2.3562e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 97,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.3,
+      "needs_human" : 0.55
+    },
+    "promptTokens" : 561,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P2b",
+    "completionTokens" : 40,
+    "costUSD" : 2.3562e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 119,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.24,
+      "needs_human" : 0.55
+    },
+    "promptTokens" : 561,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P2b",
+    "completionTokens" : 40,
+    "costUSD" : 2.3562e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 100,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.3,
+      "needs_human" : 0.58
+    },
+    "promptTokens" : 561,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P3a",
+    "completionTokens" : 40,
+    "costUSD" : 2.3436e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 80,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.23,
+      "needs_human" : 0.36
+    },
+    "promptTokens" : 558,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P3a",
+    "completionTokens" : 40,
+    "costUSD" : 2.3436e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 128,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.25,
+      "needs_human" : 0.38
+    },
+    "promptTokens" : 558,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P3a",
+    "completionTokens" : 40,
+    "costUSD" : 2.3436e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 108,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.26,
+      "needs_human" : 0.38
+    },
+    "promptTokens" : 558,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P3b",
+    "completionTokens" : 40,
+    "costUSD" : 2.3562e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 87,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.49,
+      "needs_human" : 0.71
+    },
+    "promptTokens" : 561,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P3b",
+    "completionTokens" : 40,
+    "costUSD" : 2.3562e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 101,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.52,
+      "needs_human" : 0.74
+    },
+    "promptTokens" : 561,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P3b",
+    "completionTokens" : 40,
+    "costUSD" : 2.3562e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 80,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.51,
+      "needs_human" : 0.72
+    },
+    "promptTokens" : 561,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P4a",
+    "completionTokens" : 40,
+    "costUSD" : 2.3478e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 153,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.4,
+      "needs_human" : 0.58
+    },
+    "promptTokens" : 559,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P4a",
+    "completionTokens" : 40,
+    "costUSD" : 2.3478e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 122,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.49,
+      "needs_human" : 0.61
+    },
+    "promptTokens" : 559,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P4a",
+    "completionTokens" : 40,
+    "costUSD" : 2.3478e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 101,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.47,
+      "needs_human" : 0.6
+    },
+    "promptTokens" : 559,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P4b",
+    "completionTokens" : 40,
+    "costUSD" : 2.3604e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 88,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.69,
+      "needs_human" : 0.84
+    },
+    "promptTokens" : 562,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P4b",
+    "completionTokens" : 40,
+    "costUSD" : 2.3604e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 126,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.7,
+      "needs_human" : 0.83
+    },
+    "promptTokens" : 562,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P4b",
+    "completionTokens" : 40,
+    "costUSD" : 2.3604e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 95,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.68,
+      "needs_human" : 0.82
+    },
+    "promptTokens" : 562,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P5a",
+    "completionTokens" : 40,
+    "costUSD" : 2.352e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 77,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.53,
+      "needs_human" : 0.4
+    },
+    "promptTokens" : 560,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P5a",
+    "completionTokens" : 40,
+    "costUSD" : 2.352e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 143,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.43,
+      "needs_human" : 0.39
+    },
+    "promptTokens" : 560,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P5a",
+    "completionTokens" : 40,
+    "costUSD" : 2.352e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 104,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.38,
+      "needs_human" : 0.42
+    },
+    "promptTokens" : 560,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P5b",
+    "completionTokens" : 40,
+    "costUSD" : 2.3646e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 114,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.5,
+      "needs_human" : 0.67
+    },
+    "promptTokens" : 563,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P5b",
+    "completionTokens" : 40,
+    "costUSD" : 2.3646e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 113,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.45,
+      "needs_human" : 0.7
+    },
+    "promptTokens" : 563,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P5b",
+    "completionTokens" : 40,
+    "costUSD" : 2.3646e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 97,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.55,
+      "needs_human" : 0.69
+    },
+    "promptTokens" : 563,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P6a",
+    "completionTokens" : 40,
+    "costUSD" : 2.3394e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 83,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.46,
+      "needs_human" : 0.57
+    },
+    "promptTokens" : 557,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P6a",
+    "completionTokens" : 40,
+    "costUSD" : 2.3394e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 83,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.36,
+      "needs_human" : 0.5
+    },
+    "promptTokens" : 557,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P6a",
+    "completionTokens" : 40,
+    "costUSD" : 2.3394e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 84,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.43,
+      "needs_human" : 0.52
+    },
+    "promptTokens" : 557,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P6b",
+    "completionTokens" : 40,
+    "costUSD" : 2.352e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 180,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.47,
+      "needs_human" : 0.72
+    },
+    "promptTokens" : 560,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P6b",
+    "completionTokens" : 40,
+    "costUSD" : 2.352e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 90,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.43,
+      "needs_human" : 0.71
+    },
+    "promptTokens" : 560,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P6b",
+    "completionTokens" : 40,
+    "costUSD" : 2.352e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 113,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.48,
+      "needs_human" : 0.74
+    },
+    "promptTokens" : 560,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P7a",
+    "completionTokens" : 40,
+    "costUSD" : 2.331e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 106,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.19,
+      "needs_human" : 0.21
+    },
+    "promptTokens" : 555,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P7a",
+    "completionTokens" : 40,
+    "costUSD" : 2.331e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 85,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.19,
+      "needs_human" : 0.19
+    },
+    "promptTokens" : 555,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P7a",
+    "completionTokens" : 40,
+    "costUSD" : 2.331e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 81,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.18,
+      "needs_human" : 0.21
+    },
+    "promptTokens" : 555,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P7b",
+    "completionTokens" : 40,
+    "costUSD" : 2.3436e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 85,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.24,
+      "needs_human" : 0.45
+    },
+    "promptTokens" : 558,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P7b",
+    "completionTokens" : 40,
+    "costUSD" : 2.3436e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 103,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.29,
+      "needs_human" : 0.54
+    },
+    "promptTokens" : 558,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P7b",
+    "completionTokens" : 40,
+    "costUSD" : 2.3436e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 84,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.25,
+      "needs_human" : 0.45
+    },
+    "promptTokens" : 558,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P8a",
+    "completionTokens" : 40,
+    "costUSD" : 2.3478e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 90,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.28,
+      "needs_human" : 0.47
+    },
+    "promptTokens" : 559,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P8a",
+    "completionTokens" : 40,
+    "costUSD" : 2.3478e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 87,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.26,
+      "needs_human" : 0.49
+    },
+    "promptTokens" : 559,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P8a",
+    "completionTokens" : 40,
+    "costUSD" : 2.3478e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 94,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.32,
+      "needs_human" : 0.49
+    },
+    "promptTokens" : 559,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P8b",
+    "completionTokens" : 40,
+    "costUSD" : 2.3604e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 106,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.51,
+      "needs_human" : 0.79
+    },
+    "promptTokens" : 562,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P8b",
+    "completionTokens" : 40,
+    "costUSD" : 2.3604e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 170,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.56,
+      "needs_human" : 0.8
+    },
+    "promptTokens" : 562,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "P8b",
+    "completionTokens" : 40,
+    "costUSD" : 2.3604e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 70,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.52,
+      "needs_human" : 0.79
+    },
+    "promptTokens" : 562,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "F01",
+    "completionTokens" : 40,
+    "costUSD" : 2.3394e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 121,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.29,
+      "needs_human" : 0.27
+    },
+    "promptTokens" : 557,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "F01",
+    "completionTokens" : 40,
+    "costUSD" : 2.3394e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 171,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.34,
+      "needs_human" : 0.28
+    },
+    "promptTokens" : 557,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "F01",
+    "completionTokens" : 40,
+    "costUSD" : 2.3394e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 97,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.26,
+      "needs_human" : 0.27
+    },
+    "promptTokens" : 557,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "F02",
+    "completionTokens" : 40,
+    "costUSD" : 2.3394e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 86,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.41,
+      "needs_human" : 0.44
+    },
+    "promptTokens" : 557,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "F02",
+    "completionTokens" : 40,
+    "costUSD" : 2.3394e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 94,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.42,
+      "needs_human" : 0.47
+    },
+    "promptTokens" : 557,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "F02",
+    "completionTokens" : 40,
+    "costUSD" : 2.3394e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 1039,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.47,
+      "needs_human" : 0.42
+    },
+    "promptTokens" : 557,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "F03",
+    "completionTokens" : 40,
+    "costUSD" : 2.352e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 91,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.38,
+      "needs_human" : 0.42
+    },
+    "promptTokens" : 560,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "F03",
+    "completionTokens" : 40,
+    "costUSD" : 2.352e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 95,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.34,
+      "needs_human" : 0.37
+    },
+    "promptTokens" : 560,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "F03",
+    "completionTokens" : 40,
+    "costUSD" : 2.352e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 113,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.36,
+      "needs_human" : 0.39
+    },
+    "promptTokens" : 560,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "F04",
+    "completionTokens" : 40,
+    "costUSD" : 2.3604e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 108,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.23,
+      "needs_human" : 0.31
+    },
+    "promptTokens" : 562,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "F04",
+    "completionTokens" : 40,
+    "costUSD" : 2.3604e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 77,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.31,
+      "needs_human" : 0.28
+    },
+    "promptTokens" : 562,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "F04",
+    "completionTokens" : 40,
+    "costUSD" : 2.3604e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 93,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.25,
+      "needs_human" : 0.3
+    },
+    "promptTokens" : 562,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "F05",
+    "completionTokens" : 40,
+    "costUSD" : 2.3604e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 72,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.51,
+      "needs_human" : 0.48
+    },
+    "promptTokens" : 562,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "F05",
+    "completionTokens" : 40,
+    "costUSD" : 2.3604e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 89,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.54,
+      "needs_human" : 0.51
+    },
+    "promptTokens" : 562,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "F05",
+    "completionTokens" : 40,
+    "costUSD" : 2.3604e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 86,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.53,
+      "needs_human" : 0.47
+    },
+    "promptTokens" : 562,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "F06",
+    "completionTokens" : 40,
+    "costUSD" : 2.3436e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 83,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.31,
+      "needs_human" : 0.34
+    },
+    "promptTokens" : 558,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "F06",
+    "completionTokens" : 40,
+    "costUSD" : 2.3436e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 88,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.34,
+      "needs_human" : 0.32
+    },
+    "promptTokens" : 558,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "F06",
+    "completionTokens" : 40,
+    "costUSD" : 2.3436e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 183,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.33,
+      "needs_human" : 0.31
+    },
+    "promptTokens" : 558,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "F07",
+    "completionTokens" : 40,
+    "costUSD" : 2.3646e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 98,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.19,
+      "needs_human" : 0.33
+    },
+    "promptTokens" : 563,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "F07",
+    "completionTokens" : 40,
+    "costUSD" : 2.3646e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 82,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.2,
+      "needs_human" : 0.3
+    },
+    "promptTokens" : 563,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "F07",
+    "completionTokens" : 40,
+    "costUSD" : 2.3646e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 89,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.18,
+      "needs_human" : 0.31
+    },
+    "promptTokens" : 563,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "F08",
+    "completionTokens" : 40,
+    "costUSD" : 2.3352e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 99,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.23,
+      "needs_human" : 0.19
+    },
+    "promptTokens" : 556,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "F08",
+    "completionTokens" : 40,
+    "costUSD" : 2.3352e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 130,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.26,
+      "needs_human" : 0.19
+    },
+    "promptTokens" : 556,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "F08",
+    "completionTokens" : 40,
+    "costUSD" : 2.3352e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 139,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.26,
+      "needs_human" : 0.2
+    },
+    "promptTokens" : 556,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "M01",
+    "completionTokens" : 40,
+    "costUSD" : 2.3562e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 117,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.52,
+      "needs_human" : 0.74
+    },
+    "promptTokens" : 561,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "M01",
+    "completionTokens" : 40,
+    "costUSD" : 2.3562e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 86,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.53,
+      "needs_human" : 0.78
+    },
+    "promptTokens" : 561,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "M01",
+    "completionTokens" : 40,
+    "costUSD" : 2.3562e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 85,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.4,
+      "needs_human" : 0.75
+    },
+    "promptTokens" : 561,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "M02",
+    "completionTokens" : 40,
+    "costUSD" : 2.3478e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 85,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.26,
+      "needs_human" : 0.39
+    },
+    "promptTokens" : 559,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "M02",
+    "completionTokens" : 40,
+    "costUSD" : 2.3478e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 81,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.26,
+      "needs_human" : 0.4
+    },
+    "promptTokens" : 559,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "M02",
+    "completionTokens" : 40,
+    "costUSD" : 2.3478e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 82,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.25,
+      "needs_human" : 0.37
+    },
+    "promptTokens" : 559,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "M03",
+    "completionTokens" : 40,
+    "costUSD" : 2.352e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 81,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.48,
+      "needs_human" : 0.77
+    },
+    "promptTokens" : 560,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "M03",
+    "completionTokens" : 40,
+    "costUSD" : 2.352e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 115,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.41,
+      "needs_human" : 0.78
+    },
+    "promptTokens" : 560,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "M03",
+    "completionTokens" : 40,
+    "costUSD" : 2.352e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 101,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.49,
+      "needs_human" : 0.78
+    },
+    "promptTokens" : 560,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "M04",
+    "completionTokens" : 40,
+    "costUSD" : 2.352e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 101,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.54,
+      "needs_human" : 0.77
+    },
+    "promptTokens" : 560,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "M04",
+    "completionTokens" : 40,
+    "costUSD" : 2.352e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 93,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.49,
+      "needs_human" : 0.79
+    },
+    "promptTokens" : 560,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "M04",
+    "completionTokens" : 40,
+    "costUSD" : 2.352e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 107,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.52,
+      "needs_human" : 0.76
+    },
+    "promptTokens" : 560,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "M05",
+    "completionTokens" : 40,
+    "costUSD" : 2.3394e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 87,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.18,
+      "needs_human" : 0.27
+    },
+    "promptTokens" : 557,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "M05",
+    "completionTokens" : 40,
+    "costUSD" : 2.3394e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 104,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.19,
+      "needs_human" : 0.28
+    },
+    "promptTokens" : 557,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "M05",
+    "completionTokens" : 40,
+    "costUSD" : 2.3394e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 92,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.22,
+      "needs_human" : 0.28
+    },
+    "promptTokens" : 557,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "M06",
+    "completionTokens" : 40,
+    "costUSD" : 2.3562e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 95,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.54,
+      "needs_human" : 0.62
+    },
+    "promptTokens" : 561,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "M06",
+    "completionTokens" : 40,
+    "costUSD" : 2.3562e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 81,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.57,
+      "needs_human" : 0.61
+    },
+    "promptTokens" : 561,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "M06",
+    "completionTokens" : 40,
+    "costUSD" : 2.3562e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 122,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.52,
+      "needs_human" : 0.62
+    },
+    "promptTokens" : 561,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "M07",
+    "completionTokens" : 40,
+    "costUSD" : 2.3604e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 93,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.52,
+      "needs_human" : 0.83
+    },
+    "promptTokens" : 562,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "M07",
+    "completionTokens" : 40,
+    "costUSD" : 2.3604e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 127,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.49,
+      "needs_human" : 0.83
+    },
+    "promptTokens" : 562,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "M07",
+    "completionTokens" : 40,
+    "costUSD" : 2.3604e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 97,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.56,
+      "needs_human" : 0.82
+    },
+    "promptTokens" : 562,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "M08",
+    "completionTokens" : 40,
+    "costUSD" : 2.3562e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 85,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.65,
+      "needs_human" : 0.8
+    },
+    "promptTokens" : 561,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "M08",
+    "completionTokens" : 40,
+    "costUSD" : 2.3562e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 68,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.65,
+      "needs_human" : 0.77
+    },
+    "promptTokens" : 561,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "M08",
+    "completionTokens" : 40,
+    "costUSD" : 2.3562e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 169,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.69,
+      "needs_human" : 0.8
+    },
+    "promptTokens" : 561,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "M09",
+    "completionTokens" : 40,
+    "costUSD" : 2.3436e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 105,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.55,
+      "needs_human" : 0.77
+    },
+    "promptTokens" : 558,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "M09",
+    "completionTokens" : 40,
+    "costUSD" : 2.3436e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 101,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.49,
+      "needs_human" : 0.78
+    },
+    "promptTokens" : 558,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "M09",
+    "completionTokens" : 40,
+    "costUSD" : 2.3436e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 75,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.49,
+      "needs_human" : 0.8
+    },
+    "promptTokens" : 558,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "M10",
+    "completionTokens" : 40,
+    "costUSD" : 2.3436e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 151,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.46,
+      "needs_human" : 0.62
+    },
+    "promptTokens" : 558,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "M10",
+    "completionTokens" : 40,
+    "costUSD" : 2.3436e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 69,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.42,
+      "needs_human" : 0.59
+    },
+    "promptTokens" : 558,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "M10",
+    "completionTokens" : 40,
+    "costUSD" : 2.3436e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 173,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.38,
+      "needs_human" : 0.58
+    },
+    "promptTokens" : 558,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "I01",
+    "completionTokens" : 40,
+    "costUSD" : 2.3478e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 106,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.58,
+      "needs_human" : 0.7
+    },
+    "promptTokens" : 559,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "I01",
+    "completionTokens" : 40,
+    "costUSD" : 2.3478e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 88,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.54,
+      "needs_human" : 0.68
+    },
+    "promptTokens" : 559,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "I01",
+    "completionTokens" : 40,
+    "costUSD" : 2.3478e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 74,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.55,
+      "needs_human" : 0.68
+    },
+    "promptTokens" : 559,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "I02",
+    "completionTokens" : 40,
+    "costUSD" : 2.352e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 113,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.46,
+      "needs_human" : 0.72
+    },
+    "promptTokens" : 560,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "I02",
+    "completionTokens" : 40,
+    "costUSD" : 2.352e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 91,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.47,
+      "needs_human" : 0.74
+    },
+    "promptTokens" : 560,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "I02",
+    "completionTokens" : 40,
+    "costUSD" : 2.352e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 123,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.37,
+      "needs_human" : 0.74
+    },
+    "promptTokens" : 560,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "I03",
+    "completionTokens" : 40,
+    "costUSD" : 2.3562e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 99,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.65,
+      "needs_human" : 0.83
+    },
+    "promptTokens" : 561,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "I03",
+    "completionTokens" : 40,
+    "costUSD" : 2.3562e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 94,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.64,
+      "needs_human" : 0.84
+    },
+    "promptTokens" : 561,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "I03",
+    "completionTokens" : 40,
+    "costUSD" : 2.3562e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 131,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.68,
+      "needs_human" : 0.84
+    },
+    "promptTokens" : 561,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "T01",
+    "completionTokens" : 40,
+    "costUSD" : 2.3394e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 77,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.27,
+      "needs_human" : 0.82
+    },
+    "promptTokens" : 557,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "T01",
+    "completionTokens" : 40,
+    "costUSD" : 2.3394e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 80,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.25,
+      "needs_human" : 0.83
+    },
+    "promptTokens" : 557,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "T01",
+    "completionTokens" : 40,
+    "costUSD" : 2.3394e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 119,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.28,
+      "needs_human" : 0.82
+    },
+    "promptTokens" : 557,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "T02",
+    "completionTokens" : 40,
+    "costUSD" : 2.3352e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 87,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.26,
+      "needs_human" : 0.76
+    },
+    "promptTokens" : 556,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "T02",
+    "completionTokens" : 40,
+    "costUSD" : 2.3352e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 78,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.26,
+      "needs_human" : 0.71
+    },
+    "promptTokens" : 556,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "T02",
+    "completionTokens" : 40,
+    "costUSD" : 2.3352e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 106,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.26,
+      "needs_human" : 0.73
+    },
+    "promptTokens" : 556,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "T03",
+    "completionTokens" : 40,
+    "costUSD" : 2.3394e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 142,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.23,
+      "needs_human" : 0.56
+    },
+    "promptTokens" : 557,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "T03",
+    "completionTokens" : 40,
+    "costUSD" : 2.3394e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 79,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.25,
+      "needs_human" : 0.55
+    },
+    "promptTokens" : 557,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "T03",
+    "completionTokens" : 40,
+    "costUSD" : 2.3394e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 102,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.24,
+      "needs_human" : 0.57
+    },
+    "promptTokens" : 557,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "O01",
+    "completionTokens" : 40,
+    "costUSD" : 2.3478e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 152,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.13,
+      "needs_human" : 0.1
+    },
+    "promptTokens" : 559,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "O01",
+    "completionTokens" : 40,
+    "costUSD" : 2.3478e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 91,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.13,
+      "needs_human" : 0.12
+    },
+    "promptTokens" : 559,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "O01",
+    "completionTokens" : 40,
+    "costUSD" : 2.3478e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 91,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.13,
+      "needs_human" : 0.11
+    },
+    "promptTokens" : 559,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "O02",
+    "completionTokens" : 40,
+    "costUSD" : 2.331e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 97,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.18,
+      "needs_human" : 0.18
+    },
+    "promptTokens" : 555,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "O02",
+    "completionTokens" : 40,
+    "costUSD" : 2.331e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 84,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.17,
+      "needs_human" : 0.2
+    },
+    "promptTokens" : 555,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "O02",
+    "completionTokens" : 40,
+    "costUSD" : 2.331e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 106,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.18,
+      "needs_human" : 0.19
+    },
+    "promptTokens" : 555,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "O03",
+    "completionTokens" : 40,
+    "costUSD" : 2.3436e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 74,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.14,
+      "needs_human" : 0.14
+    },
+    "promptTokens" : 558,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "O03",
+    "completionTokens" : 40,
+    "costUSD" : 2.3436e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 79,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.14,
+      "needs_human" : 0.13
+    },
+    "promptTokens" : 558,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "O03",
+    "completionTokens" : 40,
+    "costUSD" : 2.3436e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 92,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.14,
+      "needs_human" : 0.13
+    },
+    "promptTokens" : 558,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "O04",
+    "completionTokens" : 40,
+    "costUSD" : 2.331e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 85,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.27,
+      "needs_human" : 0.53
+    },
+    "promptTokens" : 555,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "O04",
+    "completionTokens" : 40,
+    "costUSD" : 2.331e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 101,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.24,
+      "needs_human" : 0.51
+    },
+    "promptTokens" : 555,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "O04",
+    "completionTokens" : 40,
+    "costUSD" : 2.331e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 80,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.23,
+      "needs_human" : 0.52
+    },
+    "promptTokens" : 555,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "O05",
+    "completionTokens" : 40,
+    "costUSD" : 2.331e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 109,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.24,
+      "needs_human" : 0.47
+    },
+    "promptTokens" : 555,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "O05",
+    "completionTokens" : 40,
+    "costUSD" : 2.331e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 92,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.23,
+      "needs_human" : 0.48
+    },
+    "promptTokens" : 555,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "O05",
+    "completionTokens" : 40,
+    "costUSD" : 2.331e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 145,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.22,
+      "needs_human" : 0.5
+    },
+    "promptTokens" : 555,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "O06",
+    "completionTokens" : 40,
+    "costUSD" : 2.3394e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 99,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.24,
+      "needs_human" : 0.21
+    },
+    "promptTokens" : 557,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "O06",
+    "completionTokens" : 40,
+    "costUSD" : 2.3394e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 99,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.29,
+      "needs_human" : 0.21
+    },
+    "promptTokens" : 557,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "O06",
+    "completionTokens" : 40,
+    "costUSD" : 2.3394e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 77,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.25,
+      "needs_human" : 0.21
+    },
+    "promptTokens" : 557,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "O07",
+    "completionTokens" : 40,
+    "costUSD" : 2.3352e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 100,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.48,
+      "needs_human" : 0.41
+    },
+    "promptTokens" : 556,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "O07",
+    "completionTokens" : 40,
+    "costUSD" : 2.3352e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 65,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.5,
+      "needs_human" : 0.36
+    },
+    "promptTokens" : 556,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "O07",
+    "completionTokens" : 40,
+    "costUSD" : 2.3352e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 72,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.44,
+      "needs_human" : 0.36
+    },
+    "promptTokens" : 556,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "O08",
+    "completionTokens" : 40,
+    "costUSD" : 2.3394e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 86,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.25,
+      "needs_human" : 0.6
+    },
+    "promptTokens" : 557,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "O08",
+    "completionTokens" : 40,
+    "costUSD" : 2.3394e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 91,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.26,
+      "needs_human" : 0.57
+    },
+    "promptTokens" : 557,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "O08",
+    "completionTokens" : 40,
+    "costUSD" : 2.3394e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 83,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.25,
+      "needs_human" : 0.58
+    },
+    "promptTokens" : 557,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "O09",
+    "completionTokens" : 40,
+    "costUSD" : 2.3352e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 123,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.2,
+      "needs_human" : 0.41
+    },
+    "promptTokens" : 556,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "O09",
+    "completionTokens" : 40,
+    "costUSD" : 2.3352e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 95,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.21,
+      "needs_human" : 0.43
+    },
+    "promptTokens" : 556,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "O09",
+    "completionTokens" : 40,
+    "costUSD" : 2.3352e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 92,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.19,
+      "needs_human" : 0.39
+    },
+    "promptTokens" : 556,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "O10",
+    "completionTokens" : 40,
+    "costUSD" : 2.3352e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 86,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.24,
+      "needs_human" : 0.58
+    },
+    "promptTokens" : 556,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "O10",
+    "completionTokens" : 40,
+    "costUSD" : 2.3352e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 149,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.21,
+      "needs_human" : 0.54
+    },
+    "promptTokens" : 556,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "O10",
+    "completionTokens" : 40,
+    "costUSD" : 2.3352e-05,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 96,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.26,
+      "needs_human" : 0.6
+    },
+    "promptTokens" : 556,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "X01",
+    "completionTokens" : 40,
+    "costUSD" : 2.352e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 145,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.43,
+      "needs_human" : 0.61
+    },
+    "promptTokens" : 560,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "X01",
+    "completionTokens" : 40,
+    "costUSD" : 2.352e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 77,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.43,
+      "needs_human" : 0.58
+    },
+    "promptTokens" : 560,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "X01",
+    "completionTokens" : 40,
+    "costUSD" : 2.352e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 106,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.45,
+      "needs_human" : 0.59
+    },
+    "promptTokens" : 560,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "X02",
+    "completionTokens" : 40,
+    "costUSD" : 2.352e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 94,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.45,
+      "needs_human" : 0.64
+    },
+    "promptTokens" : 560,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "X02",
+    "completionTokens" : 40,
+    "costUSD" : 2.352e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 67,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.41,
+      "needs_human" : 0.61
+    },
+    "promptTokens" : 560,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "X02",
+    "completionTokens" : 40,
+    "costUSD" : 2.352e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 136,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.46,
+      "needs_human" : 0.64
+    },
+    "promptTokens" : 560,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "X03",
+    "completionTokens" : 40,
+    "costUSD" : 2.3814e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 131,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.44,
+      "needs_human" : 0.9
+    },
+    "promptTokens" : 567,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "X03",
+    "completionTokens" : 40,
+    "costUSD" : 2.3814e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 100,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.42,
+      "needs_human" : 0.88
+    },
+    "promptTokens" : 567,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "X03",
+    "completionTokens" : 40,
+    "costUSD" : 2.3814e-05,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 162,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.42,
+      "needs_human" : 0.88
+    },
+    "promptTokens" : 567,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "BB1",
+    "completionTokens" : 40,
+    "costUSD" : 2.3394e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 104,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.2,
+      "needs_human" : 0.29
+    },
+    "promptTokens" : 557,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "BB1",
+    "completionTokens" : 40,
+    "costUSD" : 2.3394e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 125,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.19,
+      "needs_human" : 0.28
+    },
+    "promptTokens" : 557,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "BB1",
+    "completionTokens" : 40,
+    "costUSD" : 2.3394e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 101,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.19,
+      "needs_human" : 0.27
+    },
+    "promptTokens" : 557,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "BB2",
+    "completionTokens" : 40,
+    "costUSD" : 2.3436e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 101,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.32,
+      "needs_human" : 0.32
+    },
+    "promptTokens" : 558,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "BB2",
+    "completionTokens" : 40,
+    "costUSD" : 2.3436e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 79,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.3,
+      "needs_human" : 0.37
+    },
+    "promptTokens" : 558,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "BB2",
+    "completionTokens" : 40,
+    "costUSD" : 2.3436e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 112,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.31,
+      "needs_human" : 0.33
+    },
+    "promptTokens" : 558,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "BB3",
+    "completionTokens" : 40,
+    "costUSD" : 2.3394e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 134,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.19,
+      "needs_human" : 0.3
+    },
+    "promptTokens" : 557,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "BB3",
+    "completionTokens" : 40,
+    "costUSD" : 2.3394e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 114,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.22,
+      "needs_human" : 0.28
+    },
+    "promptTokens" : 557,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "BB3",
+    "completionTokens" : 40,
+    "costUSD" : 2.3394e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 99,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.17,
+      "needs_human" : 0.29
+    },
+    "promptTokens" : 557,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "BB4",
+    "completionTokens" : 40,
+    "costUSD" : 2.3436e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 113,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.2,
+      "needs_human" : 0.32
+    },
+    "promptTokens" : 558,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "BB4",
+    "completionTokens" : 40,
+    "costUSD" : 2.3436e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 104,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.18,
+      "needs_human" : 0.34
+    },
+    "promptTokens" : 558,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "BB4",
+    "completionTokens" : 40,
+    "costUSD" : 2.3436e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 107,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.2,
+      "needs_human" : 0.31
+    },
+    "promptTokens" : 558,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "BB5",
+    "completionTokens" : 40,
+    "costUSD" : 2.3394e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 119,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.27,
+      "needs_human" : 0.67
+    },
+    "promptTokens" : 557,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "BB5",
+    "completionTokens" : 40,
+    "costUSD" : 2.3394e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 99,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.26,
+      "needs_human" : 0.68
+    },
+    "promptTokens" : 557,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "BB5",
+    "completionTokens" : 40,
+    "costUSD" : 2.3394e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 83,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.28,
+      "needs_human" : 0.7
+    },
+    "promptTokens" : 557,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "BB6",
+    "completionTokens" : 40,
+    "costUSD" : 2.3436e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 149,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.5,
+      "needs_human" : 0.49
+    },
+    "promptTokens" : 558,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "BB6",
+    "completionTokens" : 40,
+    "costUSD" : 2.3436e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 99,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.47,
+      "needs_human" : 0.53
+    },
+    "promptTokens" : 558,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "BB6",
+    "completionTokens" : 40,
+    "costUSD" : 2.3436e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 128,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.51,
+      "needs_human" : 0.5
+    },
+    "promptTokens" : 558,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "BB7",
+    "completionTokens" : 40,
+    "costUSD" : 2.3436e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 104,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.25,
+      "needs_human" : 0.4
+    },
+    "promptTokens" : 558,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "BB7",
+    "completionTokens" : 40,
+    "costUSD" : 2.3436e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 88,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.28,
+      "needs_human" : 0.4
+    },
+    "promptTokens" : 558,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "BB7",
+    "completionTokens" : 40,
+    "costUSD" : 2.3436e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 87,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.25,
+      "needs_human" : 0.39
+    },
+    "promptTokens" : 558,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "BB8",
+    "completionTokens" : 40,
+    "costUSD" : 2.3352e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 85,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.17,
+      "needs_human" : 0.2
+    },
+    "promptTokens" : 556,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 0,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "BB8",
+    "completionTokens" : 40,
+    "costUSD" : 2.3352e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 126,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.18,
+      "needs_human" : 0.22
+    },
+    "promptTokens" : 556,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 1,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  },
+  {
+    "caseID" : "BB8",
+    "completionTokens" : 40,
+    "costUSD" : 2.3352e-05,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 128,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.17,
+      "needs_human" : 0.2
+    },
+    "promptTokens" : 556,
+    "provider" : "TypeSafe",
+    "repeatIndex" : 2,
+    "usedModel" : "typesafe\/jev-1.14-20261014"
+  }
+]

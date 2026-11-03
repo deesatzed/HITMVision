@@ -1,0 +1,3662 @@
+[
+ {
+  "caseID": "P1a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 5817,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.1159871369600296,
+   "needs_human": 0.08717701584100723
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P1a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6424,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.1159871369600296,
+   "needs_human": 0.08717701584100723
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P1a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6508,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.1159871369600296,
+   "needs_human": 0.08717701584100723
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P1b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6337,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9414004683494568,
+   "needs_human": 0.9439439177513123
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P1b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6463,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9414004683494568,
+   "needs_human": 0.9439439177513123
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P1b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6557,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9414004683494568,
+   "needs_human": 0.9439439177513123
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P2a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6470,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.17546384036540985,
+   "needs_human": 0.19316016137599945
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P2a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6319,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.17546384036540985,
+   "needs_human": 0.19316016137599945
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P2a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6356,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.17546384036540985,
+   "needs_human": 0.19316016137599945
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P2b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6279,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9670966267585754,
+   "needs_human": 0.9607349038124084
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P2b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6454,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9670966267585754,
+   "needs_human": 0.9607349038124084
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P2b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6498,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9670966267585754,
+   "needs_human": 0.9607349038124084
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P3a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6458,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.7578768134117126,
+   "needs_human": 0.7581949830055237
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P3a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6359,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.7578768134117126,
+   "needs_human": 0.7581949830055237
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P3a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6359,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.7578768134117126,
+   "needs_human": 0.7581949830055237
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P3b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5883,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9701903462409973,
+   "needs_human": 0.9849632382392883
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P3b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6046,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9701903462409973,
+   "needs_human": 0.9849632382392883
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P3b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6097,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9701903462409973,
+   "needs_human": 0.9849632382392883
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P4a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6218,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.24220825731754303,
+   "needs_human": 0.25426262617111206
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P4a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6767,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.24220825731754303,
+   "needs_human": 0.25426262617111206
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P4a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6603,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.24220825731754303,
+   "needs_human": 0.25426262617111206
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P4b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6565,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.8850261569023132,
+   "needs_human": 0.8540205359458923
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P4b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5527,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.8850261569023132,
+   "needs_human": 0.8540205359458923
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P4b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5816,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.8850261569023132,
+   "needs_human": 0.8540205359458923
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P5a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 5663,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.7537641525268555,
+   "needs_human": 0.4117582142353058
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P5a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6452,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.7537641525268555,
+   "needs_human": 0.4117582142353058
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P5a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 5769,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.7537641525268555,
+   "needs_human": 0.4117582142353058
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P5b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6133,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9317986965179443,
+   "needs_human": 0.9346169829368591
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P5b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6071,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9317986965179443,
+   "needs_human": 0.9346169829368591
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P5b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5497,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9317986965179443,
+   "needs_human": 0.9346169829368591
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P6a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 5600,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.21461987495422363,
+   "needs_human": 0.17695727944374084
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P6a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 5422,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.21461987495422363,
+   "needs_human": 0.17695727944374084
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P6a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 5553,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.21461987495422363,
+   "needs_human": 0.17695727944374084
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P6b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6130,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9874030351638794,
+   "needs_human": 0.989279568195343
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P6b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6085,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9874030351638794,
+   "needs_human": 0.989279568195343
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P6b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6749,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9874030351638794,
+   "needs_human": 0.989279568195343
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P7a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6405,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.12018345296382904,
+   "needs_human": 0.05724409222602844
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P7a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6210,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.12018345296382904,
+   "needs_human": 0.05724409222602844
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P7a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6165,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.12018345296382904,
+   "needs_human": 0.05724409222602844
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P7b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6497,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9790823459625244,
+   "needs_human": 0.9805678725242615
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P7b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5767,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9790823459625244,
+   "needs_human": 0.9805678725242615
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P7b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5974,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9790823459625244,
+   "needs_human": 0.9805678725242615
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P8a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6157,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.5204116106033325,
+   "needs_human": 0.20782892405986786
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P8a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6130,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.5204116106033325,
+   "needs_human": 0.20782892405986786
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P8a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6252,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.5204116106033325,
+   "needs_human": 0.20782892405986786
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P8b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5856,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9770597219467163,
+   "needs_human": 0.9706342816352844
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P8b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6311,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9770597219467163,
+   "needs_human": 0.9706342816352844
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "P8b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5794,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9770597219467163,
+   "needs_human": 0.9706342816352844
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "F01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 5647,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2189561277627945,
+   "needs_human": 0.13824248313903809
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "F01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 5579,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2189561277627945,
+   "needs_human": 0.13824248313903809
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "F01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 5722,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2189561277627945,
+   "needs_human": 0.13824248313903809
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "F02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 5860,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.07911647856235504,
+   "needs_human": 0.020221488550305367
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "F02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6189,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.07911647856235504,
+   "needs_human": 0.020221488550305367
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "F02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6074,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.07911647856235504,
+   "needs_human": 0.020221488550305367
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "F03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6303,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.04200507327914238,
+   "needs_human": 0.20224972069263458
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "F03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6130,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.04200507327914238,
+   "needs_human": 0.20224972069263458
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "F03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6085,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.04200507327914238,
+   "needs_human": 0.20224972069263458
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "F04",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6060,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.08625280857086182,
+   "needs_human": 0.11121340095996857
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "F04",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 5711,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.08625280857086182,
+   "needs_human": 0.11121340095996857
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "F04",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6100,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.08625280857086182,
+   "needs_human": 0.11121340095996857
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "F05",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6188,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.47112417221069336,
+   "needs_human": 0.14705389738082886
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "F05",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 5764,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.47112417221069336,
+   "needs_human": 0.14705389738082886
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "F05",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6226,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.47112417221069336,
+   "needs_human": 0.14705389738082886
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "F06",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 5803,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.4401644170284271,
+   "needs_human": 0.20576228201389313
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "F06",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6149,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.4401644170284271,
+   "needs_human": 0.20576228201389313
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "F06",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6437,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.4401644170284271,
+   "needs_human": 0.20576228201389313
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "F07",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 5980,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.28143879771232605,
+   "needs_human": 0.695571780204773
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "F07",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6170,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.28143879771232605,
+   "needs_human": 0.695571780204773
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "F07",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 5994,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.28143879771232605,
+   "needs_human": 0.695571780204773
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "F08",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6120,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.07286523282527924,
+   "needs_human": 0.03360065072774887
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "F08",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 5617,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.07286523282527924,
+   "needs_human": 0.03360065072774887
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "F08",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 5351,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.07286523282527924,
+   "needs_human": 0.03360065072774887
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "M01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6228,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.7958335876464844,
+   "needs_human": 0.8894944787025452
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "M01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6105,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.7958335876464844,
+   "needs_human": 0.8894944787025452
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "M01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5554,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.7958335876464844,
+   "needs_human": 0.8894944787025452
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "M02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5385,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.7983962297439575,
+   "needs_human": 0.8554111123085022
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "M02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5616,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.7983962297439575,
+   "needs_human": 0.8554111123085022
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "M02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5456,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.7983962297439575,
+   "needs_human": 0.8554111123085022
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "M03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5565,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9886808395385742,
+   "needs_human": 0.9878080487251282
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "M03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5371,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9886808395385742,
+   "needs_human": 0.9878080487251282
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "M03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5648,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9886808395385742,
+   "needs_human": 0.9878080487251282
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "M04",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 4906,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9094621539115906,
+   "needs_human": 0.936039924621582
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "M04",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5188,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9094621539115906,
+   "needs_human": 0.936039924621582
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "M04",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 4838,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9094621539115906,
+   "needs_human": 0.936039924621582
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "M05",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5723,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9504045844078064,
+   "needs_human": 0.9500601291656494
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "M05",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5450,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9504045844078064,
+   "needs_human": 0.9500601291656494
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "M05",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5522,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9504045844078064,
+   "needs_human": 0.9500601291656494
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "M06",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5429,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.981494665145874,
+   "needs_human": 0.962867796421051
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "M06",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5868,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.981494665145874,
+   "needs_human": 0.962867796421051
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "M06",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5547,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.981494665145874,
+   "needs_human": 0.962867796421051
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "M07",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5405,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9274449348449707,
+   "needs_human": 0.9021956324577332
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "M07",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5503,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9274449348449707,
+   "needs_human": 0.9021956324577332
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "M07",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5432,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9274449348449707,
+   "needs_human": 0.9021956324577332
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "M08",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5442,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9675508737564087,
+   "needs_human": 0.9747974872589111
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "M08",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5766,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9675508737564087,
+   "needs_human": 0.9747974872589111
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "M08",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6223,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9675508737564087,
+   "needs_human": 0.9747974872589111
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "M09",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5563,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9310643076896667,
+   "needs_human": 0.9546470642089844
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "M09",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5964,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9310643076896667,
+   "needs_human": 0.9546470642089844
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "M09",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6009,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9310643076896667,
+   "needs_human": 0.9546470642089844
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "M10",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6107,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.8723873496055603,
+   "needs_human": 0.843108057975769
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "M10",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6167,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.8723873496055603,
+   "needs_human": 0.843108057975769
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "M10",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5861,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.8723873496055603,
+   "needs_human": 0.843108057975769
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "I01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6114,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.995148241519928,
+   "needs_human": 0.9908559322357178
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "I01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5883,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.995148241519928,
+   "needs_human": 0.9908559322357178
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "I01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6152,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.995148241519928,
+   "needs_human": 0.9908559322357178
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "I02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6069,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9944248199462891,
+   "needs_human": 0.9920002222061157
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "I02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6162,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9944248199462891,
+   "needs_human": 0.9920002222061157
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "I02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6377,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9944248199462891,
+   "needs_human": 0.9920002222061157
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "I03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6150,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9983370304107666,
+   "needs_human": 0.9980652928352356
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "I03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6145,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9983370304107666,
+   "needs_human": 0.9980652928352356
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "I03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5908,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9983370304107666,
+   "needs_human": 0.9980652928352356
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "T01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6526,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.8358991146087646,
+   "needs_human": 0.88934725522995
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "T01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5502,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.8358991146087646,
+   "needs_human": 0.88934725522995
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "T01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6161,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.8358991146087646,
+   "needs_human": 0.88934725522995
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "T02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6092,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9131764769554138,
+   "needs_human": 0.9311850070953369
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "T02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5999,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9131764769554138,
+   "needs_human": 0.9311850070953369
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "T02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6256,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9131764769554138,
+   "needs_human": 0.9311850070953369
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "T03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6163,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.8284249901771545,
+   "needs_human": 0.8294974565505981
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "T03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5889,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.8284249901771545,
+   "needs_human": 0.8294974565505981
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "T03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6111,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.8284249901771545,
+   "needs_human": 0.8294974565505981
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "O01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 5783,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.07587423175573349,
+   "needs_human": 0.08765456080436707
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "O01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6286,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.07587423175573349,
+   "needs_human": 0.08765456080436707
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "O01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 5767,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.07587423175573349,
+   "needs_human": 0.08765456080436707
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "O02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 5700,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.15721794962882996,
+   "needs_human": 0.36257877945899963
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "O02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6180,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.15721794962882996,
+   "needs_human": 0.36257877945899963
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "O02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 5998,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.15721794962882996,
+   "needs_human": 0.36257877945899963
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "O03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 5525,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.006876579951494932,
+   "needs_human": 0.20038694143295288
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "O03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 5643,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.006876579951494932,
+   "needs_human": 0.20038694143295288
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "O03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 5442,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.006876579951494932,
+   "needs_human": 0.20038694143295288
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "O04",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 5851,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.04778340831398964,
+   "needs_human": 0.01485367864370346
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "O04",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 5978,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.04778340831398964,
+   "needs_human": 0.01485367864370346
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "O04",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6000,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.04778340831398964,
+   "needs_human": 0.01485367864370346
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "O05",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 5471,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.032526273280382156,
+   "needs_human": 0.0289330892264843
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "O05",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 5413,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.032526273280382156,
+   "needs_human": 0.0289330892264843
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "O05",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 5504,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.032526273280382156,
+   "needs_human": 0.0289330892264843
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "O06",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6117,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.22260738909244537,
+   "needs_human": 0.09326983988285065
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "O06",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 5771,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.22260738909244537,
+   "needs_human": 0.09326983988285065
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "O06",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 5810,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.22260738909244537,
+   "needs_human": 0.09326983988285065
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "O07",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 5943,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.06449755281209946,
+   "needs_human": 0.06482157856225967
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "O07",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6053,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.06449755281209946,
+   "needs_human": 0.06482157856225967
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "O07",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6057,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.06449755281209946,
+   "needs_human": 0.06482157856225967
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "O08",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6079,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.0682879313826561,
+   "needs_human": 0.1104721873998642
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "O08",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6245,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.0682879313826561,
+   "needs_human": 0.1104721873998642
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "O08",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 5739,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.0682879313826561,
+   "needs_human": 0.1104721873998642
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "O09",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6088,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.05984925106167793,
+   "needs_human": 0.04071090742945671
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "O09",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6071,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.05984925106167793,
+   "needs_human": 0.04071090742945671
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "O09",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6120,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.05984925106167793,
+   "needs_human": 0.04071090742945671
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "O10",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6170,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.04448681324720383,
+   "needs_human": 0.061698634177446365
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "O10",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 5797,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.04448681324720383,
+   "needs_human": 0.061698634177446365
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "O10",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 6065,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.04448681324720383,
+   "needs_human": 0.061698634177446365
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "X01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5858,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9901753067970276,
+   "needs_human": 0.9924037456512451
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "X01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5749,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9901753067970276,
+   "needs_human": 0.9924037456512451
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "X01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6054,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9901753067970276,
+   "needs_human": 0.9924037456512451
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "X02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6077,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9654914736747742,
+   "needs_human": 0.96819007396698
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "X02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5787,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9654914736747742,
+   "needs_human": 0.96819007396698
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "X02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6020,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9654914736747742,
+   "needs_human": 0.96819007396698
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "X03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 5911,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9748983979225159,
+   "needs_human": 0.9854791164398193
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "X03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6102,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9748983979225159,
+   "needs_human": 0.9854791164398193
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "X03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 6088,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9748983979225159,
+   "needs_human": 0.9854791164398193
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "BB1",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 6177,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.677300214767456,
+   "needs_human": 0.3266275227069855
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "BB1",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 5738,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.677300214767456,
+   "needs_human": 0.3266275227069855
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "BB1",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 6364,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.677300214767456,
+   "needs_human": 0.3266275227069855
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "BB2",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 5434,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.7341843247413635,
+   "needs_human": 0.7831780910491943
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "BB2",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 5586,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.7341843247413635,
+   "needs_human": 0.7831780910491943
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "BB2",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 5255,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.7341843247413635,
+   "needs_human": 0.7831780910491943
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "BB3",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 5646,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2565275728702545,
+   "needs_human": 0.1393507421016693
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "BB3",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 5525,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2565275728702545,
+   "needs_human": 0.1393507421016693
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "BB3",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 5416,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.2565275728702545,
+   "needs_human": 0.1393507421016693
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "BB4",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 6281,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.6020597219467163,
+   "needs_human": 0.22263874113559723
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "BB4",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 5814,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.6020597219467163,
+   "needs_human": 0.22263874113559723
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "BB4",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 5990,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.6020597219467163,
+   "needs_human": 0.22263874113559723
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "BB5",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 6209,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9254897832870483,
+   "needs_human": 0.816257119178772
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "BB5",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 5692,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9254897832870483,
+   "needs_human": 0.816257119178772
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "BB5",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 5990,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.9254897832870483,
+   "needs_human": 0.816257119178772
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "BB6",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 5894,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.14659501612186432,
+   "needs_human": 0.18070441484451294
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "BB6",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 6108,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.14659501612186432,
+   "needs_human": 0.18070441484451294
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "BB6",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 5685,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.14659501612186432,
+   "needs_human": 0.18070441484451294
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "BB7",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 5569,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.05234877020120621,
+   "needs_human": 0.028944287449121475
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "BB7",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 5361,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.05234877020120621,
+   "needs_human": 0.028944287449121475
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "BB7",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 5873,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.05234877020120621,
+   "needs_human": 0.028944287449121475
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "BB8",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 5035,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.927407443523407,
+   "needs_human": 0.8398707509040833
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "BB8",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 5238,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.927407443523407,
+   "needs_human": 0.8398707509040833
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ },
+ {
+  "caseID": "BB8",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 5098,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.927407443523407,
+   "needs_human": 0.8398707509040833
+  },
+  "promptTokens": null,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "AutoTrust-JEV-27B-v1.1-mlx-4bit"
+ }
+]

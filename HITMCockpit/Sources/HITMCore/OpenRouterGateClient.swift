@@ -181,13 +181,18 @@ public struct OpenRouterTransport: Sendable, CustomStringConvertible, CustomDebu
 public struct OpenRouterGateClient: Sendable, CustomStringConvertible, CustomDebugStringConvertible, CustomReflectable {
     public static let defaultEndpoint = OpenRouterTransport.defaultEndpoint
     /// Small bound: the gate answer is a short JSON object.
-    static let maxTokens = 400
+    public static let maxTokens = 400
 
     private let transport: OpenRouterTransport
     private let model: String
+    private let maxTokens: Int
 
-    public init(apiKey: String, model: String, endpoint: URL = OpenRouterGateClient.defaultEndpoint) {
+    /// `maxTokens` bounds the whole reply. Reasoning models spend it on hidden reasoning first, and an
+    /// answer cut off at the cap is empty (measured 2026-10-30), so the benchmark passes a larger value.
+    public init(apiKey: String, model: String, endpoint: URL = OpenRouterGateClient.defaultEndpoint,
+                maxTokens: Int = OpenRouterGateClient.maxTokens) {
         self.model = model
+        self.maxTokens = maxTokens
         self.transport = OpenRouterTransport(apiKey: apiKey, model: model, endpoint: endpoint)
     }
 
@@ -202,14 +207,16 @@ public struct OpenRouterGateClient: Sendable, CustomStringConvertible, CustomDeb
     static func sanitizeModel(_ raw: String?) -> String? { OpenRouterTransport.sanitizeModel(raw) }
 
     /// nil when OPENROUTER_API_KEY is missing or blank. The key is never printed.
-    public static func fromEnvironment(model: String) -> OpenRouterGateClient? {
-        fromEnvironment(model: model, environment: ProcessInfo.processInfo.environment)
+    public static func fromEnvironment(model: String, maxTokens: Int = OpenRouterGateClient.maxTokens) -> OpenRouterGateClient? {
+        fromEnvironment(model: model, environment: ProcessInfo.processInfo.environment, maxTokens: maxTokens)
     }
 
-    public static func fromEnvironment(model: String, environment: [String: String]) -> OpenRouterGateClient? {
+    public static func fromEnvironment(model: String, environment: [String: String],
+                                       maxTokens: Int = OpenRouterGateClient.maxTokens) -> OpenRouterGateClient? {
         guard let key = environment["OPENROUTER_API_KEY"],
               !key.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty else { return nil }
-        return OpenRouterGateClient(apiKey: key.trimmingCharacters(in: .whitespacesAndNewlines), model: model)
+        return OpenRouterGateClient(apiKey: key.trimmingCharacters(in: .whitespacesAndNewlines), model: model,
+                                    maxTokens: maxTokens)
     }
 
     /// Same environment key lookup, for building the generic transport (e.g. for the Planner).
@@ -287,7 +294,7 @@ public struct OpenRouterGateClient: Sendable, CustomStringConvertible, CustomDeb
         let (content, rec) = await transport.complete(
             messages: [ChatMessage(role: "system", content: Self.systemPrompt),
                        ChatMessage(role: "user", content: userContent)],
-            schemaName: Self.schemaName, schemaJSON: Self.schemaJSON(), maxTokens: Self.maxTokens)
+            schemaName: Self.schemaName, schemaJSON: Self.schemaJSON(), maxTokens: maxTokens)
         return Self.interpret(content: content, record: rec)
     }
 }

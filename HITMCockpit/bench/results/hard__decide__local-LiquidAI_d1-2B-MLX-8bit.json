@@ -1,0 +1,3662 @@
+[
+ {
+  "caseID": "P1a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 229,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.021326971231785213,
+   "needs_human": 0.024527985684164894
+  },
+  "promptTokens": 293,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P1a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 173,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.021326971231785213,
+   "needs_human": 0.024527985684164894
+  },
+  "promptTokens": 293,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P1a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 172,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.021326971231785213,
+   "needs_human": 0.024527985684164894
+  },
+  "promptTokens": 293,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P1b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 174,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.06749736182681956,
+   "needs_human": 0.21175948740487843
+  },
+  "promptTokens": 291,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P1b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 176,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.06749736182681956,
+   "needs_human": 0.21175948740487843
+  },
+  "promptTokens": 291,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P1b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 182,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.06749736182681956,
+   "needs_human": 0.21175948740487843
+  },
+  "promptTokens": 291,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P2a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 180,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.078761195003549,
+   "needs_human": 0.1736900071270998
+  },
+  "promptTokens": 300,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P2a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 179,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.078761195003549,
+   "needs_human": 0.1736900071270998
+  },
+  "promptTokens": 300,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P2a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 181,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.078761195003549,
+   "needs_human": 0.1736900071270998
+  },
+  "promptTokens": 300,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P2b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 181,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.13430035921176436,
+   "needs_human": 0.3175086014392615
+  },
+  "promptTokens": 299,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P2b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 183,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.13430035921176436,
+   "needs_human": 0.3175086014392615
+  },
+  "promptTokens": 299,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P2b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 181,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.13430035921176436,
+   "needs_human": 0.3175086014392615
+  },
+  "promptTokens": 299,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P3a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 187,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.07204551002555792,
+   "needs_human": 0.21667582233714794
+  },
+  "promptTokens": 289,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P3a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 184,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.07204551002555792,
+   "needs_human": 0.21667582233714794
+  },
+  "promptTokens": 289,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P3a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 201,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.07204551002555792,
+   "needs_human": 0.21667582233714794
+  },
+  "promptTokens": 289,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P3b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 221,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.1703619662469301,
+   "needs_human": 0.4897786854395985
+  },
+  "promptTokens": 288,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P3b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 164,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.1703619662469301,
+   "needs_human": 0.4897786854395985
+  },
+  "promptTokens": 288,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P3b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 164,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.1703619662469301,
+   "needs_human": 0.4897786854395985
+  },
+  "promptTokens": 288,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P4a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 167,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.05228143544528873,
+   "needs_human": 0.03616042659992264
+  },
+  "promptTokens": 286,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P4a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 167,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.05228143544528873,
+   "needs_human": 0.03616042659992264
+  },
+  "promptTokens": 286,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P4a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 167,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.05228143544528873,
+   "needs_human": 0.03616042659992264
+  },
+  "promptTokens": 286,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P4b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 181,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.09099247099713098,
+   "needs_human": 0.1507023211168213
+  },
+  "promptTokens": 289,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P4b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 180,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.09099247099713098,
+   "needs_human": 0.1507023211168213
+  },
+  "promptTokens": 289,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P4b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 181,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.09099247099713098,
+   "needs_human": 0.1507023211168213
+  },
+  "promptTokens": 289,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P5a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 183,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.11109574429890101,
+   "needs_human": 0.0308727097972078
+  },
+  "promptTokens": 291,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P5a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 182,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.11109574429890101,
+   "needs_human": 0.0308727097972078
+  },
+  "promptTokens": 291,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P5a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 183,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.11109574429890101,
+   "needs_human": 0.0308727097972078
+  },
+  "promptTokens": 291,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P5b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 184,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3566352982801112,
+   "needs_human": 0.26915625149303257
+  },
+  "promptTokens": 290,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P5b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 184,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3566352982801112,
+   "needs_human": 0.26915625149303257
+  },
+  "promptTokens": 290,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P5b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 183,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3566352982801112,
+   "needs_human": 0.26915625149303257
+  },
+  "promptTokens": 290,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P6a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 186,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.42463824105910913,
+   "needs_human": 0.3200456797415429
+  },
+  "promptTokens": 289,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P6a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 183,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.42463824105910913,
+   "needs_human": 0.3200456797415429
+  },
+  "promptTokens": 289,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P6a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 185,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.42463824105910913,
+   "needs_human": 0.3200456797415429
+  },
+  "promptTokens": 289,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P6b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 170,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3499620808809237,
+   "needs_human": 0.4061988393798289
+  },
+  "promptTokens": 288,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P6b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 171,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3499620808809237,
+   "needs_human": 0.4061988393798289
+  },
+  "promptTokens": 288,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P6b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 172,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.3499620808809237,
+   "needs_human": 0.4061988393798289
+  },
+  "promptTokens": 288,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P7a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 192,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.04797275088445534,
+   "needs_human": 0.02188259723098105
+  },
+  "promptTokens": 299,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P7a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 188,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.04797275088445534,
+   "needs_human": 0.02188259723098105
+  },
+  "promptTokens": 299,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P7a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 193,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.04797275088445534,
+   "needs_human": 0.02188259723098105
+  },
+  "promptTokens": 299,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P7b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 195,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.0919634446152667,
+   "needs_human": 0.10490690844842224
+  },
+  "promptTokens": 296,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P7b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 194,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.0919634446152667,
+   "needs_human": 0.10490690844842224
+  },
+  "promptTokens": 296,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P7b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 193,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.0919634446152667,
+   "needs_human": 0.10490690844842224
+  },
+  "promptTokens": 296,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P8a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 195,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.18751588292392055,
+   "needs_human": 0.2555920862805662
+  },
+  "promptTokens": 290,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P8a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 196,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.18751588292392055,
+   "needs_human": 0.2555920862805662
+  },
+  "promptTokens": 290,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P8a",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 200,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.18751588292392055,
+   "needs_human": 0.2555920862805662
+  },
+  "promptTokens": 290,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P8b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 197,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.28673713436939097,
+   "needs_human": 0.48102403230557605
+  },
+  "promptTokens": 295,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P8b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 196,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.28673713436939097,
+   "needs_human": 0.48102403230557605
+  },
+  "promptTokens": 295,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "P8b",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 194,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.28673713436939097,
+   "needs_human": 0.48102403230557605
+  },
+  "promptTokens": 295,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "F01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 190,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.10712137700317748,
+   "needs_human": 0.05854316483485376
+  },
+  "promptTokens": 283,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "F01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 181,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.10712137700317748,
+   "needs_human": 0.05854316483485376
+  },
+  "promptTokens": 283,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "F01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 185,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.10712137700317748,
+   "needs_human": 0.05854316483485376
+  },
+  "promptTokens": 283,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "F02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 181,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.05742641317832338,
+   "needs_human": 0.052571631963969925
+  },
+  "promptTokens": 286,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "F02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 179,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.05742641317832338,
+   "needs_human": 0.052571631963969925
+  },
+  "promptTokens": 286,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "F02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 182,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.05742641317832338,
+   "needs_human": 0.052571631963969925
+  },
+  "promptTokens": 286,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "F03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 182,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.014026800942463983,
+   "needs_human": 0.02764075898233759
+  },
+  "promptTokens": 288,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "F03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 186,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.014026800942463983,
+   "needs_human": 0.02764075898233759
+  },
+  "promptTokens": 288,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "F03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 179,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.014026800942463983,
+   "needs_human": 0.02764075898233759
+  },
+  "promptTokens": 288,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "F04",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 185,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.010390477312342872,
+   "needs_human": 0.03351020703902072
+  },
+  "promptTokens": 283,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "F04",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 185,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.010390477312342872,
+   "needs_human": 0.03351020703902072
+  },
+  "promptTokens": 283,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "F04",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 183,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.010390477312342872,
+   "needs_human": 0.03351020703902072
+  },
+  "promptTokens": 283,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "F05",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 199,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.006096988421428471,
+   "needs_human": 0.010664282440026863
+  },
+  "promptTokens": 293,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "F05",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 208,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.006096988421428471,
+   "needs_human": 0.010664282440026863
+  },
+  "promptTokens": 293,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "F05",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 201,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.006096988421428471,
+   "needs_human": 0.010664282440026863
+  },
+  "promptTokens": 293,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "F06",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 204,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.019020086569769674,
+   "needs_human": 0.024249998250328888
+  },
+  "promptTokens": 293,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "F06",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 203,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.019020086569769674,
+   "needs_human": 0.024249998250328888
+  },
+  "promptTokens": 293,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "F06",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 199,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.019020086569769674,
+   "needs_human": 0.024249998250328888
+  },
+  "promptTokens": 293,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "F07",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 201,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.038467955756571894,
+   "needs_human": 0.2726174682951207
+  },
+  "promptTokens": 289,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "F07",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 200,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.038467955756571894,
+   "needs_human": 0.2726174682951207
+  },
+  "promptTokens": 289,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "F07",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 203,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.038467955756571894,
+   "needs_human": 0.2726174682951207
+  },
+  "promptTokens": 289,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "F08",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 181,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.09695916791740725,
+   "needs_human": 0.16546520524635341
+  },
+  "promptTokens": 288,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "F08",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 184,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.09695916791740725,
+   "needs_human": 0.16546520524635341
+  },
+  "promptTokens": 288,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "F08",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 185,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.09695916791740725,
+   "needs_human": 0.16546520524635341
+  },
+  "promptTokens": 288,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "M01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 185,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.09594102120482334,
+   "needs_human": 0.6824913985607385
+  },
+  "promptTokens": 285,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "M01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 192,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.09594102120482334,
+   "needs_human": 0.6824913985607385
+  },
+  "promptTokens": 285,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "M01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 191,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.09594102120482334,
+   "needs_human": 0.6824913985607385
+  },
+  "promptTokens": 285,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "M02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 188,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.018749507462690822,
+   "needs_human": 0.031848609632152074
+  },
+  "promptTokens": 286,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "M02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 187,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.018749507462690822,
+   "needs_human": 0.031848609632152074
+  },
+  "promptTokens": 286,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "M02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 198,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.018749507462690822,
+   "needs_human": 0.031848609632152074
+  },
+  "promptTokens": 286,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "M03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 183,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.8168934789723541,
+   "needs_human": 0.7987675612984692
+  },
+  "promptTokens": 284,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "M03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 188,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.8168934789723541,
+   "needs_human": 0.7987675612984692
+  },
+  "promptTokens": 284,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "M03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 199,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.8168934789723541,
+   "needs_human": 0.7987675612984692
+  },
+  "promptTokens": 284,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "M04",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 187,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.04023428190518485,
+   "needs_human": 0.20311691741458662
+  },
+  "promptTokens": 279,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "M04",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 206,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.04023428190518485,
+   "needs_human": 0.20311691741458662
+  },
+  "promptTokens": 279,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "M04",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 188,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.04023428190518485,
+   "needs_human": 0.20311691741458662
+  },
+  "promptTokens": 279,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "M05",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 196,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.32772062573244576,
+   "needs_human": 0.6487078675922565
+  },
+  "promptTokens": 284,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "M05",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 187,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.32772062573244576,
+   "needs_human": 0.6487078675922565
+  },
+  "promptTokens": 284,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "M05",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 189,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.32772062573244576,
+   "needs_human": 0.6487078675922565
+  },
+  "promptTokens": 284,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "M06",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 206,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.11167393105671668,
+   "needs_human": 0.06050509794362585
+  },
+  "promptTokens": 289,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "M06",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 203,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.11167393105671668,
+   "needs_human": 0.06050509794362585
+  },
+  "promptTokens": 289,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "M06",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 214,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.11167393105671668,
+   "needs_human": 0.06050509794362585
+  },
+  "promptTokens": 289,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "M07",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 201,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.02701963370075765,
+   "needs_human": 0.05919042155109318
+  },
+  "promptTokens": 287,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "M07",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 187,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.02701963370075765,
+   "needs_human": 0.05919042155109318
+  },
+  "promptTokens": 287,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "M07",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 192,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.02701963370075765,
+   "needs_human": 0.05919042155109318
+  },
+  "promptTokens": 287,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "M08",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 189,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.6379856190545791,
+   "needs_human": 0.8900527739514775
+  },
+  "promptTokens": 286,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "M08",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 189,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.6379856190545791,
+   "needs_human": 0.8900527739514775
+  },
+  "promptTokens": 286,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "M08",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 196,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.6379856190545791,
+   "needs_human": 0.8900527739514775
+  },
+  "promptTokens": 286,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "M09",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 190,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.019911920832704866,
+   "needs_human": 0.5014603870972109
+  },
+  "promptTokens": 286,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "M09",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 192,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.019911920832704866,
+   "needs_human": 0.5014603870972109
+  },
+  "promptTokens": 286,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "M09",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 193,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.019911920832704866,
+   "needs_human": 0.5014603870972109
+  },
+  "promptTokens": 286,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "M10",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 196,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.13947617583469113,
+   "needs_human": 0.46355496896168824
+  },
+  "promptTokens": 283,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "M10",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 203,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.13947617583469113,
+   "needs_human": 0.46355496896168824
+  },
+  "promptTokens": 283,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "M10",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 193,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.13947617583469113,
+   "needs_human": 0.46355496896168824
+  },
+  "promptTokens": 283,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "I01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 212,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.05464598561434457,
+   "needs_human": 0.22880952207337435
+  },
+  "promptTokens": 299,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "I01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 211,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.05464598561434457,
+   "needs_human": 0.22880952207337435
+  },
+  "promptTokens": 299,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "I01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 213,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.05464598561434457,
+   "needs_human": 0.22880952207337435
+  },
+  "promptTokens": 299,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "I02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 207,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.6697001872482827,
+   "needs_human": 0.8353398602963742
+  },
+  "promptTokens": 290,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "I02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 213,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.6697001872482827,
+   "needs_human": 0.8353398602963742
+  },
+  "promptTokens": 290,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "I02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 214,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.6697001872482827,
+   "needs_human": 0.8353398602963742
+  },
+  "promptTokens": 290,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "I03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 220,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.910684550272828,
+   "needs_human": 0.9389948908026988
+  },
+  "promptTokens": 302,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "I03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 225,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.910684550272828,
+   "needs_human": 0.9389948908026988
+  },
+  "promptTokens": 302,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "I03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 210,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.910684550272828,
+   "needs_human": 0.9389948908026988
+  },
+  "promptTokens": 302,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "T01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 197,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.16226381126031633,
+   "needs_human": 0.12507319067062678
+  },
+  "promptTokens": 283,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "T01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 198,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.16226381126031633,
+   "needs_human": 0.12507319067062678
+  },
+  "promptTokens": 283,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "T01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 196,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.16226381126031633,
+   "needs_human": 0.12507319067062678
+  },
+  "promptTokens": 283,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "T02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 200,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.10796235360241188,
+   "needs_human": 0.07362336657112807
+  },
+  "promptTokens": 282,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "T02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 193,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.10796235360241188,
+   "needs_human": 0.07362336657112807
+  },
+  "promptTokens": 282,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "T02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 202,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.10796235360241188,
+   "needs_human": 0.07362336657112807
+  },
+  "promptTokens": 282,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "T03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 196,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.7911509133698466,
+   "needs_human": 0.7238936206760411
+  },
+  "promptTokens": 279,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "T03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 191,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.7911509133698466,
+   "needs_human": 0.7238936206760411
+  },
+  "promptTokens": 279,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "T03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 195,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.7911509133698466,
+   "needs_human": 0.7238936206760411
+  },
+  "promptTokens": 279,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "O01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 192,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.008243249033100624,
+   "needs_human": 0.0018061828537717947
+  },
+  "promptTokens": 279,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "O01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 192,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.008243249033100624,
+   "needs_human": 0.0018061828537717947
+  },
+  "promptTokens": 279,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "O01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 198,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.008243249033100624,
+   "needs_human": 0.0018061828537717947
+  },
+  "promptTokens": 279,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "O02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 202,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.009920781893157128,
+   "needs_human": 0.007089934494114101
+  },
+  "promptTokens": 283,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "O02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 196,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.009920781893157128,
+   "needs_human": 0.007089934494114101
+  },
+  "promptTokens": 283,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "O02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 200,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.009920781893157128,
+   "needs_human": 0.007089934494114101
+  },
+  "promptTokens": 283,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "O03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 198,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.007089934494114095,
+   "needs_human": 0.012214318034517333
+  },
+  "promptTokens": 276,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "O03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 206,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.007089934494114095,
+   "needs_human": 0.012214318034517333
+  },
+  "promptTokens": 276,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "O03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 192,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.007089934494114095,
+   "needs_human": 0.012214318034517333
+  },
+  "promptTokens": 276,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "O04",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 218,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.055711863123335904,
+   "needs_human": 0.026262288803970326
+  },
+  "promptTokens": 296,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "O04",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 215,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.055711863123335904,
+   "needs_human": 0.026262288803970326
+  },
+  "promptTokens": 296,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "O04",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 215,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.055711863123335904,
+   "needs_human": 0.026262288803970326
+  },
+  "promptTokens": 296,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "O05",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 201,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.02078515346076196,
+   "needs_human": 0.010726090698189517
+  },
+  "promptTokens": 280,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "O05",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 205,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.02078515346076196,
+   "needs_human": 0.010726090698189517
+  },
+  "promptTokens": 280,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "O05",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 190,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.02078515346076196,
+   "needs_human": 0.010726090698189517
+  },
+  "promptTokens": 280,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "O06",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 194,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.0357554355137707,
+   "needs_human": 0.02350128187349114
+  },
+  "promptTokens": 281,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "O06",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 204,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.0357554355137707,
+   "needs_human": 0.02350128187349114
+  },
+  "promptTokens": 281,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "O06",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 193,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.0357554355137707,
+   "needs_human": 0.02350128187349114
+  },
+  "promptTokens": 281,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "O07",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 196,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.05968025853067288,
+   "needs_human": 0.04837452806101201
+  },
+  "promptTokens": 287,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "O07",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 205,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.05968025853067288,
+   "needs_human": 0.04837452806101201
+  },
+  "promptTokens": 287,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "O07",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 194,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.05968025853067288,
+   "needs_human": 0.04837452806101201
+  },
+  "promptTokens": 287,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "O08",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 197,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.02574447861505005,
+   "needs_human": 0.01821962875918271
+  },
+  "promptTokens": 282,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "O08",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 209,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.02574447861505005,
+   "needs_human": 0.01821962875918271
+  },
+  "promptTokens": 282,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "O08",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 200,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.02574447861505005,
+   "needs_human": 0.01821962875918271
+  },
+  "promptTokens": 282,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "O09",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 198,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.009582361845003993,
+   "needs_human": 0.003499204999725059
+  },
+  "promptTokens": 284,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "O09",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 195,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.009582361845003993,
+   "needs_human": 0.003499204999725059
+  },
+  "promptTokens": 284,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "O09",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 196,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.009582361845003993,
+   "needs_human": 0.003499204999725059
+  },
+  "promptTokens": 284,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "O10",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 214,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.0060616915550297,
+   "needs_human": 0.0018924301762922064
+  },
+  "promptTokens": 289,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "O10",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 216,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.0060616915550297,
+   "needs_human": 0.0018924301762922064
+  },
+  "promptTokens": 289,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "O10",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearSafe",
+  "latencyMs": 215,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.0060616915550297,
+   "needs_human": 0.0018924301762922064
+  },
+  "promptTokens": 289,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "X01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 209,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.6722793742675542,
+   "needs_human": 0.9334160443462383
+  },
+  "promptTokens": 283,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "X01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 203,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.6722793742675542,
+   "needs_human": 0.9334160443462383
+  },
+  "promptTokens": 283,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "X01",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 220,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.6722793742675542,
+   "needs_human": 0.9334160443462383
+  },
+  "promptTokens": 283,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "X02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 230,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.10219573057440742,
+   "needs_human": 0.4563000461975773
+  },
+  "promptTokens": 284,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "X02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 229,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.10219573057440742,
+   "needs_human": 0.4563000461975773
+  },
+  "promptTokens": 284,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "X02",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 234,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.10219573057440742,
+   "needs_human": 0.4563000461975773
+  },
+  "promptTokens": 284,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "X03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 253,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.22471255938883947,
+   "needs_human": 0.6325717392180384
+  },
+  "promptTokens": 290,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "X03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 251,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.22471255938883947,
+   "needs_human": 0.6325717392180384
+  },
+  "promptTokens": 290,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "X03",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "clearRisky",
+  "latencyMs": 250,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.22471255938883947,
+   "needs_human": 0.6325717392180384
+  },
+  "promptTokens": 290,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "BB1",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 224,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.024112158978589905,
+   "needs_human": 0.04487080396747844
+  },
+  "promptTokens": 285,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "BB1",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 213,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.024112158978589905,
+   "needs_human": 0.04487080396747844
+  },
+  "promptTokens": 285,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "BB1",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 198,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.024112158978589905,
+   "needs_human": 0.04487080396747844
+  },
+  "promptTokens": 285,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "BB2",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 202,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.020373075781259426,
+   "needs_human": 0.023501281873491122
+  },
+  "promptTokens": 276,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "BB2",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 190,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.020373075781259426,
+   "needs_human": 0.023501281873491122
+  },
+  "promptTokens": 276,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "BB2",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 215,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.020373075781259426,
+   "needs_human": 0.023501281873491122
+  },
+  "promptTokens": 276,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "BB3",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 195,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.01666871661072916,
+   "needs_human": 0.016243278934063684
+  },
+  "promptTokens": 278,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "BB3",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 194,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.01666871661072916,
+   "needs_human": 0.016243278934063684
+  },
+  "promptTokens": 278,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "BB3",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 205,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.01666871661072916,
+   "needs_human": 0.016243278934063684
+  },
+  "promptTokens": 278,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "BB4",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 192,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.07204551002555792,
+   "needs_human": 0.05711103357953931
+  },
+  "promptTokens": 280,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "BB4",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 206,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.07204551002555792,
+   "needs_human": 0.05711103357953931
+  },
+  "promptTokens": 280,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "BB4",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 195,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.07204551002555792,
+   "needs_human": 0.05711103357953931
+  },
+  "promptTokens": 280,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "BB5",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 195,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.10909267906255965,
+   "needs_human": 0.2329587359873417
+  },
+  "promptTokens": 281,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "BB5",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 193,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.10909267906255965,
+   "needs_human": 0.2329587359873417
+  },
+  "promptTokens": 281,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "BB5",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 194,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.10909267906255965,
+   "needs_human": 0.2329587359873417
+  },
+  "promptTokens": 281,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "BB6",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 194,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.03646706369472226,
+   "needs_human": 0.07791765297786227
+  },
+  "promptTokens": 285,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "BB6",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 194,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.03646706369472226,
+   "needs_human": 0.07791765297786227
+  },
+  "promptTokens": 285,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "BB6",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 199,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.03646706369472226,
+   "needs_human": 0.07791765297786227
+  },
+  "promptTokens": 285,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "BB7",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 195,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.027096525995738217,
+   "needs_human": 0.030352666929615107
+  },
+  "promptTokens": 283,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "BB7",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 207,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.027096525995738217,
+   "needs_human": 0.030352666929615107
+  },
+  "promptTokens": 283,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "BB7",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 200,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.027096525995738217,
+   "needs_human": 0.030352666929615107
+  },
+  "promptTokens": 283,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "BB8",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 196,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.02188259723098105,
+   "needs_human": 0.027798195218236562
+  },
+  "promptTokens": 279,
+  "provider": "local",
+  "repeatIndex": 0,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "BB8",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 193,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.02188259723098105,
+   "needs_human": 0.027798195218236562
+  },
+  "promptTokens": 279,
+  "provider": "local",
+  "repeatIndex": 1,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ },
+ {
+  "caseID": "BB8",
+  "completionTokens": 0,
+  "costUSD": 0.0,
+  "gateConfidence": null,
+  "httpStatus": null,
+  "label": "borderline",
+  "latencyMs": 198,
+  "needsHuman": null,
+  "outcome": "ok",
+  "probabilities": {
+   "hidden_risk": 0.02188259723098105,
+   "needs_human": 0.027798195218236562
+  },
+  "promptTokens": 279,
+  "provider": "local",
+  "repeatIndex": 2,
+  "route": null,
+  "usedModel": "LiquidAI/d1-2B-MLX-8bit"
+ }
+]

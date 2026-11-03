@@ -1,0 +1,3104 @@
+[
+  {
+    "caseID" : "P1a",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 195,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.0337747821505526,
+      "needs_human" : 0.046152338343902796
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P1a",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 781,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.027367983239576565,
+      "needs_human" : 0.03557643412182598
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P1a",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 176,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.0337747821505526,
+      "needs_human" : 0.046152338343902796
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P1b",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 259,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.0337747821505526,
+      "needs_human" : 0.046152338343902796
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P1b",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 160,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.0337747821505526,
+      "needs_human" : 0.046152338343902796
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P1b",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 153,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.0337747821505526,
+      "needs_human" : 0.046152338343902796
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P2a",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 154,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.03718085140816943,
+      "needs_human" : 0.07254694987120991
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P2a",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 359,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.03718085140816943,
+      "needs_human" : 0.07254694987120991
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P2a",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 210,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.03718085140816943,
+      "needs_human" : 0.07254694987120991
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P2b",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 174,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.03718085140816943,
+      "needs_human" : 0.07254694987120991
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P2b",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 186,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.03718085140816943,
+      "needs_human" : 0.07254694987120991
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P2b",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 149,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.03718085140816943,
+      "needs_human" : 0.07254694987120991
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P3a",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 146,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.02963463174441573,
+      "needs_human" : 0.03702502669738431
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P3a",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 347,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.03527024493630533,
+      "needs_human" : 0.03938655440820401
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P3a",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 157,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.02963463174441573,
+      "needs_human" : 0.03702502669738431
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P3b",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 161,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.02963463174441573,
+      "needs_human" : 0.03702502669738431
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P3b",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 149,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.02963463174441573,
+      "needs_human" : 0.03702502669738431
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P3b",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 148,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.02963463174441573,
+      "needs_human" : 0.03702502669738431
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P4a",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 170,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.0689903177391226,
+      "needs_human" : 0.17944080922466718
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P4a",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 146,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.0689903177391226,
+      "needs_human" : 0.17944080922466718
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P4a",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 145,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.0689903177391226,
+      "needs_human" : 0.17944080922466718
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P4b",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 141,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.0689903177391226,
+      "needs_human" : 0.17944080922466718
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P4b",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 152,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.0689903177391226,
+      "needs_human" : 0.17944080922466718
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P4b",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 193,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.0689903177391226,
+      "needs_human" : 0.17944080922466718
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P5a",
+    "completionTokens" : 2,
+    "costUSD" : 6.02e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 143,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.04711072351560692,
+      "needs_human" : 0.09542118033500763
+    },
+    "promptTokens" : 301,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P5a",
+    "completionTokens" : 2,
+    "costUSD" : 6.02e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 155,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.04711072351560692,
+      "needs_human" : 0.09542118033500763
+    },
+    "promptTokens" : 301,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P5a",
+    "completionTokens" : 2,
+    "costUSD" : 6.02e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 150,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.04711072351560692,
+      "needs_human" : 0.09542118033500763
+    },
+    "promptTokens" : 301,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P5b",
+    "completionTokens" : 2,
+    "costUSD" : 6.02e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 153,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.04711072351560692,
+      "needs_human" : 0.09542118033500763
+    },
+    "promptTokens" : 301,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P5b",
+    "completionTokens" : 2,
+    "costUSD" : 6.02e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 151,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.04711072351560692,
+      "needs_human" : 0.09542118033500763
+    },
+    "promptTokens" : 301,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P5b",
+    "completionTokens" : 2,
+    "costUSD" : 6.02e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 168,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.04711072351560692,
+      "needs_human" : 0.09542118033500763
+    },
+    "promptTokens" : 301,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P6a",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 143,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.03565729497701338,
+      "needs_human" : 0.04732266504206603
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P6a",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 142,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.03565729497701338,
+      "needs_human" : 0.04732266504206603
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P6a",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 148,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.03565729497701338,
+      "needs_human" : 0.04732266504206603
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P6b",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 158,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.03565729497701338,
+      "needs_human" : 0.04732266504206603
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P6b",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 149,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.03565729497701338,
+      "needs_human" : 0.04732266504206603
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P6b",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 174,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.03565729497701338,
+      "needs_human" : 0.04732266504206603
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P7a",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 161,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.026991474982965846,
+      "needs_human" : 0.03627966064652591
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P7a",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 533,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.026991474982965846,
+      "needs_human" : 0.03627966064652591
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P7a",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 142,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.026991474982965846,
+      "needs_human" : 0.03627966064652591
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P7b",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 192,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.026991474982965846,
+      "needs_human" : 0.03627966064652591
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P7b",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 153,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.026991474982965846,
+      "needs_human" : 0.03627966064652591
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P7b",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 144,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.026991474982965846,
+      "needs_human" : 0.03627966064652591
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P8a",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 149,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.06725756672847989,
+      "needs_human" : 0.12913222706661248
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P8a",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 167,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.06725756672847989,
+      "needs_human" : 0.12913222706661248
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P8a",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 142,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.06725756672847989,
+      "needs_human" : 0.12913222706661248
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P8b",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 147,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.06725756672847989,
+      "needs_human" : 0.12913222706661248
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P8b",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 285,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.06725756672847989,
+      "needs_human" : 0.12913222706661248
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "P8b",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 149,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.06725756672847989,
+      "needs_human" : 0.12913222706661248
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "F01",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 151,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.04200189815127508,
+      "needs_human" : 0.05001692421730388
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "F01",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 579,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.04262320212022195,
+      "needs_human" : 0.05495638150344451
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "F01",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 148,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.04200189815127508,
+      "needs_human" : 0.05001692421730388
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "F02",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 1513,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.0346592116647614,
+      "needs_human" : 0.0496982897946872
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "F02",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 240,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.03526088431827155,
+      "needs_human" : 0.05645967067763008
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "F02",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 139,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.03526088431827155,
+      "needs_human" : 0.05645967067763008
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "F03",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 448,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.046678763954602756,
+      "needs_human" : 0.06859121103787985
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "F03",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 279,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.046678763954602756,
+      "needs_human" : 0.06859121103787985
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "F03",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 1010,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.04667653599071146,
+      "needs_human" : 0.06858831706796753
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "F04",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 2038,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.02048632510138961,
+      "needs_human" : 0.02326694376126533
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "F04",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 658,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.02048531086311817,
+      "needs_human" : 0.02326558924885149
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "F04",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 182,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.01754805459734056,
+      "needs_human" : 0.021692399191545825
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "F05",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 143,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.04332514581617815,
+      "needs_human" : 0.07346649460736765
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "F05",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 262,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.04332514581617815,
+      "needs_human" : 0.07346649460736765
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "F05",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 137,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.04332514581617815,
+      "needs_human" : 0.07346649460736765
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "F06",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 496,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.04660143856366452,
+      "needs_human" : 0.06602004581255067
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "F06",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 140,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.04660143856366452,
+      "needs_human" : 0.06602004581255067
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "F06",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 140,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.04660143856366452,
+      "needs_human" : 0.06602004581255067
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "F07",
+    "completionTokens" : 2,
+    "costUSD" : 6.02e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 219,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.05418438342096582,
+      "needs_human" : 0.11654525875775501
+    },
+    "promptTokens" : 301,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "F07",
+    "completionTokens" : 2,
+    "costUSD" : 6.02e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 146,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.06210925995354982,
+      "needs_human" : 0.1306166637128476
+    },
+    "promptTokens" : 301,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "F07",
+    "completionTokens" : 2,
+    "costUSD" : 6.02e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 630,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.05418438342096582,
+      "needs_human" : 0.11654525875775501
+    },
+    "promptTokens" : 301,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "F08",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 155,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.030897676951130954,
+      "needs_human" : 0.04587639597450533
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "F08",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 146,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.030897676951130954,
+      "needs_human" : 0.04587639597450533
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "F08",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 147,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.030897676951130954,
+      "needs_human" : 0.04587639597450533
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "M01",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 137,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.0337747821505526,
+      "needs_human" : 0.046152338343902796
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "M01",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 185,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.027369341414470377,
+      "needs_human" : 0.03557847925859101
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "M01",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 144,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.0337747821505526,
+      "needs_human" : 0.046152338343902796
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "M02",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 146,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.027150018089424455,
+      "needs_human" : 0.03875390207511678
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "M02",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 150,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.027150018089424455,
+      "needs_human" : 0.03875390207511678
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "M02",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 144,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.027150018089424455,
+      "needs_human" : 0.03875390207511678
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "M03",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 220,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.03109253496311908,
+      "needs_human" : 0.03860438290636422
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "M03",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 174,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.030897676951130954,
+      "needs_human" : 0.04587639597450533
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "M03",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 168,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.030897676951130954,
+      "needs_human" : 0.04587639597450533
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "M04",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 668,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.03527024493630533,
+      "needs_human" : 0.03938655440820401
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "M04",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 137,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.02963463174441573,
+      "needs_human" : 0.03702502669738431
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "M04",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 167,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.02963463174441573,
+      "needs_human" : 0.03702502669738431
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "M05",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 1354,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.02963463174441573,
+      "needs_human" : 0.03702502669738431
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "M05",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 158,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.02963463174441573,
+      "needs_human" : 0.03702502669738431
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "M05",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 140,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.02963463174441573,
+      "needs_human" : 0.03702502669738431
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "M06",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 137,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.03486721292147601,
+      "needs_human" : 0.05210120675833232
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "M06",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 213,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.03486721292147601,
+      "needs_human" : 0.05210120675833232
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "M06",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 1352,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.026865366220976704,
+      "needs_human" : 0.03782043631788884
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "M07",
+    "completionTokens" : 2,
+    "costUSD" : 6.02e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 182,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.04821986342159666,
+      "needs_human" : 0.09004832484937483
+    },
+    "promptTokens" : 301,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "M07",
+    "completionTokens" : 2,
+    "costUSD" : 6.02e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 220,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.05006912914460757,
+      "needs_human" : 0.09646293440704484
+    },
+    "promptTokens" : 301,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "M07",
+    "completionTokens" : 2,
+    "costUSD" : 6.02e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 153,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.04821986342159666,
+      "needs_human" : 0.09004832484937483
+    },
+    "promptTokens" : 301,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "M08",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 173,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.0357583692313466,
+      "needs_human" : 0.04333437653514747
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "M08",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 218,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.026991474982965846,
+      "needs_human" : 0.03627966064652591
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "M08",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 242,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.026991474982965846,
+      "needs_human" : 0.03627966064652591
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "M09",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 183,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.0337747821505526,
+      "needs_human" : 0.046152338343902796
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "M09",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 822,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.027367983239576565,
+      "needs_human" : 0.03557643412182598
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "M09",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 171,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.0337747821505526,
+      "needs_human" : 0.046152338343902796
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "M10",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 166,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.05234723292486315,
+      "needs_human" : 0.10308234375909743
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "M10",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 144,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.05234723292486315,
+      "needs_human" : 0.10308234375909743
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "M10",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 168,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.05234723292486315,
+      "needs_human" : 0.10308234375909743
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "I01",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 156,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.0302128406009169,
+      "needs_human" : 0.036481914141279284
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "I01",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 144,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.0302128406009169,
+      "needs_human" : 0.036481914141279284
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "I01",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 502,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.02691990996154338,
+      "needs_human" : 0.03248599275048065
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "I02",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 144,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.026991474982965846,
+      "needs_human" : 0.03627966064652591
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "I02",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 184,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.026991474982965846,
+      "needs_human" : 0.03627966064652591
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "I02",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 153,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.026991474982965846,
+      "needs_human" : 0.03627966064652591
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "I03",
+    "httpStatus" : 429,
+    "label" : "clearRisky",
+    "latencyMs" : 58,
+    "outcome" : "http-error",
+    "repeatIndex" : 0
+  },
+  {
+    "caseID" : "I03",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 144,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.03540939454720472,
+      "needs_human" : 0.04958124779578707
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "I03",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 141,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.03540939454720472,
+      "needs_human" : 0.04958124779578707
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "T01",
+    "completionTokens" : 2,
+    "costUSD" : 6.02e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 135,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.2124448062918549,
+      "needs_human" : 0.6693724275165542
+    },
+    "promptTokens" : 301,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "T01",
+    "completionTokens" : 2,
+    "costUSD" : 6.02e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 172,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.2124448062918549,
+      "needs_human" : 0.6693724275165542
+    },
+    "promptTokens" : 301,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "T01",
+    "completionTokens" : 2,
+    "costUSD" : 6.02e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 158,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.2124448062918549,
+      "needs_human" : 0.6693724275165542
+    },
+    "promptTokens" : 301,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "T02",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 145,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.1640880072344455,
+      "needs_human" : 0.4983213010920871
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "T02",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 151,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.1640880072344455,
+      "needs_human" : 0.4983213010920871
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "T02",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 167,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.1640880072344455,
+      "needs_human" : 0.4983213010920871
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "T03",
+    "completionTokens" : 2,
+    "costUSD" : 6.02e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 140,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.04826568792397574,
+      "needs_human" : 0.1088747071693675
+    },
+    "promptTokens" : 301,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "T03",
+    "completionTokens" : 2,
+    "costUSD" : 6.02e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 147,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.04826568792397574,
+      "needs_human" : 0.1088747071693675
+    },
+    "promptTokens" : 301,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "T03",
+    "completionTokens" : 2,
+    "costUSD" : 6.02e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 155,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.04826568792397574,
+      "needs_human" : 0.1088747071693675
+    },
+    "promptTokens" : 301,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "O01",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 141,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.04368201636364903,
+      "needs_human" : 0.10957981110652538
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "O01",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 157,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.04368201636364903,
+      "needs_human" : 0.10957981110652538
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "O01",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 141,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.04368201636364903,
+      "needs_human" : 0.10957981110652538
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "O02",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 193,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.029992234870266088,
+      "needs_human" : 0.07727131680563261
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "O02",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 163,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.029992234870266088,
+      "needs_human" : 0.07727131680563261
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "O02",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 146,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.029992234870266088,
+      "needs_human" : 0.07727131680563261
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "O03",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 244,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.05967832303647613,
+      "needs_human" : 0.2057493464724445
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "O03",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 144,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.05967832303647613,
+      "needs_human" : 0.2057493464724445
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "O03",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 155,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.05967832303647613,
+      "needs_human" : 0.2057493464724445
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "O04",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 191,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.03540939454720472,
+      "needs_human" : 0.04958124779578707
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "O04",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 155,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.03540939454720472,
+      "needs_human" : 0.04958124779578707
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "O04",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 149,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.03540939454720472,
+      "needs_human" : 0.04958124779578707
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "O05",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 187,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.030897676951130954,
+      "needs_human" : 0.04587639597450533
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "O05",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 147,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.030897676951130954,
+      "needs_human" : 0.04587639597450533
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "O05",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 151,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.030897676951130954,
+      "needs_human" : 0.04587639597450533
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "O06",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 154,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.03718085140816943,
+      "needs_human" : 0.07254694987120991
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "O06",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 150,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.03718085140816943,
+      "needs_human" : 0.07254694987120991
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "O06",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 166,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.03718085140816943,
+      "needs_human" : 0.07254694987120991
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "O07",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 174,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.04200189815127508,
+      "needs_human" : 0.05001692421730388
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "O07",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 174,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.04200189815127508,
+      "needs_human" : 0.05001692421730388
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "O07",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 143,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.04200189815127508,
+      "needs_human" : 0.05001692421730388
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "O08",
+    "completionTokens" : 2,
+    "costUSD" : 6.02e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 139,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.06572753680990215,
+      "needs_human" : 0.15326603534045463
+    },
+    "promptTokens" : 301,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "O08",
+    "completionTokens" : 2,
+    "costUSD" : 6.02e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 147,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.06572753680990215,
+      "needs_human" : 0.15326603534045463
+    },
+    "promptTokens" : 301,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "O08",
+    "completionTokens" : 2,
+    "costUSD" : 6.02e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 159,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.06572753680990215,
+      "needs_human" : 0.15326603534045463
+    },
+    "promptTokens" : 301,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "O09",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 165,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.034581838410798635,
+      "needs_human" : 0.03774566768309645
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "O09",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 143,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.034581838410798635,
+      "needs_human" : 0.03774566768309645
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "O09",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 148,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.034581838410798635,
+      "needs_human" : 0.03774566768309645
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "O10",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 159,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.05591112019016797,
+      "needs_human" : 0.13589149667875736
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "O10",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 164,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.05591112019016797,
+      "needs_human" : 0.13589149667875736
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "O10",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "clearSafe",
+    "latencyMs" : 129,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.05591112019016797,
+      "needs_human" : 0.13589149667875736
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "X01",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 151,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.02963463174441573,
+      "needs_human" : 0.03702502669738431
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "X01",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 179,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.02963463174441573,
+      "needs_human" : 0.03702502669738431
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "X01",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 145,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.02963463174441573,
+      "needs_human" : 0.03702502669738431
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "X02",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 143,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.0337747821505526,
+      "needs_human" : 0.046152338343902796
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "X02",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 132,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.0337747821505526,
+      "needs_human" : 0.046152338343902796
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "X02",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 155,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.0337747821505526,
+      "needs_human" : 0.046152338343902796
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "X03",
+    "completionTokens" : 2,
+    "costUSD" : 6.18e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 157,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.14701673645236005,
+      "needs_human" : 0.9085071757157301
+    },
+    "promptTokens" : 309,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "X03",
+    "completionTokens" : 2,
+    "costUSD" : 6.18e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 149,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.14701673645236005,
+      "needs_human" : 0.9085071757157301
+    },
+    "promptTokens" : 309,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "X03",
+    "completionTokens" : 2,
+    "costUSD" : 6.18e-06,
+    "httpStatus" : 200,
+    "label" : "clearRisky",
+    "latencyMs" : 160,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.14701673645236005,
+      "needs_human" : 0.9085071757157301
+    },
+    "promptTokens" : 309,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "BB1",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 158,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.02963463174441573,
+      "needs_human" : 0.03702502669738431
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "BB1",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 145,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.02963463174441573,
+      "needs_human" : 0.03702502669738431
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "BB1",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 141,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.02963463174441573,
+      "needs_human" : 0.03702502669738431
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "BB2",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 146,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.036907608561077256,
+      "needs_human" : 0.08028107003760743
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "BB2",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 142,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.036907608561077256,
+      "needs_human" : 0.08028107003760743
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "BB2",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 154,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.036907608561077256,
+      "needs_human" : 0.08028107003760743
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "BB3",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 785,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.0337747821505526,
+      "needs_human" : 0.046152338343902796
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "BB3",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 152,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.0337747821505526,
+      "needs_human" : 0.046152338343902796
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "BB3",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 165,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.0337747821505526,
+      "needs_human" : 0.046152338343902796
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "BB4",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 225,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.03185417903212358,
+      "needs_human" : 0.05605751201379589
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "BB4",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 144,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.02967785548286587,
+      "needs_human" : 0.05446705647140035
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "BB4",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 139,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.02967785548286587,
+      "needs_human" : 0.05446705647140035
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "BB5",
+    "completionTokens" : 2,
+    "costUSD" : 6.02e-06,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 202,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.12851744826162773,
+      "needs_human" : 0.37033924675672886
+    },
+    "promptTokens" : 301,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "BB5",
+    "completionTokens" : 2,
+    "costUSD" : 6.02e-06,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 163,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.12851744826162773,
+      "needs_human" : 0.37033924675672886
+    },
+    "promptTokens" : 301,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "BB5",
+    "completionTokens" : 2,
+    "costUSD" : 6.02e-06,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 203,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.12851744826162773,
+      "needs_human" : 0.37033924675672886
+    },
+    "promptTokens" : 301,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "BB6",
+    "completionTokens" : 2,
+    "costUSD" : 6.02e-06,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 151,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.04711072351560692,
+      "needs_human" : 0.09542118033500763
+    },
+    "promptTokens" : 301,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "BB6",
+    "completionTokens" : 2,
+    "costUSD" : 6.02e-06,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 137,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.04711072351560692,
+      "needs_human" : 0.09542118033500763
+    },
+    "promptTokens" : 301,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "BB6",
+    "completionTokens" : 2,
+    "costUSD" : 6.02e-06,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 140,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.04711072351560692,
+      "needs_human" : 0.09542118033500763
+    },
+    "promptTokens" : 301,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "BB7",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 167,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.026991474982965846,
+      "needs_human" : 0.03627966064652591
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "BB7",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 1409,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.0357583692313466,
+      "needs_human" : 0.04333437653514747
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "BB7",
+    "completionTokens" : 2,
+    "costUSD" : 5.98e-06,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 151,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.026991474982965846,
+      "needs_human" : 0.03627966064652591
+    },
+    "promptTokens" : 299,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "BB8",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 143,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.02967785548286587,
+      "needs_human" : 0.05446705647140035
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 0,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "BB8",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 140,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.02967785548286587,
+      "needs_human" : 0.05446705647140035
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 1,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  },
+  {
+    "caseID" : "BB8",
+    "completionTokens" : 2,
+    "costUSD" : 6e-06,
+    "httpStatus" : 200,
+    "label" : "borderline",
+    "latencyMs" : 167,
+    "outcome" : "ok",
+    "probabilities" : {
+      "hidden_risk" : 0.02967785548286587,
+      "needs_human" : 0.05446705647140035
+    },
+    "promptTokens" : 300,
+    "provider" : "Perplexity",
+    "repeatIndex" : 2,
+    "usedModel" : "perplexity\/pplx-decider-v1.2-20261016"
+  }
+]

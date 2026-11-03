@@ -1,10 +1,13 @@
 import Foundation
 import HITMCore
 
-// Usage: GateBench chat   <model-id> [repeats]   text-model gate (same prompt and schema as the live gate)
-//        GateBench decide <model-id> [repeats]   decision-model gate (yes/no probabilities)
-//        GateBench list                           print the cases and labels, no network
-// Sends INVENTED cases only (see Cases.swift). Writes bench/results/<mode>__<model>.json.
+// Usage: GateBench chat   <model-id> [repeats] [hard] [tokens=N]   text-model gate (same prompt and schema as the live gate)
+//        GateBench decide <model-id> [repeats] [hard]              decision-model gate (yes/no probabilities)
+//        GateBench list [hard]                                     print the cases and labels, no network
+//        GateBench export <path> [hard]                            write the invented cases as JSON for a local runner
+// "hard" selects the harder set (CasesHard.swift); the default is the first set (Cases.swift).
+// tokens=N raises the text model's reply limit (default 400, the live gate's value).
+// Sends INVENTED cases only. Writes bench/results/<set>__<mode>__<model>.json (first set: <mode>__<model>.json).
 // Never prints the key, a request body or a raw response.
 
 let args = CommandLine.arguments
@@ -14,14 +17,50 @@ func usage() -> Never {
 }
 guard args.count >= 2 else { usage() }
 let mode = args[1]
+let extra = Array(args.dropFirst(3))
+let useHard = (mode == "list" ? Array(args.dropFirst(2)) : extra).contains("hard")
+// variant=meta: drop the free-text summary and file paths (what a sensitive profile sends today).
+// variant=tags=<json>: replace the summary with "domain: X; change kind: Y" from a file of {caseID: [domain, kind]}.
+let variantArg = args.first { $0.hasPrefix("variant=") }.map { String($0.dropFirst(8)) }
+var cases = useHard ? hardCases : benchCases
+var setPrefix = useHard ? "hard__" : ""
+if let v = variantArg {
+    var tags: [String: [String]] = [:]
+    if v.hasPrefix("tags=") {
+        guard let data = FileManager.default.contents(atPath: String(v.dropFirst(5))),
+              let t = try? JSONDecoder().decode([String: [String]].self, from: data) else { usage() }
+        tags = t
+    } else if v != "meta" { usage() }
+    cases = cases.map { k in
+        let r = k.request
+        let summary = tags[k.id].map { "domain: \($0[0]); change kind: \($0[1])" }
+        return BenchCase(id: k.id, label: k.label, why: k.why, request: GateRequest.make(
+            actionClass: r.actionClass, profileName: r.profileName, filePaths: [], changeSize: r.changeSize,
+            agentConfidence: r.agentConfidence, overrideHistory: r.overrideHistory, summary: summary, profileSensitive: false))
+    }
+    setPrefix += v.hasPrefix("tags=") ? "tags__" : "meta__"
+}
+let maxTokens = extra.compactMap { $0.hasPrefix("tokens=") ? Int($0.dropFirst(7)) : nil }.first
+    .map { max(100, min($0, 8000)) } ?? OpenRouterGateClient.maxTokens
+
+if mode == "export" {
+    // GateBench export <path> [hard]: write the invented cases (id, label, request JSON) for an offline local runner.
+    guard args.count >= 3, !args[2].isEmpty else { usage() }
+    struct Exported: Encodable { let id: String; let label: BenchLabel; let state: GateRequest }
+    let enc = JSONEncoder(); enc.outputFormatting = [.prettyPrinted, .sortedKeys]
+    let out = try enc.encode((args.contains("hard") ? hardCases : benchCases).map { Exported(id: $0.id, label: $0.label, state: $0.request) })
+    try out.write(to: URL(fileURLWithPath: args[2]))
+    print("wrote \(args[2])")
+    exit(0)
+}
 
 if mode == "list" {
-    for k in benchCases { print("\(k.id) \(k.label.rawValue) | \(k.request.actionClass.rawValue) | \(k.request.summary ?? "-") | why: \(k.why)") }
+    for k in cases { print("\(k.id) \(k.label.rawValue) | \(k.request.actionClass.rawValue) | \(k.request.summary ?? "-") | why: \(k.why)") }
     exit(0)
 }
 guard (mode == "chat" || mode == "decide"), args.count >= 3, !args[2].isEmpty else { usage() }
 let model = args[2]
-let repeats = args.count >= 4 ? (Int(args[3]).map { max(1, min($0, 10)) } ?? 1) : 1
+let repeats = extra.compactMap { Int($0) }.first.map { max(1, min($0, 10)) } ?? 1
 
 let decisionQuestions = [
     DecisionsBooleanQuestion(
@@ -57,15 +96,15 @@ struct Row: Codable {
 }
 
 var rows: [Row] = []
-let chatClient = mode == "chat" ? OpenRouterGateClient.fromEnvironment(model: model) : nil
+let chatClient = mode == "chat" ? OpenRouterGateClient.fromEnvironment(model: model, maxTokens: maxTokens) : nil
 let decisionClient = mode == "decide" ? OpenRouterDecisionsTransport.fromEnvironment(model: model) : nil
 guard chatClient != nil || decisionClient != nil else {
     FileHandle.standardError.write(Data("OPENROUTER_API_KEY is missing or empty in the environment.\n".utf8))
     exit(2)
 }
 
-print("INVENTED SAMPLE DATA  mode=\(mode) model=\(model) repeats=\(repeats) cases=\(benchCases.count)")
-for k in benchCases {
+print("INVENTED SAMPLE DATA  mode=\(mode) model=\(model) repeats=\(repeats) cases=\(cases.count) set=\(useHard ? "hard" : "first") maxTokens=\(mode == "chat" ? String(maxTokens) : "n/a")")
+for k in cases {
     for r in 0..<repeats {
         if let chatClient {
             let (result, rec) = await chatClient.assess(k.request)
@@ -119,6 +158,6 @@ try? FileManager.default.createDirectory(at: dir, withIntermediateDirectories: t
 let safeName = model.map { $0.isLetter || $0.isNumber || $0 == "." || $0 == "-" ? String($0) : "_" }.joined()
 let enc = JSONEncoder(); enc.outputFormatting = [.prettyPrinted, .sortedKeys]
 if let data = try? enc.encode(rows) {
-    try? data.write(to: dir.appendingPathComponent("\(mode)__\(safeName).json"))
-    print("wrote bench/results/\(mode)__\(safeName).json")
+    try? data.write(to: dir.appendingPathComponent("\(setPrefix)\(mode)__\(safeName).json"))
+    print("wrote bench/results/\(setPrefix)\(mode)__\(safeName).json")
 }
