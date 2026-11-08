@@ -24,6 +24,9 @@ let package = Package(
         // Live check of Planner + gate: the intent text is sent to the planner model. Run manually.
         .executableTarget(name: "PlannerLiveCheck", dependencies: ["HITMCore"],
                           swiftSettings: [.swiftLanguageMode(.v5)]),
+        // Live slice: intent -> plan -> change in a git worktree -> gate -> card. Sends the target repo's files to the models. Run manually.
+        .executableTarget(name: "LiveSlice", dependencies: ["HITMCore"],
+                          swiftSettings: [.swiftLanguageMode(.v5)]),
         .testTarget(name: "HITMCoreTests", dependencies: ["HITMCore"]),
         .testTarget(name: "CockpitUITests", dependencies: ["CockpitUI", "HITMCore"],
                     swiftSettings: [.swiftLanguageMode(.v5)])
