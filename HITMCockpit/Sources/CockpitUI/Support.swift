@@ -45,6 +45,15 @@ public struct SampleBadge: View {
     }
 }
 
+public struct LiveBadge: View {
+    public init() {}
+    public var body: some View {
+        Label("LIVE: real runs", systemImage: "dot.radiowaves.left.and.right")
+            .small(bold: true).padding(.horizontal, 8).padding(.vertical, 3)
+            .background(Color.green).foregroundColor(.black).clipShape(Capsule())
+    }
+}
+
 struct Stat: View {
     let value: Int, label: String, color: Color
     var body: some View {

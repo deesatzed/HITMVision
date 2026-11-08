@@ -177,3 +177,21 @@ final class SliceRunnerTests: XCTestCase {
     }
 }
 #endif
+
+#if os(macOS)
+extension SliceRunnerTests {
+    func testSyncAppliesDecisionsRecordedWithoutGitAndIsRepeatable() async throws {
+        let repo = try makeRepo()
+        let runner = SliceRunner(workspace: try Workspace(repo: repo), deps: deps(gateNeedsHuman: true))
+        let a = await runner.run(intent: "a"), b = await runner.run(intent: "b")
+        // The cockpit app records decisions without touching git.
+        try runner.inbox.decide(a.id, to: .passed, by: "me")
+        try runner.inbox.decide(b.id, to: .rejected, by: "me")
+        let first = runner.sync()
+        XCTAssertEqual(first.sorted(), ["committed \(a.id)", "removed \(b.id)"].sorted())
+        XCTAssertEqual(try Workspace.git(["rev-list", "--count", try XCTUnwrap(a.branch)], in: repo).trimmingCharacters(in: .whitespacesAndNewlines), "2")
+        XCTAssertFalse(try Workspace.git(["branch", "--format=%(refname:short)"], in: repo).contains(try XCTUnwrap(b.branch)))
+        XCTAssertEqual(runner.sync(), [])   // second run changes nothing
+    }
+}
+#endif

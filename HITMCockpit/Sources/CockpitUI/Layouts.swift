@@ -13,6 +13,10 @@ public struct FlatCockpitView: View {
     }
 
     private func content(_ store: CockpitStore) -> some View {
+        liveBody(store).task { if store.isLive { await store.pollLive() } }
+    }
+
+    private func liveBody(_ store: CockpitStore) -> some View {
         VStack(spacing: 0) {
             VStack(alignment: .leading, spacing: 8) {
                 #if os(visionOS)
@@ -75,6 +79,7 @@ public struct VolumeCockpitView: View {
         }
         .padding(24)
         .environment(\.spatialText, true)
+        .task { if store.isLive { await store.pollLive() } }
     }
 }
 

@@ -21,6 +21,19 @@ public struct SampleTask: Identifiable {
     public var proof: [String] = []
     /// True for everything in `sampleTasks`: proof, summary and detail text are invented, not produced by a real run.
     public var isSample: Bool = true
+    /// Set only for a card read from a real run: the floor + gate answer recorded when the agent ran. nil for sample tasks.
+    public var liveGate: LiveGateInfo?
+}
+
+/// What a real run recorded about why a card does or does not need a human.
+public struct LiveGateInfo: Equatable {
+    public let needsHuman: Bool
+    public let reasons: [String]
+    public let gateFailed: Bool
+    public let branch: String?
+    public init(needsHuman: Bool, reasons: [String], gateFailed: Bool, branch: String?) {
+        self.needsHuman = needsHuman; self.reasons = reasons; self.gateFailed = gateFailed; self.branch = branch
+    }
 }
 
 /// Sample threshold for the stand-in smart layer; not a tuned or measured value.

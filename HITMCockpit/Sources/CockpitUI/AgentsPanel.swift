@@ -12,14 +12,14 @@ public struct AgentsPanel: View {
             HStack(spacing: 10) {
                 Text("NOW").small(bold: true).foregroundStyle(.secondary)
                 ForEach(store.agentLines) { pill($0, wrap: false) }
-                Text("(sample activity)").small().foregroundStyle(.secondary)
+                Text(store.isLive ? "(from recent cards)" : "(sample activity)").small().foregroundStyle(.secondary)
                 Spacer()
             }
         } else {
             VStack(alignment: .leading, spacing: 10) {
                 Text("AGENTS NOW").small(bold: true).foregroundStyle(.secondary)
                 ForEach(store.agentLines) { pill($0, wrap: true) }
-                Text("(sample activity)").small().foregroundStyle(.secondary)
+                Text(store.isLive ? "(from recent cards)" : "(sample activity)").small().foregroundStyle(.secondary)
                 Spacer(minLength: 0)
             }
         }

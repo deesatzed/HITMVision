@@ -64,8 +64,10 @@ struct AttentionCard: View {
             HStack(spacing: 8) {
                 Button { store.resolve(task, .passed) } label: { Label("Pass", systemImage: "checkmark").lineLimit(1).fixedSize() }
                     .buttonStyle(.borderedProminent).tint(.green)
-                Button { modifying.toggle() } label: { Label("Modify…", systemImage: "pencil").lineLimit(1).fixedSize() }
-                    .buttonStyle(.bordered)
+                if task.liveGate == nil {
+                    Button { modifying.toggle() } label: { Label("Modify…", systemImage: "pencil").lineLimit(1).fixedSize() }
+                        .buttonStyle(.bordered)
+                }
                 Button { store.resolve(task, .rejected) } label: { Label("Reject", systemImage: "xmark").lineLimit(1).fixedSize() }
                     .buttonStyle(.bordered).tint(.red)
                 Spacer(minLength: 0)

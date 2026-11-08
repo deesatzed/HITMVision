@@ -159,6 +159,25 @@ public struct SliceRunner: Sendable {
         return finish(card)
     }
 
+    /// Applies decisions that were recorded without git access (for example from the visionOS app): a passed card whose work is
+    /// still uncommitted is committed on its branch; a rejected card whose branch still exists is removed. Safe to run repeatedly.
+    @discardableResult
+    public func sync() -> [String] {
+        var done: [String] = []
+        for c in inbox.list() {
+            switch c.status {
+            case .passed where workspace.hasUncommittedWork(id: c.id):
+                do { try workspace.commit(id: c.id, message: c.title); done.append("committed \(c.id)") }
+                catch { done.append("could not commit \(c.id): \(error)") }
+            case .rejected where workspace.branchExists(id: c.id):
+                do { try workspace.discard(id: c.id); done.append("removed \(c.id)") }
+                catch { done.append("could not remove \(c.id): \(error)") }
+            default: break
+            }
+        }
+        return done
+    }
+
     /// A named human decides a pending card. Pass commits the work on its branch (never main); reject removes the worktree and branch.
     public func resolve(cardID: String, pass: Bool, by name: String) throws -> ReviewCard {
         let before = try inbox.load(cardID)

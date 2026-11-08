@@ -5,6 +5,7 @@ import HITMCore
 //        LiveSlice list   <repo>
 //        LiveSlice show   <repo> <card-id>
 //        LiveSlice decide <repo> <card-id> pass|reject <your-name>
+//        LiveSlice sync   <repo>     apply decisions recorded by the cockpit app (commit passed, remove rejected)
 // `run` SENDS THE REPO'S FILES to the planner/implementer models and a title-only summary to the gate model.
 // Use it on a throwaway repo unless you have approved the destination. Never prints the key, a request or a raw response.
 
@@ -51,6 +52,12 @@ case "list":
 case "show":
     guard args.count == 4, let c = try? inbox.load(args[3]) else { usage() }
     show(c, full: true)
+case "sync":
+    let dummy = SliceDeps(plan: { _, _ in (.failure(.unavailable), nil) }, implement: { _, _, _, _ in (.failure(.unavailable), nil) },
+                          gate: { _ in (.failure(.unavailable), CallRecord(requestedModel: "-", usedModel: nil, httpStatus: nil, latencyMs: 0, promptTokens: nil, completionTokens: nil, costUSD: nil, outcome: "unused")) },
+                          models: [:])
+    let done = SliceRunner(workspace: ws, deps: dummy).sync()
+    print(done.isEmpty ? "nothing to apply" : done.joined(separator: "\n"))
 case "decide":
     guard args.count == 6, args[4] == "pass" || args[4] == "reject" else { usage() }
     let dummy = SliceDeps(plan: { _, _ in (.failure(.unavailable), nil) }, implement: { _, _, _, _ in (.failure(.unavailable), nil) },

@@ -138,6 +138,18 @@ public struct Workspace: Sendable {
                      in: worktreeURL(id))
     }
 
+    /// True while the worktree exists and has uncommitted work (so a pass has not been applied yet).
+    public func hasUncommittedWork(id: String) -> Bool {
+        guard CardInbox.isValidID(id), FileManager.default.fileExists(atPath: worktreeURL(id).path),
+              let out = try? Self.git(["status", "--porcelain"], in: worktreeURL(id)) else { return false }
+        return !out.isEmpty
+    }
+
+    public func branchExists(id: String) -> Bool {
+        guard CardInbox.isValidID(id) else { return false }
+        return (try? Self.git(["rev-parse", "--verify", "--quiet", "refs/heads/\(Self.branchName(id))"], in: repo)) != nil
+    }
+
     /// Removes the worktree and its `hitm/<id>` branch (both created by this tool).
     public func discard(id: String) throws {
         guard CardInbox.isValidID(id) else { throw WorkspaceError.invalidID }

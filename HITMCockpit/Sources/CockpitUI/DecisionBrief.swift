@@ -7,7 +7,7 @@ import HITMCore
 public struct DecisionBrief {
     public struct What { public let title: String, plain: String, role: String, taskID: String, summary: String, detail: String, reversible: Bool }
 
-    public enum Source { case floorUniversal, floorProfile, agentConfidence }
+    public enum Source { case floorUniversal, floorProfile, agentConfidence, gateAsked }
     public struct Why { public let source: Source, plainReason: String, technicalReason: String }
 
     public struct Scope {
@@ -56,11 +56,24 @@ public struct DecisionBrief {
         case .floorUniversal: source = .floorUniversal
         case .floorProfile: source = .floorProfile
         case .agentConfidence, .quiet: source = .agentConfidence
+        case .gateAsked: source = .gateAsked
         }
         why = Why(source: source, plainReason: gate.plainReason, technicalReason: gate.reason)
 
         scope = Scope(text: "This one action only.", broaderRulesLater: true)
 
+        if let live = task.liveGate {
+            // Real run: everything shown was recorded when the agent ran.
+            how = How(
+                method: "Fixed floor rules first, then the gate model; both answers were recorded when the agent ran.",
+                inputs: ["Action class: \(task.action.rawValue)"] + live.reasons.map { "Recorded: \($0)" },
+                unavailable: ["History preview"].map { Unavailable(name: $0, status: "Not built yet") })
+            next = Next(
+                pass: "Pass: the change is committed on its own branch (\(live.branch ?? "none")). Nothing is merged into main.",
+                modify: "Modify: not available for live cards yet.",
+                reject: "Reject: the branch and its working copy are removed. Nothing else changes.",
+                unblocks: waiting.filter { $0.role == task.role && $0.id != task.id })
+        } else {
         how = How(
             method: gate.fromFloor ? "Fixed floor rule" : "Sample confidence threshold (stand-in for the gate model)",
             inputs: ["Action class: \(task.action.rawValue)", "Profile: \(profile.rawValue)"]
@@ -73,6 +86,7 @@ public struct DecisionBrief {
             modify: "Modify: you add a note and the agent revises before acting.",
             reject: "Reject: the agent does not do this action.",
             unblocks: waiting.filter { $0.role == task.role && $0.id != task.id })
+        }
 
         evidence = task.proof.isEmpty ? .noProofAttached : .proof(task.proof)
     }
